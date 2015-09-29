@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>TEC PA &amp; Lighting</title>
+
+	<link rel="stylesheet" type="text/css" href="css/screen.css" />
+</head>
+<body>
+
+	<div class="parallax-container valign-wrapper" id="index-banner">
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m4 offset-m4">
+					<img src="http://localhost:1313/imgs/tec_logo_white.png" alt="TEC PA and Lighting" class="responsive-img" />
+				</div>
+			</div>
+		</div>
+		<div class="parallax">
+			<img src="http://localhost:1313/imgs/wof2014-1.jpg" class="responsive-img">
+		</div>
+	</div>
+
+<section id="main">
+	<div class="container">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at erat pretium, aliquet quam sit amet, dignissim elit. Praesent consectetur quis nibh ut lobortis. Vestibulum non odio vel justo convallis tempor. Cras tincidunt nunc auctor tempus interdum. Nullam sagittis erat quis iaculis aliquam. Sed a placerat dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras id malesuada diam. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur eget diam sollicitudin, iaculis diam vitae, tempor odio. In hac habitasse platea dictumst. Sed vitae massa non mi faucibus faucibus id ut felis. Sed in venenatis est, non luctus est. Donec facilisis, nibh ut dignissim malesuada, dui eros congue nisi, eu porttitor est sem quis turpis.
+
+In volutpat tortor sed cursus gravida. Mauris id diam aliquet, dignissim purus vitae, congue neque. Suspendisse ac arcu et felis tempus ultricies et a erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam consectetur turpis ac urna tristique, quis laoreet ante lobortis. Mauris quis tincidunt nulla, eget mollis leo. Fusce bibendum nulla sit amet orci ornare pharetra. Sed tristique tortor est, id consectetur velit rutrum vitae. Vestibulum accumsan mi at pellentesque ornare. Integer vehicula dignissim ipsum at aliquet.
+
+Morbi gravida tortor leo, eget iaculis sapien faucibus sed. Aliquam eros nisl, pharetra iaculis lobortis ac, gravida vel eros. Proin sed consequat augue, tempor fringilla justo. Sed interdum varius ultricies. Duis vulputate, eros ac porttitor bibendum, purus odio lacinia metus, eu faucibus est leo at nulla. Aenean vulputate orci est, in consectetur ante porta eu. Suspendisse tempus mattis est at ultricies. Phasellus tempus orci a ligula ornare blandit. Mauris a risus ipsum. Donec volutpat mauris odio, ut auctor enim pellentesque vitae. Aliquam in commodo quam. Duis faucibus vulputate erat. Etiam pretium pulvinar velit, et varius tellus accumsan et. Ut laoreet, turpis in tristique venenatis, arcu diam accumsan nibh, ut condimentum quam lorem in nibh. Nullam sodales turpis vitae tellus cursus sollicitudin. Aliquam feugiat, eros at pretium semper, felis lectus cursus dui, commodo varius risus ante a neque.
+
+Donec augue nibh, varius vel mattis eu, eleifend nec elit. Nam rutrum dui at nisi facilisis blandit. Vivamus et porta ipsum, ac varius lorem. Maecenas eu risus eget mi fermentum hendrerit vel id urna. Nam finibus blandit est, eget rhoncus purus scelerisque et. Mauris gravida dictum dui, sed bibendum nisl feugiat sit amet. Aenean vestibulum, massa vitae maximus gravida, leo nulla facilisis mi, sit amet eleifend metus sem nec ex. Cras tincidunt massa nec lorem euismod lacinia. Sed cursus lectus ac malesuada malesuada. Sed ipsum metus, ullamcorper ac velit vitae, aliquet eleifend leo. Integer eu facilisis elit, eu volutpat leo. Proin blandit augue a placerat luctus. Aenean finibus viverra dolor ut consequat. Nunc pretium justo nec tellus aliquam, in lacinia purus fermentum. Aliquam vel elit vitae mauris venenatis consequat. Proin luctus risus eget urna molestie euismod.
+
+Nulla tempus, sem sit amet egestas tempor, nisi mauris efficitur dui, aliquam fermentum odio turpis vitae lectus. Sed malesuada dignissim auctor. Nullam quis scelerisque mauris. Praesent varius, orci sed ultricies congue, dui quam vestibulum lectus, id sodales ipsum mi a eros. Etiam auctor, magna vitae scelerisque pretium, est elit facilisis velit, a rutrum arcu eros et sem. Fusce sollicitudin velit arcu. Proin pharetra suscipit tortor, non pretium dui sagittis id. Mauris et suscipit purus, quis imperdiet sem. Nulla tincidunt dignissim feugiat. Curabitur id nisl vehicula, ultrices tellus id, sodales velit. Curabitur vulputate elit et mauris tempor, id elementum orci iaculis. Quisque volutpat turpis eget sapien luctus, id tristique orci porttitor. Nam quis placerat diam, et interdum tortor. Sed ligula ipsum, interdum sit amet condimentum a, mollis sed orci.
+	</div>
+</section>
+
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			
+		    if ($('nav').length) {
+		      $('.toc-wrapper').pushpin({ top: $('nav').height() });
+		    }
+		    else if ($('#index-banner').length) {
+		      $('.toc-wrapper').pushpin({ top: $('#index-banner').height() });
+		    }
+		    else {
+		      $('.toc-wrapper').pushpin({ top: 0 });
+		    }
+		})
+
+		
+	    $('.slider').slider({full_width: true});
+	    $('.parallax').parallax();
+	    $('.modal-trigger').leanModal();
+	    $('.scrollspy').scrollSpy();
+	    $('.button-collapse').sideNav({'edge': 'left'});
+	    $('.datepicker').pickadate({selectYears: 20});
+	    $('select').not('.disabled').material_select();
+	</script>
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>

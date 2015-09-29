@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TEC PA and Lighting</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on TEC PA and Lighting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 29 Sep 2015 13:55:37 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 29 Sep 2015 13:55:37 +0100</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;This is the about page&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>http://localhost:1313/</link>
+      <pubDate>Tue, 29 Sep 2015 13:27:06 +0100</pubDate>
+      
+      <guid>http://localhost:1313/</guid>
+      <description>
+
+&lt;h1 id=&#34;hello-world:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Hello world&lt;/h1&gt;
+
+&lt;p&gt;This is the homepage&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
