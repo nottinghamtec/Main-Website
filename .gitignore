@@ -22,3 +22,14 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+# Hugo related things
+hugo
+docs/public*
+/.idea
+nohup.out
+cover.out
+*.swp
+*.swo
+.DS_Store
+*~
