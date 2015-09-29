@@ -6,6 +6,10 @@ install:
   - sudo pip install Pygments
   - go get github.com/spf13/hugo
 script: hugo
+deploy:
+	provider: script
+	script: _bin/deploy.sh
+
 env:
 	global:
 	  - GH_REF: github.com/nottinghamtec/Main-Website.git
