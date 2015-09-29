@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 
-	<title> {{ .Title }} | TEC PA &amp; Lighting</title>
+	<title>{{ if .Title }} {{ .Title }} | {{ end }}TEC PA &amp; Lighting</title>
+
+	<link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/screen.css" />
 </head>
 <body>
