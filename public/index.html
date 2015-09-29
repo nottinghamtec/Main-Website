@@ -13,6 +13,30 @@
 	Hello World
 </section>
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			
+		    if ($('nav').length) {
+		      $('.toc-wrapper').pushpin({ top: $('nav').height() });
+		    }
+		    else if ($('#index-banner').length) {
+		      $('.toc-wrapper').pushpin({ top: $('#index-banner').height() });
+		    }
+		    else {
+		      $('.toc-wrapper').pushpin({ top: 0 });
+		    }
+		})
+
+		
+	    $('.slider').slider({full_width: true});
+	    $('.parallax').parallax();
+	    $('.modal-trigger').leanModal();
+	    $('.scrollspy').scrollSpy();
+	    $('.button-collapse').sideNav({'edge': 'left'});
+	    $('.datepicker').pickadate({selectYears: 20});
+	    $('select').not('.disabled').material_select();
+	</script>
 <script data-no-instant>document.write('<script src="http://'
         + (location.host || 'localhost').split(':')[0]
 		+ ':1313/livereload.js?mindelay=10"></'
