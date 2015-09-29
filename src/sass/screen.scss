@@ -13,3 +13,41 @@ $secondary-color: color("blue", "accent-3");
 $footer-bg-color: $primary-color-dark;
 
 @import "materialize";
+
+// sticky footer
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+// Setup parallax images
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+#index-banner {
+	min-height: inherit;
+}
