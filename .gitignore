@@ -33,3 +33,6 @@ cover.out
 *.swo
 .DS_Store
 *~
+
+# Compass
+*.sass-cache
