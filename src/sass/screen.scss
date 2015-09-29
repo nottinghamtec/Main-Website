@@ -1,0 +1,15 @@
+@import "compass";
+
+// Mixins
+@import "materialize/components/prefixer";
+@import "materialize/components/mixins";
+@import "materialize/components/color";
+
+$primary-color: color("blue", "base");
+$secondary-color: color("blue", "accent-3");
+
+@import "materialize/components/variables";
+
+$footer-bg-color: $primary-color-dark;
+
+@import "materialize";
