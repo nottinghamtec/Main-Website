@@ -12652,31 +12652,39 @@ body {
   height: auto;
   color: rgba(255, 255, 255, 0.9);
 }
-
 /* line 31, ../../src/sass/screen.scss */
+.parallax-container p {
+  line-height: 2rem;
+}
+/* line 35, ../../src/sass/screen.scss */
+.parallax-container .parallax img {
+  height: 120%;
+}
+
+/* line 39, ../../src/sass/screen.scss */
 .parallax-container .section {
   width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 36, ../../src/sass/screen.scss */
+  /* line 44, ../../src/sass/screen.scss */
   #index-banner .section {
     top: 0;
   }
 }
 @media only screen and (max-width: 992px) {
-  /* line 42, ../../src/sass/screen.scss */
+  /* line 50, ../../src/sass/screen.scss */
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
 
-  /* line 46, ../../src/sass/screen.scss */
+  /* line 54, ../../src/sass/screen.scss */
   #index-banner .section {
     top: 0;
   }
 }
-/* line 51, ../../src/sass/screen.scss */
+/* line 59, ../../src/sass/screen.scss */
 #index-banner {
   min-height: inherit;
 }

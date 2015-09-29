@@ -19,19 +19,5 @@
 </description>
     </item>
     
-    <item>
-      <title>index</title>
-      <link>http://localhost:1313/</link>
-      <pubDate>Tue, 29 Sep 2015 13:27:06 +0100</pubDate>
-      
-      <guid>http://localhost:1313/</guid>
-      <description>
-
-&lt;h1 id=&#34;hello-world:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Hello world&lt;/h1&gt;
-
-&lt;p&gt;This is the homepage&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
