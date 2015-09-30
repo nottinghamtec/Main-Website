@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Only deploy if not PR
-if [ $TRAVIS_PULL_REQUEST = "false" ]
+if [[ $TRAVIS_PULL_REQUEST == "false" ]]
   then
   # cleanup
   rm -rf gh-pages
 
   git clone -b gh-pages https://${GH_TOKEN}@${GH_REF} gh-pages
 
-  if [ $RESET = "true" ]
+  if [[ $RESET == "true" ]]
   then
     rm -rf gh-pages/*
   fi
@@ -21,7 +21,7 @@ if [ $TRAVIS_PULL_REQUEST = "false" ]
   cd gh-pages
   git config user.email "webmaster@nottinghamtec.co.uk"
   git config user.name "tecbot"
-  git add -A .
+  git add -A
   git commit -a -m "Travis Build $TRAVIS_BUILD_NUMBER"
   git push --quiet origin gh-pages > /dev/null 2>&1 # Hiding all the output from git push command, to prevent token leak.
 fi
