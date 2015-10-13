@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TEC PA and Lighting</title>
+    <title>TEC PA &amp; Lighting</title>
     <link>http://preview.nottinghamtec.co.uk/</link>
-    <description>Recent content on TEC PA and Lighting</description>
+    <description>Recent content on TEC PA &amp; Lighting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 29 Sep 2015 13:55:37 +0100</lastBuildDate>
     <atom:link href="http://preview.nottinghamtec.co.uk/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>about</title>
-      <link>http://preview.nottinghamtec.co.uk/about/</link>
-      <pubDate>Tue, 29 Sep 2015 13:55:37 +0100</pubDate>
-      
-      <guid>http://preview.nottinghamtec.co.uk/about/</guid>
-      <description>&lt;p&gt;This is the about page&lt;/p&gt;
-</description>
-    </item>
     
   </channel>
 </rss>
