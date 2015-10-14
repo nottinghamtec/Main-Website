@@ -1,6 +1,4 @@
 +++
-draft = true
-page = true
 title = "About Us"
 +++
 

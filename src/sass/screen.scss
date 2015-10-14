@@ -19,6 +19,10 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+
+  > article {
+    padding-top: 1rem;
+  }
 }
 
 .page-footer {
@@ -38,8 +42,9 @@ body {
   background: transparent;
   box-shadow: none;
 
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 3rem;
+  height: 6rem;
+  line-height: 6rem;
 
   .container {
     display: block;
@@ -121,4 +126,8 @@ article {
       list-style-type: square;
     }
   }
+}
+
+.profile-photo {
+  width: 160px;
 }
