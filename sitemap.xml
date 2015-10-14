@@ -6,4 +6,47 @@
     <priority>0</priority>
   </url>
   
+  <url>
+    <loc>http://preview.nottinghamtec.co.uk/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://preview.nottinghamtec.co.uk/legal/</loc>
+  </url>
+  
+  <url>
+    <loc>http://preview.nottinghamtec.co.uk/committee/sam/</loc>
+    <lastmod>2015-10-14T18:23:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://preview.nottinghamtec.co.uk/committee/claire/</loc>
+    <lastmod>2015-10-14T18:47:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://preview.nottinghamtec.co.uk/committee/charlie/</loc>
+    <lastmod>2015-10-14T18:48:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://preview.nottinghamtec.co.uk/committee/alex-b/</loc>
+    <lastmod>2015-10-14T19:13:59+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://preview.nottinghamtec.co.uk/committee/hazel/</loc>
+    <lastmod>2015-10-14T19:10:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://preview.nottinghamtec.co.uk/committee/harry/</loc>
+    <lastmod>2015-10-14T19:16:15+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://preview.nottinghamtec.co.uk/committee/tom/</loc>
+    <lastmod>2015-10-14T17:43:02+01:00</lastmod>
+  </url>
+  
 </urlset>
