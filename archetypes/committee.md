@@ -2,6 +2,7 @@
 position = ""
 photo = ""
 weight = 0
+draft = true
 +++
 
 Weights:
