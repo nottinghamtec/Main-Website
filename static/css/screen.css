@@ -12657,3 +12657,13 @@ body {
 #index-banner {
   min-height: inherit;
 }
+
+/* line 112, ../../src/sass/screen.scss */
+article ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+/* line 116, ../../src/sass/screen.scss */
+article ul li {
+  list-style-type: square;
+}
