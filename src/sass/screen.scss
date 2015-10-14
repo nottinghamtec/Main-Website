@@ -54,6 +54,14 @@ body {
     height: inherit;
     padding: 0.2rem
   }
+
+  .dropdown-button {
+    @extend .valign-wrapper;
+  }
+
+  .dropdown-content {
+    min-width: 140px;
+  }
 }
 
 #page-title {

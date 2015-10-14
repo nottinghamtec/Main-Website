@@ -3178,7 +3178,7 @@ a {
 }
 
 /* line 37, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/materialize-sass-0.97.0/app/assets/stylesheets/materialize/components/_global.scss */
-.valign-wrapper {
+.valign-wrapper, #main-nav .dropdown-button {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -3190,7 +3190,7 @@ a {
   align-items: center;
 }
 /* line 41, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/materialize-sass-0.97.0/app/assets/stylesheets/materialize/components/_global.scss */
-.valign-wrapper .valign {
+.valign-wrapper .valign, #main-nav .dropdown-button .valign {
   display: block;
 }
 
@@ -12602,26 +12602,30 @@ body > article {
   height: inherit;
   padding: 0.2rem;
 }
+/* line 62, ../../src/sass/screen.scss */
+#main-nav .dropdown-content {
+  min-width: 140px;
+}
 
-/* line 59, ../../src/sass/screen.scss */
+/* line 67, ../../src/sass/screen.scss */
 #page-title {
   margin-top: 8rem;
 }
 
-/* line 63, ../../src/sass/screen.scss */
+/* line 71, ../../src/sass/screen.scss */
 #TableOfContents {
   height: auto;
 }
-/* line 69, ../../src/sass/screen.scss */
+/* line 77, ../../src/sass/screen.scss */
 #TableOfContents > ul > li > ul li {
   width: 100%;
 }
-/* line 74, ../../src/sass/screen.scss */
+/* line 82, ../../src/sass/screen.scss */
 #TableOfContents > ul li:hover {
   background-color: inherit;
 }
 
-/* line 80, ../../src/sass/screen.scss */
+/* line 88, ../../src/sass/screen.scss */
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -12630,54 +12634,54 @@ body > article {
   background-color: #212121;
   z-index: 0;
 }
-/* line 88, ../../src/sass/screen.scss */
+/* line 96, ../../src/sass/screen.scss */
 .parallax-container p {
   line-height: 2rem;
 }
-/* line 92, ../../src/sass/screen.scss */
+/* line 100, ../../src/sass/screen.scss */
 .parallax-container .parallax img {
   height: 150%;
 }
 
-/* line 96, ../../src/sass/screen.scss */
+/* line 104, ../../src/sass/screen.scss */
 .parallax-container .section {
   width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 101, ../../src/sass/screen.scss */
+  /* line 109, ../../src/sass/screen.scss */
   #index-banner .section {
     top: 0;
   }
 }
 @media only screen and (max-width: 992px) {
-  /* line 107, ../../src/sass/screen.scss */
+  /* line 115, ../../src/sass/screen.scss */
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
 
-  /* line 111, ../../src/sass/screen.scss */
+  /* line 119, ../../src/sass/screen.scss */
   #index-banner .section {
     top: 0;
   }
 }
-/* line 116, ../../src/sass/screen.scss */
+/* line 124, ../../src/sass/screen.scss */
 #index-banner {
   min-height: inherit;
 }
 
-/* line 121, ../../src/sass/screen.scss */
+/* line 129, ../../src/sass/screen.scss */
 article ul {
   list-style-type: square;
   padding-left: 1.5rem;
 }
-/* line 125, ../../src/sass/screen.scss */
+/* line 133, ../../src/sass/screen.scss */
 article ul li {
   list-style-type: square;
 }
 
-/* line 131, ../../src/sass/screen.scss */
+/* line 139, ../../src/sass/screen.scss */
 .profile-photo {
   width: 160px;
 }
