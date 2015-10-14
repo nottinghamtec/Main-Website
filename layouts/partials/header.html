@@ -1,8 +1,17 @@
 <header>
-	<nav class="navbar transparent navbar-fixed-top">
-		<a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-		<div id="slide-out" class="side-nav">
-			<img src="{{.Site.BaseUrl}}/imgs/tec_logo.png">
+	<div class="parallax-container">
+		<nav id="main-nav" class="container">
+			<img class="brand-logo" src="{{.Site.BaseUrl}}imgs/tec_logo_white.png">
+
+			<ul class="right">
+				<li><a href="{{.Site.BaseUrl}}about/">About</a></li>
+			</ul>
+		</nav>
+
+		<div class="container" id="page-title">
+			<h1 class="center">{{.Title}}</h1>
 		</div>
-	</nav>
+
+		<div class="parallax"><img src="{{.Site.BaseUrl}}imgs/wof2014-1.jpg"></div>
+	</div>
 </header>

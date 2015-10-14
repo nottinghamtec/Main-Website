@@ -4,8 +4,8 @@
 	<script>
 		$(document).ready(function() {
 			// Floating-Fixed table of contents
-		    if ($('nav').length) {
-		      $('.toc-wrapper').pushpin({ top: $('nav').height() });
+		    if ($('header').length) {
+		      $('.toc-wrapper').pushpin({ top: $('header').height() });
 		    }
 		    else if ($('#index-banner').length) {
 		      $('.toc-wrapper').pushpin({ top: $('#index-banner').height() });

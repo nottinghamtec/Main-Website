@@ -5,8 +5,8 @@
 @import "materialize/components/mixins";
 @import "materialize/components/color";
 
-$primary-color: color("blue", "base");
-$secondary-color: color("blue", "accent-3");
+$primary-color: color("grey", "darken-4");
+$secondary-color: color("grey", "darken-3");
 
 @import "materialize/components/variables";
 
@@ -21,19 +21,58 @@ body {
   flex-direction: column;
 }
 
+#main-nav {
+  background: transparent;
+  box-shadow: none;
+
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
+  .container {
+    display: block;
+  }
+
+  img.brand-logo {
+    height: inherit;
+    padding: 0.2rem
+  }
+}
+
+#page-title {
+  margin-top: 8rem;
+}
+
+#TableOfContents {
+  height: auto;
+
+  > ul > li > ul {
+    @extend .table-of-contents;
+
+    li {
+      width: 100%;
+    }
+  }
+
+  > ul li:hover {
+    background-color: inherit;
+  }
+}
+
 // Setup parallax images
 .parallax-container {
   min-height: 380px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
+  background-color: color("grey", "darken-4");
+  z-index: 0;
 
   p {
     line-height: 2rem;
   }
 
   .parallax img {
-    height: 120%;
+    height: 150%;
   }
 }
   .parallax-container .section {
