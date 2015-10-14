@@ -50,9 +50,13 @@ body {
     display: block;
   }
 
-  img.brand-logo {
+  .brand-logo {
     height: inherit;
-    padding: 0.2rem
+    
+    img {
+      height: inherit;
+      padding: 0.2rem
+    }
   }
 
   .dropdown-button {
