@@ -25,6 +25,10 @@ body {
   color: color("grey", "base");
   margin-top: 0 !important;
 
+  a {
+    color: inherit;
+  }
+
   .assoc-logo {
     max-height: 2rem;
   }
