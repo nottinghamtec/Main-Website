@@ -13,7 +13,26 @@
 <header>
 	<div class="parallax-container">
 		<nav id="main-nav" class="container">
-			<a class="brand-logo" href="
+			<a class="brand-logo" href="http://preview.nottinghamtec.co.uk/">
+				<img src="http://preview.nottinghamtec.co.uk/imgs/tec_logo_white.png">
+			</a>
+
+			<ul class="right">
+				<li><a class="dropdown-button" data-activates="dropdown-about" href="http://preview.nottinghamtec.co.uk/about/">About <i class="material-icons right">arrow_drop_down</i></a></li>
+				<ul id="dropdown-about" class="dropdown-content">
+					<li><a href="http://preview.nottinghamtec.co.uk/about/">About</a></li>
+					<li><a href="http://preview.nottinghamtec.co.uk/committee/">Committee</a></li>
+				</ul>
+			</ul>
+		</nav>
+
+		<div class="container" id="page-title">
+			<h1 class="center">Claire Teed</h1>
+		</div>
+
+		<div class="parallax"><img src="http://preview.nottinghamtec.co.uk/imgs/wof2014-1.jpg"></div>
+	</div>
+</header>
 
 	<div class="container">
 		<div class="row">
@@ -36,4 +55,49 @@
 		<div class="container">
 			<div class="row valign-wrapper">
 				<div class="col m4 hide-on-small-only">
-					<a href="
+					<a href="http://preview.nottinghamtec.co.uk/legal/">Legal</a>
+				</div>
+
+				<div class="col s12 m4 center">&copy; TEC PA &amp; Lighting</div>
+
+				<div class="col m4 hide-on-small-only right-align">
+					<a href="http://su.nottingham.ac.uk/" rel="nofollow">
+						<img class="assoc-logo" src="http://preview.nottinghamtec.co.uk/imgs/UoNSU-small.png">
+		            </a>
+		            <a href="https://www.plasa.org/" rel="nofollow">
+						<img class="assoc-logo" src="http://preview.nottinghamtec.co.uk/imgs/plasa-small.png">
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			
+		    if ($('header').length) {
+		      $('.toc-wrapper').pushpin({ top: $('header').height() });
+		    }
+		    else if ($('#index-banner').length) {
+		      $('.toc-wrapper').pushpin({ top: $('#index-banner').height() });
+		    }
+		    else {
+		      $('.toc-wrapper').pushpin({ top: 0 });
+		    }
+		})
+
+		
+	    $('.slider').slider({full_width: true});
+	    $('.parallax').parallax();
+	    $('.modal-trigger').leanModal();
+	    $('.scrollspy').scrollSpy();
+	    $('.button-collapse').sideNav({'edge': 'left'});
+	    $('.datepicker').pickadate({selectYears: 20});
+	    $('select').not('.disabled').material_select();
+	</script>
+</body>
+</html>
+
