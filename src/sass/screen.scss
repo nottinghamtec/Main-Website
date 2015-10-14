@@ -21,6 +21,15 @@ body {
   flex-direction: column;
 }
 
+.page-footer {
+  color: color("grey", "base");
+  margin-top: 0 !important;
+
+  .assoc-logo {
+    max-height: 2rem;
+  }
+}
+
 #main-nav {
   background: transparent;
   box-shadow: none;
