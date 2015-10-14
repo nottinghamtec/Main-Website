@@ -1,6 +1,5 @@
 +++
 date = "2015-10-14T17:43:02+01:00"
-draft = true
 position = "IT Manager"
 weight = 8
 title = "Tom Price"
