@@ -38,13 +38,16 @@ body {
   }
 }
 
+$main-nav-top: 3rem;
+$main-nav-height: 6rem;
+
 #main-nav {
   background: transparent;
   box-shadow: none;
 
-  margin-top: 3rem;
-  height: 6rem;
-  line-height: 6rem;
+  margin-top: $main-nav-top;
+  height: $main-nav-height;
+  line-height: $main-nav-height;
 
   .container {
     display: block;
@@ -127,6 +130,19 @@ body {
 
 #index-banner {
   min-height: inherit;
+
+  #splash-logo {
+    position: absolute;
+    min-height: inherit;
+    min-width: 100%;
+    margin-top: -($main-nav-height + $main-nav-top);
+    z-index: 1
+  }
+
+  #main-nav {
+    position: relative;
+    z-index: 2;
+  }
 }
 
 article {

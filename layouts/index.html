@@ -1,23 +1,29 @@
 {{ partial "head.html" . }}
 
-	<div class="parallax-container valign-wrapper" id="index-banner">
-		<div class="container">
-			<div class="row">
-				<div class="col s8 offset-s2 m4 offset-m4">
-					<img src="/imgs/tec_logo_white.png" alt="TEC PA and Lighting" class="responsive-img" />
+	<div class="parallax-container" id="index-banner">
+		<nav id="main-nav" class="container">
+			{{ partial "nav.html" . }}
+		</nav>
+
+		<div class="valign-wrapper" id="splash-logo">
+			<div class="container">
+				<div class="row">
+					<div class="col s8 offset-s2 m4 offset-m4">
+						<img src="/imgs/tec_logo_white.png" alt="TEC PA and Lighting" class="responsive-img" />
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col s12 center">
-					<p class="flow-text">
-						<a class="white-text" href="/about/">Providing high quality sound, lighting and audio-visual services to organisations both within and outside the University of Nottingham Students’ Union.</a>
-					</p>
-					<p class="flow-text">
-						<a href="tel:0115 84 68720" class="white-text"><i class="material-icons">phone</i> 0115 84 68720</a>
-					</p>
-					<p class="flow-text">
-						<a href="mailto:info@nottinghamtec.co.uk" class="white-text"><i class="material-icons">email</i> info@nottinghamtec.co.uk</a>
+				<div class="row">
+					<div class="col s12 center">
+						<p class="flow-text">
+							<a class="white-text" href="/about/">Providing high quality sound, lighting and audio-visual services to organisations both within and outside the University of Nottingham Students’ Union.</a>
 						</p>
+						<p class="flow-text">
+							<a href="tel:0115 84 68720" class="white-text"><i class="material-icons">phone</i> 0115 84 68720</a>
+						</p>
+						<p class="flow-text">
+							<a href="mailto:info@nottinghamtec.co.uk" class="white-text"><i class="material-icons">email</i> info@nottinghamtec.co.uk</a>
+							</p>
+					</div>
 				</div>
 			</div>
 		</div>

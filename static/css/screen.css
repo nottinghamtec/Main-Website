@@ -12585,7 +12585,7 @@ body > article {
   max-height: 2rem;
 }
 
-/* line 41, ../../src/sass/screen.scss */
+/* line 44, ../../src/sass/screen.scss */
 #main-nav {
   background: transparent;
   box-shadow: none;
@@ -12593,43 +12593,43 @@ body > article {
   height: 6rem;
   line-height: 6rem;
 }
-/* line 49, ../../src/sass/screen.scss */
+/* line 52, ../../src/sass/screen.scss */
 #main-nav .container {
   display: block;
 }
-/* line 53, ../../src/sass/screen.scss */
+/* line 56, ../../src/sass/screen.scss */
 #main-nav .brand-logo {
   height: inherit;
 }
-/* line 56, ../../src/sass/screen.scss */
+/* line 59, ../../src/sass/screen.scss */
 #main-nav .brand-logo img {
   height: inherit;
   padding: 0.2rem;
 }
-/* line 66, ../../src/sass/screen.scss */
+/* line 69, ../../src/sass/screen.scss */
 #main-nav .dropdown-content {
   min-width: 140px;
 }
 
-/* line 71, ../../src/sass/screen.scss */
+/* line 74, ../../src/sass/screen.scss */
 #page-title {
   margin-top: 8rem;
 }
 
-/* line 75, ../../src/sass/screen.scss */
+/* line 78, ../../src/sass/screen.scss */
 #TableOfContents {
   height: auto;
 }
-/* line 81, ../../src/sass/screen.scss */
+/* line 84, ../../src/sass/screen.scss */
 #TableOfContents > ul > li > ul li {
   width: 100%;
 }
-/* line 86, ../../src/sass/screen.scss */
+/* line 89, ../../src/sass/screen.scss */
 #TableOfContents > ul li:hover {
   background-color: inherit;
 }
 
-/* line 92, ../../src/sass/screen.scss */
+/* line 95, ../../src/sass/screen.scss */
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -12638,54 +12638,67 @@ body > article {
   background-color: #212121;
   z-index: 0;
 }
-/* line 100, ../../src/sass/screen.scss */
+/* line 103, ../../src/sass/screen.scss */
 .parallax-container p {
   line-height: 2rem;
 }
-/* line 104, ../../src/sass/screen.scss */
+/* line 107, ../../src/sass/screen.scss */
 .parallax-container .parallax img {
   height: 150%;
 }
 
-/* line 108, ../../src/sass/screen.scss */
+/* line 111, ../../src/sass/screen.scss */
 .parallax-container .section {
   width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 113, ../../src/sass/screen.scss */
+  /* line 116, ../../src/sass/screen.scss */
   #index-banner .section {
     top: 0;
   }
 }
 @media only screen and (max-width: 992px) {
-  /* line 119, ../../src/sass/screen.scss */
+  /* line 122, ../../src/sass/screen.scss */
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
 
-  /* line 123, ../../src/sass/screen.scss */
+  /* line 126, ../../src/sass/screen.scss */
   #index-banner .section {
     top: 0;
   }
 }
-/* line 128, ../../src/sass/screen.scss */
+/* line 131, ../../src/sass/screen.scss */
 #index-banner {
   min-height: inherit;
 }
+/* line 134, ../../src/sass/screen.scss */
+#index-banner #splash-logo {
+  position: absolute;
+  min-height: inherit;
+  min-width: 100%;
+  margin-top: -9rem;
+  z-index: 1;
+}
+/* line 142, ../../src/sass/screen.scss */
+#index-banner #main-nav {
+  position: relative;
+  z-index: 2;
+}
 
-/* line 133, ../../src/sass/screen.scss */
+/* line 149, ../../src/sass/screen.scss */
 article ul {
   list-style-type: square;
   padding-left: 1.5rem;
 }
-/* line 137, ../../src/sass/screen.scss */
+/* line 153, ../../src/sass/screen.scss */
 article ul li {
   list-style-type: square;
 }
 
-/* line 143, ../../src/sass/screen.scss */
+/* line 159, ../../src/sass/screen.scss */
 .profile-photo {
   width: 160px;
 }
