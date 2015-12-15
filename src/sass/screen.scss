@@ -129,19 +129,10 @@ $main-nav-height: 6rem;
 }
 
 #index-banner {
-  min-height: inherit;
+  min-height: 100vh;
 
   #splash-logo {
-    position: absolute;
-    min-height: inherit;
-    min-width: 100%;
-    margin-top: -($main-nav-height + $main-nav-top);
-    z-index: 1
-  }
-
-  #main-nav {
-    position: relative;
-    z-index: 2;
+    min-height: calc(100vh - ($main-nav-height + $main-nav-top));
   }
 }
 

@@ -12672,33 +12672,24 @@ body > article {
 }
 /* line 131, ../../src/sass/screen.scss */
 #index-banner {
-  min-height: inherit;
+  min-height: 100vh;
 }
 /* line 134, ../../src/sass/screen.scss */
 #index-banner #splash-logo {
-  position: absolute;
-  min-height: inherit;
-  min-width: 100%;
-  margin-top: -9rem;
-  z-index: 1;
-}
-/* line 142, ../../src/sass/screen.scss */
-#index-banner #main-nav {
-  position: relative;
-  z-index: 2;
+  min-height: calc(100vh - ($main-nav-height + $main-nav-top));
 }
 
-/* line 149, ../../src/sass/screen.scss */
+/* line 140, ../../src/sass/screen.scss */
 article ul {
   list-style-type: square;
   padding-left: 1.5rem;
 }
-/* line 153, ../../src/sass/screen.scss */
+/* line 144, ../../src/sass/screen.scss */
 article ul li {
   list-style-type: square;
 }
 
-/* line 159, ../../src/sass/screen.scss */
+/* line 150, ../../src/sass/screen.scss */
 .profile-photo {
   width: 160px;
 }
