@@ -35,6 +35,11 @@ cover.out
 *~
 public/
 
+# Gems
+vendor/
+bin/
+.bundle/
+
 # Compass
 *.sass-cache
 static/css
