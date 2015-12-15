@@ -1,9 +1,8 @@
 language: go
 go:
   - 1.4
-sudo: required
+sudo: false
 install:
-  - sudo pip install Pygments
   - go get github.com/spf13/hugo
   - gem install bundler
   - bundle install
