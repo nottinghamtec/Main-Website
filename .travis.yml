@@ -5,7 +5,11 @@ sudo: required
 install:
   - sudo pip install Pygments
   - go get github.com/spf13/hugo
-script: hugo
+  - gem install bundler
+  - bundle install
+script:
+ - compass compile -e production --force
+ - hugo
 after_script:
   - _bin/deploy.sh
 branches:

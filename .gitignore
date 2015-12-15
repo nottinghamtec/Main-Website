@@ -37,3 +37,4 @@ public/
 
 # Compass
 *.sass-cache
+static/css
