@@ -132,7 +132,7 @@ $main-nav-height: 6rem;
   min-height: 100vh;
 
   #splash-logo {
-    min-height: calc(100vh - ($main-nav-height + $main-nav-top));
+    min-height: calc(100vh - #{($main-nav-height + $main-nav-top)});
   }
 }
 

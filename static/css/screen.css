@@ -12676,7 +12676,7 @@ body > article {
 }
 /* line 134, ../../src/sass/screen.scss */
 #index-banner #splash-logo {
-  min-height: calc(100vh - ($main-nav-height + $main-nav-top));
+  min-height: calc(100vh - 9rem);
 }
 
 /* line 140, ../../src/sass/screen.scss */
