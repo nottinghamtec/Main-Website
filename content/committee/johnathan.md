@@ -1,6 +1,6 @@
 +++
 date = "2015-12-16T00:28:18Z"
-draft = false
+draft = true
 photo = "/imgs/committee/johnathan.jpg"
 position = "Technical Director"
 title = "Johnathan Graydon"
