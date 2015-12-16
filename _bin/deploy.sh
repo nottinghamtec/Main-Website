@@ -22,6 +22,6 @@ if [[ $TRAVIS_PULL_REQUEST == "false" ]]
   git config user.email "webmaster@nottinghamtec.co.uk"
   git config user.name "tecbot"
   git add -A .
-  git commit -a -m "Travis Build $TRAVIS_BUILD_NUMBER"
+  git commit -a -m "Travis Build $TRAVIS_BUILD_NUMBER for $TRAVIS_COMMIT"
   git push --quiet origin gh-pages > /dev/null 2>&1 # Hiding all the output from git push command, to prevent token leak.
 fi
