@@ -2,4 +2,4 @@ baseurl = "http://preview.nottinghamtec.co.uk/"
 languageCode = "en-gb"
 title = "TEC PA & Lighting"
 PluralizeListTitles=false
-canonifyurls = true
+canonifyurls = false

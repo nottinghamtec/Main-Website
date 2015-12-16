@@ -1,0 +1,9 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+	<article>
+		<h3><a href="{{ .RelPermalink }}">{{.Title}}</a></h3>
+		{{.Summary}}
+	</article>
+
+{{ partial "footer.html" . }}
