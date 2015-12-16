@@ -2,7 +2,7 @@
 date = "2015-12-16T00:43:02Z"
 draft = true
 photo = "/imgs/committee/vik.jpg"
-position = "Health & Safety"
+position = "Health & Safety Officer"
 title = "Vikesh Doshi"
 weight = 7
 
