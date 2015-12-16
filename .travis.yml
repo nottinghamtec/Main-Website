@@ -12,6 +12,7 @@ cache:
 script:
  - bin/compass compile -e production --force
  - hugo
+ - bundle exec htmlproof public
 after_script:
   - _bin/deploy.sh
 branches:
