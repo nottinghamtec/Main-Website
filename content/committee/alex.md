@@ -1,6 +1,6 @@
 +++
 date = "2015-12-16T00:38:51Z"
-draft = true
+draft = false
 photo = "/imgs/committee/alex.jpg"
 position = "Treasurer"
 title = "Alex Tribley"
