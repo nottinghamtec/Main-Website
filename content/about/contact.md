@@ -1,6 +1,5 @@
 +++
 date = "2016-01-07T16:34:13Z"
-draft = true
 title = "Contact Us"
 
 +++
