@@ -4,7 +4,7 @@ title = "Contact Us"
 
 +++
 
-# General Contact Details
+# General Details
 <dl>
 	<dt>Phone</dt>
 	<dd><a href="tel:01158468270">0115 84 68720</a></dd>
