@@ -78,11 +78,14 @@ $main-nav-height: 6rem;
 #TableOfContents {
   height: auto;
 
-  > ul > li > ul {
-    @extend .table-of-contents;
+  > ul {
+    @extend .table-of-contents;  
 
-    li {
-      width: 100%;
+    > li > ul {
+
+      li {
+        width: 100%;
+      }
     }
   }
 
