@@ -4,6 +4,7 @@ title: "Contact Us"
 menu:
     main:
         parent: "About"
+        weight: 1
 ---
 
 # General Details

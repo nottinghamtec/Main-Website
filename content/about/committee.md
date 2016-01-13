@@ -6,5 +6,6 @@ type: "committee"
 menu:
     main:
         parent: "About"
+        weight: 5
 ---
 
