@@ -1,0 +1,9 @@
+{{ with .Get "tag" }}
+	<{{.}} class="center-align">
+		{{ .Inner }}
+	</{{.}}>
+{{ else }}
+	<div class="center-align">
+		{{ .Inner }}
+	</div>
+{{ end }}
