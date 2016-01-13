@@ -1,38 +1,41 @@
-+++
-date = "2016-01-07T16:34:13Z"
-title = "Contact Us"
-
-+++
+---
+date: "2016-01-07T16:34:13Z"
+title: "Contact Us"
+menu:
+    main:
+        parent: "About"
+        weight: 1
+---
 
 # General Details
 <dl>
-	<dt>Phone</dt>
-	<dd><a href="tel:01158468270">0115 84 68720</a></dd>
+    <dt>Phone</dt>
+    <dd><a href="tel:01158468270">0115 84 68720</a></dd>
 
-	<dt>Email</dt>
-	<dd><a href="mailto:info@nottinghamtec.co.uk">info@nottinghamtec.co.uk</a></dd>
+    <dt>Email</dt>
+    <dd><a href="mailto:info@nottinghamtec.co.uk">info@nottinghamtec.co.uk</a></dd>
 
-	<dt>Emergency Phone</dt>
-	<dd>
-		<a href="tel:07825065681">07825 065681</a><br />
-		<a href="tel:07825065678">07825 065678</a>
-	</dd>
+    <dt>Emergency Phone</dt>
+    <dd>
+        <a href="tel:07825065681">07825 065681</a><br />
+        <a href="tel:07825065678">07825 065678</a>
+    </dd>
 </dl>
 
 ## Office
 Our members regularly spend time in the office, please feel free to pop in and say hi.
 
 <dl>
-	<dt>Phone</dt>
-	<dd><a href="tel:01158468270">0115 84 68720</a></dd>
+    <dt>Phone</dt>
+    <dd><a href="tel:01158468270">0115 84 68720</a></dd>
 
-	<dt>Address</dt>
-	<dd>TEC PA &amp; Lighting</dd>
-	<dd>C45 Portland Building</dd>
-	<dd>University Park</dd>
-	<dd>University of Nottingham</dd>
-	<dd>Nottingham</dd>
-	<dd>NG7 2RD</dd>
+    <dt>Address</dt>
+    <dd>TEC PA &amp; Lighting</dd>
+    <dd>C45 Portland Building</dd>
+    <dd>University Park</dd>
+    <dd>University of Nottingham</dd>
+    <dd>Nottingham</dd>
+    <dd>NG7 2RD</dd>
 </dl>
 
 {{<center>}}
@@ -43,15 +46,15 @@ Our members regularly spend time in the office, please feel free to pop in and s
 Our storeroom is located on Kings Meadow Campus, a short journey by Univeristy Hopper Bus. We can meet you there by prior arrangement.
 
 <dl>
-	<dt>Phone</dt>
-	<dd><a href="tel:01158467785">0115 84 67785</a></dd>
+    <dt>Phone</dt>
+    <dd><a href="tel:01158467785">0115 84 67785</a></dd>
 
-	<dt>Address</dt>
-	<dd>Kings Meadow Campus</dd>
-	<dd>University of Nottingham</dd>
-	<dd>Lenton Lane</dd>
-	<dd>Nottingham</dd>
-	<dd>NG7 2NR</dd>
+    <dt>Address</dt>
+    <dd>Kings Meadow Campus</dd>
+    <dd>University of Nottingham</dd>
+    <dd>Lenton Lane</dd>
+    <dd>Nottingham</dd>
+    <dd>NG7 2NR</dd>
 </dl>
 
 {{<center>}}
