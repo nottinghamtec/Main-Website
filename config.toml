@@ -3,3 +3,9 @@ languageCode = "en-gb"
 title = "TEC PA & Lighting"
 PluralizeListTitles=false
 canonifyurls = false
+
+[[menu.main]]
+	name = "Committee"
+	identifier = "committee"
+	parent = "About"
+	url = "/committee/"
