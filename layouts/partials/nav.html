@@ -1,7 +1,16 @@
 <ul class="right">
-	<li><a class="dropdown-button" data-activates="dropdown-about" href="/about/">About <i class="material-icons right">arrow_drop_down</i></a></li>
-	<ul id="dropdown-about" class="dropdown-content">
-		<li><a href="/about/">About</a></li>
-		<li><a href="/committee/">Committee</a></li>
-	</ul>
+	{{ $currentNode := . }}
+	{{ range .Site.Menus.main }}
+		{{ if .HasChildren }}
+			<li><a class="dropdown-button" data-activates="dropdown-{{.Identifier}}" href="{{.URL}}">{{.Name}} <i class="material-icons right">arrow_drop_down</i></a></li>
+			<ul id="dropdown-{{.Identifier}}" class="dropdown-content">
+				<li><a href="{{.URL}}">{{.Name}}</a></li>
+				{{ range .Children }}
+					<li><a href="{{.URL}}">{{.Name}}</a></li>
+				{{ end }}
+			</ul>
+		{{ else }}
+			<li><a href="{{.URL}}">{{.Name}}</a></li>
+		{{ end }}
+	{{ end }}
 </ul>

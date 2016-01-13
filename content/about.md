@@ -1,5 +1,8 @@
 +++
 title = "About Us"
+
+[menu.main]
+	name = "About"
 +++
 
 TEC PA & Lighting exists “To provide high quality sound, lighting and audio-visual services to organisations both within and ouside the University of Nottingham Students’ Union”. Staffed entirely by student volunteers from the University of Nottingham, we hold a large stock of equipment built up over many years.
