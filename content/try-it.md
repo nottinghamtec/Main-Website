@@ -22,3 +22,5 @@ Once you've attended our introductory session, you can come along to any event t
 There is no experience necessary, and we provide all the training and support both at events and at dedicated training sessions. Plus, coming along doesn't mean you're committing to TEC - come and see if it's for you, we'd love to have you as part of the team.
 
 The session will be in the West Concourse lounge on the C Floor of the Portland Building from 1.30. If you don't know where that is, come to the [TEC Office]({{< relref "contact.md#office" >}}) - also on the C Floor, next to the SU Hub - from 1.00PM and we will take you there.
+
+For more information, please visit the Try-It event on the [Students' Union page](http://www.su.nottingham.ac.uk/events/8546/7985/), or our [Facebook event](https://www.facebook.com/events/1553334718324279/).
