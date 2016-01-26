@@ -3,13 +3,15 @@
 <main>
 	<div class="container">
 		<div class="row">
+			{{ if .TableOfContents }}
 			<div class="col s12 m3 right">
 				<div class="toc-wrapper">
 					{{.TableOfContents}}
 				</div>
 			</div>
+			{{ end }}
 
-			<div class="col s12 m9">
+			<div class="col s12{{ if .TableOfContents }} m9{{ end }}">
 				<article>
 					{{.Content}}
 				</article>
