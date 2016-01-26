@@ -1,7 +1,7 @@
 ---
 title: Try It!
 menu: main
-draft: true
+draft: false
 ---
 
 Interested in working backstage with sound and lights? Come to our introduction session - we'll be covering the basics on how to use our sound and lighting systems, the essential health and safety information, and our members website.
