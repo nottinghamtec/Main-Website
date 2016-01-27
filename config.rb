@@ -12,7 +12,7 @@ http_images_path = "imgs"
 javascripts_dir = "static/js"
 http_javascripts_path = "js"
 fonts_dir = "static/fonts"
-http_fonts_path = "fonts"
+http_fonts_path = "../fonts"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
