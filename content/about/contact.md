@@ -43,7 +43,7 @@ Our members regularly spend time in the office, please feel free to pop in and s
 {{</center>}}
 
 ## Storeroom
-Our storeroom is located on Kings Meadow Campus, a short journey by Univeristy Hopper Bus. We can meet you there by prior arrangement.
+Our storeroom is located on Kings Meadow Campus, a short journey by the 902 University Hopper Bus. We can meet you there by prior arrangement.
 
 <dl>
     <dt>Phone</dt>
