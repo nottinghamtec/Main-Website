@@ -8,11 +8,12 @@ menu:
         weight: 3
 ---
 
-At TEC, we are always welcoming new members. The easiest way to join is to use the [University of Nottingham Students’ Union website](http://www.su.nottingham.ac.uk/student-media-groups/TEC/).
+In TEC, we're all about getting stuck in. We hold two induction sessions annually to give new and potential members a chance to get a feel for what we do. Don't worry if you've never done anything like this before - training will be provided. 
 
-Our membership is free of charge, and we encourage you to come on as many or as few rigs as you can, providing suitable training and lots of fun. Membership is open exclusively to students of the University of Nottingham, though we do have an extensive network of alumni who, while no longer students, are still members.
+Once you've been to an induction session, you're welcome to come on any of our events that take your fancy. Whether you're into lighting, sound or truss, you will have plenty of opportunity to have a go with our equipment.
 
-If you’d like to join, go to our page on the Students’ Union website and click sign up – it’s free! If you have any questions, either email [info@nottinghamtec.co.uk](mailto:info@nottinghamtec.co.uk), or come into [our office]({{< relref "contact.md#office" >}}) – on the C Floor, Portland Building, University Park Campus.
+Running events is what we do, but don't think we're only about hard work - we get to attend some of the biggest and most entertaining events that the university or the Students union run. When we're not running events, you're most likely to find us in our office on the C floor of the Portland building.
 
-We hold two New Members’ Introduction sessions each academic year, around Freshers’ and Re-Freshers’ Fair. Of course, you can join any time, but attending these will give you an insight into what TEC is about and provide the necessary initial health & safety training.
+Think this sounds like something you'd be interested in? Come find us on the [Students' union website](http://www.su.nottingham.ac.uk/student-media-groups/TEC/), membership is free for any member of the students' union. 
 
+Missed one of our induction sessions but still want to have a go? Send an email to [info@nottingnhamtec.co.uk](mailto:info@nottingnhamtec.co.uk) or come into [the office]({{< relref "contact.md#office" >}}) and we'll sort one out for you. 
