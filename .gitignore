@@ -43,3 +43,7 @@ bin/
 # Compass
 *.sass-cache
 static/css
+
+# Vagrant
+.vagrant
+npm-debug.log
