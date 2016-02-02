@@ -1,6 +1,6 @@
 ---
 date: "2016-01-13T14:50:17Z"
-draft: true
+draft: false
 title: "Get Involved"
 menu:
     main:
