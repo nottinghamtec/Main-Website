@@ -1,0 +1,54 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<article>
+  <div class="container">
+    {{ .Content }}
+
+    {{ $last := sub (len $.Site.Data.venues.venues) 1 }}
+
+    {{ range $index, $item := $.Site.Data.venues.venues }}
+
+      {{ if eq (mod $index 2) 0 }}
+      <div class="row">
+      {{ end }}
+
+      <div class="col s12 m6{{ if and (eq $index $last) (eq (mod $index 2) 0) }} offset-m3{{ end }}">
+        
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            {{ if $item.Main_Photo }}
+              <img src="{{$item.Main_Photo}}" class="activator" alt="{{$item.Name}}" />
+            {{ end }}
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">
+            {{$item.Name}}
+            <i class="material-icons right">more_vert</i></span>
+          {{ if $item.Short_Description }}
+            <p>{{$item.Short_Description | markdownify}}</p>
+          {{ end }}
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">{{$item.Name}}<i class="material-icons right">close</i></span>
+            {{$item.Long_Description | markdownify}}
+            <br/>
+            <br/>
+            <span><a href="/places/{{$item.Link}}">See More</a></span>
+          </div>
+        </div>
+
+      </div>
+      
+      {{ if or (eq $index $last) (eq (mod $index 2) 1) }}
+      </div>
+      {{ end }}
+
+      {{ $index := add $index 1 }}
+
+    {{ end }}
+
+  </div>
+</article>
+
+{{ partial "footer.html" . }}
