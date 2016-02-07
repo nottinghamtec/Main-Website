@@ -2,6 +2,14 @@
 date = "2016-02-04T20:48:04Z"
 draft = true
 title = "Studio 7"
+link = "studio7"
+weight = "1"
+
+short_description = "It's a venue, it's kinda big (ish)"
+long_description = "Woo I get some more space to describe how awesome this venue is, whatever will i do with all this space"
+
+main_photo = "/imgs/venues/wof2014.jpg"
+img2 = "/imgs/venues/gradball2014.jpg"
 
 +++
 
