@@ -9,7 +9,20 @@ short_description = "It's a venue, it's kinda big (ish)"
 long_description = "Woo I get some more space to describe how awesome this venue is, whatever will i do with all this space"
 
 main_photo = "/imgs/venues/wof2014.jpg"
-img2 = "/imgs/venues/gradball2014.jpg"
+main_title = "WOF"
+main_caption = "Woof woof"
+
+second_photo = "/imgs/venues/gradball2014.jpg"
+second_title = "Grad Ball"
+second_caption = ""
+
+third_photo = ""
+third_title = ""
+third_caption = ""
+
+fourth_photo = ""
+fourth_title = ""
+fourth_caption =""
 
 +++
 
@@ -25,6 +38,6 @@ I don't know, just some ideas
 
 Maybe a button that goes back to:
 
-<a href="/about/venues"><button class="btn blue waves-effect waves-dark">venues</button></a>
+<a href="/venues"><button class="btn blue waves-effect waves-dark">venues</button></a>
 
-or a link that <a href="/about/venues">does the same thing</a>
+or a link that <a href="/venues">does the same thing</a>
