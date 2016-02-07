@@ -1,0 +1,75 @@
+{{ partial "head.html" . }}
+
+<header>
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <a href="/venues">
+          <img src="{{ .Params.main_photo }}"> <!-- First image -->
+        </a>
+        {{ if .Params.main_title }}
+        <div class="caption center-align">
+          <h3>{{.Params.main_title}}</h3>
+          {{ if .Params.main_caption }}
+          <h5 class="light grey-text text-lighten-3">{{.Params.main_caption}}</h5>
+          {{ end }}
+        </div>
+        {{ end }}
+      </li>
+      {{ if .Params.second_photo }}
+      <li>
+        <a href="/venues">
+          <img src="{{ .Params.second_photo }}"> <!-- Second image -->
+        </a>
+        {{ if .Params.second_title }}
+        <div class="caption left-align">
+          <h3>{{.Params.second_title}}</h3>
+          {{ if .Params.second_caption }}
+          <h5 class="light grey-text text-lighten-3">{{.Params.second_caption}}</h5>
+          {{ end }}
+        </div>
+        {{ end }}
+      </li>
+      {{ end }}
+      {{ if .Params.third_photo }}
+      <li>
+        <a href="/venues">
+          <img src="{{ .Params.main_photo }}"> <!-- Third image -->
+        </a>
+        {{ if .Params.third_title }}
+        <div class="caption right-align">
+          <h3>{{.Params.third_title}}</h3>
+          {{ if .Params.third_caption }}
+          <h5 class="light grey-text text-lighten-3">{{.Params.third_caption}}</h5>
+          {{ end }}
+        </div>
+        {{ end }}
+      </li>
+      {{ end }}
+      {{ if .Params.fourth_photo}}
+      <li>
+        <a href="/venues">
+          <img src="{{ .Params.img2 }}"> <!-- Fourth image -->
+        </a>
+        {{ if .Params.fourth_title }}
+        <div class="caption left-align">
+          <h3>{{.Params.fourth_title}}</h3>
+          {{ if .Params.fourth_caption }}
+          <h5 class="light grey-text text-lighten-3">{{.Params.fourth_caption}}</h5>
+          {{ end }}
+        </div>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</header>
+<main>
+  <article>
+    <div class="container">
+      {{ .Content }}
+    </div>
+  </article>
+</main>
+
+{{ partial "footer.html" . }}

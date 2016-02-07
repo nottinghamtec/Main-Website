@@ -12,6 +12,7 @@ $secondary-color: color("grey", "darken-3");
 
 @import "materialize/components/variables";
 @import "materialize/components/cards";
+@import "materialize/components/slider";
 
 $footer-bg-color: $primary-color-dark;
 
@@ -168,4 +169,14 @@ article {
 
 #full-page {
   height: 70vh;
+}
+
+.slider {
+  height: 400px !important;
+}
+
+.slider-logo {
+  height: auto !important;
+  width: 6rem !important;
+  margin: 1rem;
 }
