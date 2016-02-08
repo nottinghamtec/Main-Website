@@ -8,12 +8,12 @@ weight = "2"
 short_description = "It's basically a shit pub"
 long_description = "Woo I get some more space to describe how awesome this venue is, whatever will i do with all this space"
 
-main_photo = "/imgs/venues/wof2014.jpg"
-main_title = "WOF"
-main_caption = "Woof woof"
+main_photo = "/imgs/venues/mooch/oxjam-mooch.jpg"
+main_title = "Oxjam"
+main_caption = ""
 
-second_photo = "/imgs/venues/gradball2014.jpg"
-second_title = "Grad Ball"
+second_photo = "/imgs/venues/mooch/mooch-haloween-2015.jpg"
+second_title = "Mooch Haloween 2015"
 second_caption = ""
 
 third_photo = ""

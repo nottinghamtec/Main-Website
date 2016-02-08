@@ -7,20 +7,22 @@ short_description = "Record number of noise complaints"
 title = "Donnington Hall"
 weight = 9
 
-main_photo = "/imgs/venues/wof2014.jpg"
-main_title = "WOF"
-main_caption = "Woof woof"
+main_photo = "/imgs/venues/donnington/gradball-2015-2.jpg"
+main_title = "Graduation Ball 2015"
+main_caption = ""
+placement1 = "left"
 
-second_photo = "/imgs/venues/gradball2014.jpg"
-second_title = "Grad Ball"
+second_photo = "/imgs/venues/donnington/gradball-2015-5.jpg"
+second_title = "Graduation Ball 2015"
 second_caption = ""
+placement2 = "center"
 
-third_photo = ""
-third_title = ""
+third_photo = "/imgs/venues/donnington/gradball-2015-6.jpg"
+third_title = "Graduation Ball 2015"
 third_caption = ""
 
-fourth_photo = ""
-fourth_title = ""
+fourth_photo = "/imgs/venues/donnington/gradball-2015-3.jpg"
+fourth_title = "Graduation Ball 2015"
 fourth_caption =""
 
 +++

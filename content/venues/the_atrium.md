@@ -7,8 +7,8 @@ short_description = "No, the other Atrium"
 title = "The Atrium"
 weight = 7
 
-main_photo = "/imgs/venues/wof2014.jpg"
-main_title = "WOF"
+main_photo = "/imgs/venues/the-atrium/soc-ball-2014.jpg"
+main_title = "Societies Ball 2014"
 main_caption = "Woof woof"
 
 second_photo = "/imgs/venues/gradball2014.jpg"

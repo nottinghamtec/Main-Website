@@ -5,19 +5,21 @@ title = "Studio 7"
 link = "studio7"
 weight = "1"
 
-short_description = "It's a venue, it's kinda big (ish)"
+short_description = "It's a venue, it's kinda big (ish) asdjha adhs asdka kdkad"
 long_description = "Woo I get some more space to describe how awesome this venue is, whatever will i do with all this space"
 
-main_photo = "/imgs/venues/wof2014.jpg"
-main_title = "WOF"
-main_caption = "Woof woof"
+main_photo = "/imgs/venues/s7/nu-dance-2013-3.jpg"
+main_title = "NU Dance 2013"
+main_caption = ""
+placement = "right"
 
-second_photo = "/imgs/venues/gradball2014.jpg"
-second_title = "Grad Ball"
+second_photo = "/imgs/venues/s7/architects-ball-2014.jpg"
+second_title = "Architects Ball 2014"
 second_caption = ""
 
-third_photo = ""
-third_title = ""
+
+third_photo = "/imgs/venues/s7/steve-redgrave-2.jpg"
+third_title = "Sir Steve Redgrave"
 third_caption = ""
 
 fourth_photo = ""

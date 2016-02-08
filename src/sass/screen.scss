@@ -171,6 +171,11 @@ article {
   height: 70vh;
 }
 
+// .card-image {
+//   height: 15rem;
+
+// }
+
 .slider {
   height: 400px !important;
 }
@@ -179,4 +184,10 @@ article {
   height: auto !important;
   width: 6rem !important;
   margin: 1rem;
+}
+
+.outline {
+  color: #fff;
+  text-shadow: #000 0px 0px 5px, #000 0px 0px 2px;
+  -webkit-font-smoothing: antialiased;
 }

@@ -7,21 +7,21 @@ short_description = "It's really just a tent"
 title = "Colwick Hall"
 weight = 8
 
-main_photo = "/imgs/venues/wof2014.jpg"
-main_title = "WOF"
+main_photo = "/imgs/venues/colwick/gradball-2014.jpg"
+main_title = "Graduation Ball 2014"
 main_caption = "Woof woof"
 
-second_photo = "/imgs/venues/gradball2014.jpg"
-second_title = "Grad Ball"
+second_photo = "/imgs/venues/colwick/gradball-2013.jpg"
+second_title = "Graduation Ball 2013"
 second_caption = ""
 
-third_photo = ""
-third_title = ""
+third_photo = "/imgs/venues/colwick/gradball-2014-2.jpg"
+third_title = "Graduation Ball 2014"
 third_caption = ""
 
-fourth_photo = ""
-fourth_title = ""
-fourth_caption =""
+fourth_photo = "/imgs/venues/colwick/gradball-2013-2.jpg"
+fourth_title = "Graduation Ball 2013"
+fourth_caption = ""
 
 +++
 
