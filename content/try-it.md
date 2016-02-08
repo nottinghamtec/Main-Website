@@ -3,10 +3,9 @@ title: Try It!
 draft: true
 ---
 
-Interested in working backstage with sound and lights? Come to our introduction session - we'll be covering the basics on how to use our sound and lighting systems, the essential health and safety information, and our members website.
-TEC provide sound and lights to many events throughout the year, ranging from a small open mic to Grad Ball, and you can be part of it. If you're interested in working backstage in live events, this is the place for you. 
+Interested in working on the technical side of events? Come along to one of our try it sessions, where we will introduce you to some of our kit and how to use it. We support a wide variety of events which run throughout the academic year, ranging from a small open mic night to multi venue events such as Graduation Ball.
 
-Our Kickstart Try-It session is aimed at new members, whether you're brand new to TEC or came in September and want a reminder of the basics. We'll be covering the main areas that we work in on the majority of events, and give you the chance to play with the state-of-the-art kit.
+Our Try-It session is aimed at those with little previous experience, but we welcome those with any level of technical expertise. We will provide you with the training necessary to jump right in and be part of the team. So come along and see what we're all about. 
 
 At this session, we'll be covering:
 
