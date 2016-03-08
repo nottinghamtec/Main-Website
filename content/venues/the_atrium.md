@@ -9,10 +9,10 @@ weight = 7
 
 main_photo = "/imgs/venues/the-atrium/soc-ball-2014.jpg"
 main_title = "Societies Ball 2014"
-main_caption = "Woof woof"
+main_caption = ""
 
-second_photo = "/imgs/venues/gradball2014.jpg"
-second_title = "Grad Ball"
+second_photo = ""
+second_title = ""
 second_caption = ""
 
 third_photo = ""

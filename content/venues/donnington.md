@@ -7,7 +7,7 @@ short_description = "Record number of noise complaints"
 title = "Donnington Hall"
 weight = 9
 
-main_photo = "/imgs/venues/donnington/gradball-2015-2.jpg"
+main_photo = "/imgs/venues/donnington/gradball-2015-4.jpg"
 main_title = "Graduation Ball 2015"
 main_caption = ""
 placement1 = "left"

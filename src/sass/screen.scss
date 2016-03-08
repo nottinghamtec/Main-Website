@@ -10,6 +10,9 @@
 $primary-color: color("grey", "darken-4");
 $secondary-color: color("grey", "darken-3");
 
+/*** Slider ***/
+$slider-indicator-color: color("blue", "darken-4");
+
 @import "materialize/components/variables";
 @import "materialize/components/cards";
 @import "materialize/components/slider";
@@ -184,6 +187,12 @@ article {
   height: auto !important;
   width: 6rem !important;
   margin: 1rem;
+}
+
+.indicators {
+  position: absolute !important;
+  margin-bottom: 0.5em !important;
+  z-index: 999;
 }
 
 .outline {

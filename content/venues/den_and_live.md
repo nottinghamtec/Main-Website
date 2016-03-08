@@ -7,12 +7,12 @@ title = "The Den and Live"
 link = "den_and_live"
 weight = 3
 
-main_photo = "/imgs/venues/wof2014.jpg"
-main_title = "WOF"
-main_caption = "Woof woof"
+main_photo = "/imgs/venues/live/live-2015.jpg"
+main_title = ""
+main_caption = ""
 
-second_photo = "/imgs/venues/gradball2014.jpg"
-second_title = "Grad Ball"
+second_photo = ""
+second_title = ""
 second_caption = ""
 
 third_photo = ""

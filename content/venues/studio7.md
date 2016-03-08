@@ -11,16 +11,18 @@ long_description = "Woo I get some more space to describe how awesome this venue
 main_photo = "/imgs/venues/s7/nu-dance-2013-3.jpg"
 main_title = "NU Dance 2013"
 main_caption = ""
-placement = "right"
+placement1 = "left"
 
 second_photo = "/imgs/venues/s7/architects-ball-2014.jpg"
 second_title = "Architects Ball 2014"
 second_caption = ""
+placement2 = "right"
 
 
 third_photo = "/imgs/venues/s7/steve-redgrave-2.jpg"
-third_title = "Sir Steve Redgrave"
+third_title = "Sir Steve Redgrave Address"
 third_caption = ""
+placement3 = "center"
 
 fourth_photo = ""
 fourth_title = ""
