@@ -4,35 +4,44 @@ members:
     -
       Name: Sam Osborne
       Position: Technical Director # 1
-      Photo: /imgs/committee/sam.jpg
+      Photo: 
+        - /imgs/committee/sam.jpg
       Bio: 
         "Sam is the almighty leader of TEC, we must all bow to him like a god. Sam is really good at the word things and I'm not so I feel like he'll re-write most of these bios, however there is a small chance some of these will be kept for the whole year, I'm ever hopeful."
+
+    # Treasurer goes here
 
     -
       Name: Ross Brisk and Hazel O'Donohoe
       Position: Productions Managers # 3
-      Photo: "/imgs/committee/ross.jpg"
-      Photo2: "/imgs/committee/hazel.jpg"
+      Photo: 
+        - "/imgs/committee/ross.jpg"
+        - "/imgs/committee/hazel.jpg"
       Bio:
         "When Ross is not in the office he is on the water rowing for the University's rowing team, I've never seen him row myself but there are some pictures on facebook. Hazel, in her spare time, among other things likes to play keep talking and no one explodes, if you don't know what it is you should get it, it's awesome. Together they make sure all our events happen in a timely manner and help Sam in his role."
 
     - 
       Name: Ben Woodford
-      Position: Logistics Manager # 2
-      Photo: /imgs/committee/ben.jpg
+      Position: Logistics Manager # 4
+      Photo: 
+        - /imgs/committee/ben.jpg
       Bio:
         "Despite his name Ben doesn't like wood, in fact, he's a history student (probably). He's in charge of all of TEC's equipment and vans and things and makes sure that everything is working properly. In his spare time he likes to dance his heart out in front of a tent full of drunk students, he may have a career lined up as a cage boy."
 
     -
       Name: Harry Dance
       Position: Members Officer # 5
-      Photo: "/imgs/committee/harry.jpg"
+      Photo: 
+        - "/imgs/committee/harry.jpg"
       Bio:
         "Harry is a Vet, he likes animals. In his spare time he likes to look after small creatures, some say he once looked at an injured tortoise, and it was injured no more. Some say he is the messiah of animals, but I'm not sure how true this is."
 
     -
       Name: Vikesh Doshi
       Position: Health & Safety Officer # 6
-      Photo: /imgs/committee/vik.jpg
+      Photo: 
+        - /imgs/committee/vik.jpg
       Bio: 
         "Vik is a final year student studying Electrical Engineering. He works to ensure TEC complies with the relevant Health & Safety legislation and best practices. He also serves as a liaison between TEC, the Students' Union and the University. He enjoys putting deck together and coiling heavy mains."
+
+    # All other positions go here
