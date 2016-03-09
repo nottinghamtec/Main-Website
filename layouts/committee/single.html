@@ -19,6 +19,9 @@
 					{{ if $item.Photo }}
 						<img src="{{$item.Photo}}" class="responsive-img circle profile-photo" alt="{{$item.Name}}" />
 					{{ end }}
+					{{ if $item.Photo2}}
+						<img src="{{$item.Photo2}}" class="responsive-img circle profile-photo" alt="{{$item.Name}}" />
+					{{ end }}
 					<h3>{{$item.Name}}</h3>
 					<h4>{{$item.Position}}</h4>
 					{{ if $item.Bio }}

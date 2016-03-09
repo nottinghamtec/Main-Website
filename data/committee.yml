@@ -2,39 +2,33 @@ members:
     # The order of members is important as this will be the order they are displayed in.
     # A hash has been placed after current positions to make this process easier.
     -
-      Name: Johnathan Graydon
-      Position: Technical Director # 1
-      Photo: /imgs/committee/johnathan.jpg
-      Bio: 
-        "Johnathan is a first year Computer Science student. Beyond managing the committee and overseeing that TEC is running smoothly, he is also TEC's primary contact with the Students' Union. Johnathan is a former <abbr title='Cadet Warrant Officer'>CWO</abbr> in the <abbr title='Air Training Corps'>ATC</abbr>."
-
-    - 
-      Name: Alex Tribley
-      Position: Treasurer # 2
-      Photo: /imgs/committee/alex.jpg
-      Bio:
-        "Alex is in his second year of Maths. He monitors TEC's income and expenses, and works with Sam to ensure all the appropriate paperwork is completed as needed."
-
-    -
-      Name: Joseph Heil
-      Position: Productions Manager # 3
-      Photo: "/imgs/committee/joseph.jpg"
-      Bio:
-        "Joseph is a PhD student in Materials Engineering & Design. He oversees all of TEC's events and supports Johnathan in the day to day running of TEC. He is a local scout leader and can often be found in the New Theatre."
-
-    -
       Name: Sam Osborne
-      Position: Communications Officer # 4
-      Photo: "/imgs/committee/sam.jpg"
-      Bio:
-        "Sam is a second-year physics student. He makes sure the office, website and social media are all kept in working order as well as producing the minutes for TEC’s meetings. Outside TEC, Sam enjoys working and watching shows in theatres around the country."
+      Position: Technical Director # 1
+      Photo: /imgs/committee/sam.jpg
+      Bio: 
+        "Sam is the almighty leader of TEC, we must all bow to him like a god. Sam is really good at the word things and I'm not so I feel like he'll re-write most of these bios, however there is a small chance some of these will be kept for the whole year, I'm ever hopeful."
+
+    # - 
+    #   Name: Alex Tribley
+    #   Position: Treasurer # 2
+    #   Photo: /imgs/committee/alex.jpg
+    #   Bio:
+    #     "Alex is in his second year of Maths. He monitors TEC's income and expenses, and works with Sam to ensure all the appropriate paperwork is completed as needed."
 
     -
-      Name: Claire Teed
-      Position: Members Officer # 5
-      Photo: "/imgs/committee/claire.jpg"
+      Name: Ross Brisk and Hazel O'Donohoe
+      Position: Productions Managers # 3
+      Photo: "/imgs/committee/ross.jpg"
+      Photo2: "/imgs/committee/hazel.jpg"
       Bio:
-        "Claire is a third-year biology student and spends her time in TEC planning training for the members and, on rigs, making sure everyone is happy. Claire is a member of a local Scout group and also plays Quidditch."
+        "When Ross is not in the office he is on the water rowing for the University's rowing team, I've never seen him row myself but there are some pictures on facebook. Hazel, in her spare time, among other things likes to play keep talking and no one explodes, if you don't know what it is you should get it, it's awesome. Together they make sure all our events happen in a timely manner and help Sam in his role."
+
+    -
+      Name: Harry Dance
+      Position: Members Officer # 5
+      Photo: "/imgs/committee/harry.jpg"
+      Bio:
+        "Harry is a Vet, he likes animals. In his spare time he likes to look after small creatures, some say he once looked at an injured tortoise, and it was injured no more. Some say he is the messiah of animals, but I'm not sure how true this is."
 
     -
       Name: Vikesh Doshi
@@ -42,17 +36,3 @@ members:
       Photo: /imgs/committee/vik.jpg
       Bio: 
         "Vik is a final year student studying Electrical Engineering. He works to ensure TEC complies with the relevant Health & Safety legislation and best practices. He also serves as a liaison between TEC, the Students' Union and the University. He enjoys putting deck together and coiling heavy mains."
-
-    -
-      Name: Harry Bridge
-      Position: Lighting Manager # 7
-      Photo: "/imgs/committee/harry.jpg"
-      Bio:
-        "Harry is a second-year engineering student and is in charge of TEC’s lights of all shapes and sizes. Chances are, if you see some of our lights in the air, Harry’s had something to do with it. He likes to spend time in the New Theatre workshop and being generally useful."
-
-    - 
-      Name: Tom Price
-      Position: "IT Manager" # 8
-      Photo: "https://s.gravatar.com/avatar/f0757cec3acb63b1c12d890df2a46e79.png?s=160"
-      Bio:
-        "Tom is a third-year computer science student and helps make sure TEC’s IT systems are all up to date and running smoothly. In his spare time, Tom likes tinkering with various bits of software and code."
