@@ -15,8 +15,8 @@ members:
       Name: Ross Brisk and Hazel O'Donohoe
       Position: Productions Managers # 3
       Photo: 
-        - "/imgs/committee/ross.jpg"
-        - "/imgs/committee/hazel.jpg"
+        - /imgs/committee/ross.jpg
+        - /imgs/committee/hazel.jpg
       Bio:
         "When Ross is not in the office he is on the water rowing for the University's rowing team, I've never seen him row myself but there are some pictures on facebook. Hazel, in her spare time, among other things likes to play keep talking and no one explodes, if you don't know what it is you should get it, it's awesome. Together they make sure all our events happen in a timely manner and help Sam in his role."
 
@@ -32,7 +32,7 @@ members:
       Name: Harry Dance
       Position: Members Officer # 5
       Photo: 
-        - "/imgs/committee/harry.jpg"
+        - /imgs/committee/harry.jpg
       Bio:
         "Harry is a Vet, he likes animals. In his spare time he likes to look after small creatures, some say he once looked at an injured tortoise, and it was injured no more. Some say he is the messiah of animals, but I'm not sure how true this is."
 
