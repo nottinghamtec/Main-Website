@@ -14,11 +14,18 @@
 			{{ end }}
 
 			<div class="col s12 m6{{ if and (eq $index $last) (eq (mod $index 2) 0) }} offset-m3{{ end }}">
-				
+
 				<div class="center">
+					{{ $lastphot := sub (len $item.Photo) 1 }}
 					{{ range $indexp, $photo := $item.Photo }}
+
+					<div class="col s{{ if and (eq $indexp $lastphot) (eq (mod $indexp 2) 0) }}12{{ else }}6{{ end }}">
 						<img src="{{$photo}}" class="responsive-img circle profile-photo" alt="{{$item.Name}}" />
+					</div>
+
+					{{ $indexp := add $indexp 1 }}
 					{{ end }}
+
 					<h3>{{$item.Name}}</h3>
 					<h4>{{$item.Position}}</h4>
 					{{ if $item.Bio }}
