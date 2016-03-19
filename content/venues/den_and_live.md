@@ -1,11 +1,11 @@
 +++
 date = "2016-02-07T10:13:22Z"
 draft = true
-long_description = "More space to rant about how good Live is"
-short_description = "The Den was good, Live is not"
 title = "The Den and Live"
 link = "den_and_live"
 weight = 3
+
+short_description = "Purpose built performance space, at the base of the Portland Building"
 
 main_photo = "/imgs/venues/live/live-2015.jpg"
 main_title = ""
@@ -25,6 +25,13 @@ fourth_caption =""
 
 +++
 
-A thing about the Den will go here 
+A band and disco space in Portland which has recently been transformed into a
+performance space and multifunctional mingling space. We’ve worked in both the
+old and new space, making it work for a variety of events both formal and
+informal. A short list of some of the events we have done are as follows:
 
-A thing about Live will go here
+- Prizes and Awards
+- Band gigs – classical/brass/rock
+- Awards Evenings
+- Talent Shows
+- Film Showings

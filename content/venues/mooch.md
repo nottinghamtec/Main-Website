@@ -5,8 +5,7 @@ title = "Mooch"
 link = "mooch"
 weight = "2"
 
-short_description = "It's basically a shit pub"
-long_description = "Woo I get some more space to describe how awesome this venue is, whatever will i do with all this space"
+short_description = "Students’ Union Bar situated in the ground floor of the Portland Building"
 
 main_photo = "/imgs/venues/mooch/oxjam-mooch.jpg"
 main_title = "Oxjam"
@@ -26,4 +25,10 @@ fourth_caption =""
 
 +++
 
-Have some more info about Mooch, well what can I possibly say about this place hmmm
+A popular student bar, it regularly sees open mic nights and DJ nights. But it does on occasion host
+band gigs and branded events. An example of some of the events we have done in this space are: 
+
+- Open Mic Nights
+- DJ Nights
+- Band Gigs – Bastille
+- Branded events - Strongbow

@@ -1,11 +1,11 @@
 +++
 date = "2016-02-07T10:37:11Z"
 draft = true
-link = "donnington"
-long_description = "A nice country house in the middle of nowhere"
-short_description = "Record number of noise complaints"
 title = "Donnington Hall"
+link = "donnington"
 weight = 9
+
+short_description = "Exclusive events venue set in the Nottinghamshire countryside"
 
 main_photo = "/imgs/venues/donnington/gradball-2015-4.jpg"
 main_title = "Graduation Ball 2015"
@@ -27,4 +27,9 @@ fourth_caption =""
 
 +++
 
-Grad ball was held here, it's not big enough for grad ball.
+Recently the University of Nottingham’s Graduation Ball moved out to
+Donington Hall. A historic and exclusive venue, we transformed part of the Hall
+into an acoustic venue and the other intoa dinner and dancing space. As of now,
+the only event done at this venue is:
+
+- Graduation Ball

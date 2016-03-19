@@ -1,11 +1,11 @@
 +++
 date = "2016-02-07T10:30:09Z"
 draft = true
-link = "the_downs"
-long_description = "It's all fun and games until the van gets stuck"
-short_description = "It's basically a big field"
 title = "The Downs"
+link = "the_downs"
 weight = 6
+
+short_description = "Outdoor live music space in the centre of University Park Campus"
 
 main_photo = "/imgs/venues/wof2014.jpg"
 main_title = "WOF"
@@ -25,4 +25,10 @@ fourth_caption =""
 
 +++
 
-What more can I say about a field really
+The Downs is a large outdoor space which has hosted a variety of outdoor events. Generally we 
+provide sound systems to support events like Holi. A selection of the events we run on the Downs 
+are as follows:
+
+- Summer Party
+- Movie Screenings
+- Holi

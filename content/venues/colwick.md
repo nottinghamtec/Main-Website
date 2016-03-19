@@ -1,11 +1,11 @@
 +++
 date = "2016-02-07T10:34:28Z"
 draft = true
-link = "colwick"
-long_description = "Sometimes can be leaky, has hidden heaters"
-short_description = "It's really just a tent"
 title = "Colwick Hall"
+link = "colwick"
 weight = 8
+
+short_description = "Historic country house pavilion, marquee and dining space"
 
 main_photo = "/imgs/venues/colwick/gradball-2014.jpg"
 main_title = "Graduation Ball 2014"
@@ -25,4 +25,12 @@ fourth_caption = ""
 
 +++
 
-This venue is awful but it's cheap so people keep using it.
+Colwick is the traditional home of graduation ball, but this is not the only
+thing that Colwick is capable of hosting. We’ve used the marquees and pavilion
+to great effect, a range of the events we have done is as follows:
+
+- Graduation Ball
+- Formal Dinner
+- Strictly Come Dancing
+- Hall Sumer Parties
+- Charity Dinners

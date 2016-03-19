@@ -1,11 +1,11 @@
 +++
 date = "2016-02-07T10:42:51Z"
 draft = true
-link = "motorpoint_areana"
-long_description = "WOF happens here, it used to be called Capital FM areana"
-short_description = "Loads of ice"
 title = "Motorpoint Areana"
+link = "motorpoint_areana"
 weight = 10
+
+short_description = "Arena event space located in the heart of Nottingham"
 
 main_photo = "/imgs/venues/capital-fm/wof-2014.jpg"
 main_title = "Week One Finale 2014"
@@ -25,4 +25,8 @@ fourth_caption =""
 
 +++
 
-Once a year, a load of ice and a load of freshers arrive
+The biggest venue we work in on a regular basis, it transforms from ice rink for events like Varsity Ice 
+Hockey to a gig venue when necessary. A selection of events that we do here is as follows: 
+
+- Varsity Events – Ice Hockey, Basketball
+- Week One Finale

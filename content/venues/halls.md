@@ -1,11 +1,11 @@
 +++
 date = "2016-02-07T10:20:21Z"
 draft = true
-link = "halls"
-long_description = "Halls were fun until they had no money so got drunk in their rooms instead"
-short_description = "We used to do rigs where people lived"
 title = "Halls of Residance"
+link = "halls"
 weight = 4
+
+short_description = "A variety of spaces in halls across campus, including bars and dining rooms"
 
 main_photo = "/imgs/venues/halls/hu-stu-summer-2010.jpg"
 main_title = "Hu Stewart Hall 2010"
@@ -25,4 +25,10 @@ fourth_caption =""
 
 +++
 
-We should have some things about what we did in halls here.
+Small and intimate spaces, halls of residence offer opportunities for different types of event.
+Commonly sound systems and lighting systems are installed for hall dinner parties. But we also do 
+band gigs in the hall bars on request. The range of events completed in this venue are as follows:
+
+- Christmas Parties
+- Summer Parties
+- Formal Dining Events

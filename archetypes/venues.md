@@ -5,7 +5,6 @@ link = ""
 weight = ""
 
 short_description = ""
-long_description = ""
 
 main_photo = ""
 main_title = ""
