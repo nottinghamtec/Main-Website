@@ -166,3 +166,13 @@ article {
 #full-page {
   height: 70vh;
 }
+
+#index-video, #alternative {
+    width: 100vw; /* Could also use width: 100%; */
+    height: 100vh;
+    object-fit: cover;
+    position: fixed; /* Change position to absolute if you don't want it to take up the whole page */
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
