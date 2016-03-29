@@ -9,6 +9,8 @@ install:
 cache:
   directories:
   - vendor/bundle
+before_script:
+  - bin/prep.sh
 script:
  - bin/compass compile -e production --force
  - hugo
