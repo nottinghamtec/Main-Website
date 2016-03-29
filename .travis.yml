@@ -10,7 +10,7 @@ cache:
   directories:
   - vendor/bundle
 before_script:
-  - bin/prep.sh
+  - _bin/prep.sh
 script:
  - bin/compass compile -e production --force
  - hugo
