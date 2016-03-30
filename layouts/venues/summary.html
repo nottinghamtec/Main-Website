@@ -1,17 +1,17 @@
-
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      {{ if .Params.main_photo }}
-        <a href="/venues/{{.Params.link}}"><img src="{{.Params.main_photo}}" class="activator" alt="{{.Params.Title}}" /></a>
-      {{ end }}
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">
-      {{.Title}}
-      <i class="material-icons right">more_vert</i></span>
-    {{ if .Params.short_description }}
-      <p>{{.Params.short_description | markdownify}}</p>
+<div class="card">
+  <div class="card-image waves-effect waves-block waves-light">
+    {{ if .Params.photos }}
+      <a href="{{.Permalink}}"><img src="{{index .Params.photos 0}}" class="activator" alt="{{.Title}}" /></a>
     {{ end }}
-    </div>
   </div>
-
+  <div class="card-content">
+    <span class="card-title activator grey-text text-darken-4">
+     <a href="{{.Permalink}}" class="blue-text text-darken-4">
+    {{.Title}}
+    </a>
+    </span>
+  {{ if .Params.summary }}
+    <p>{{.Params.summary | markdownify}}</p>
+  {{ end }}
+  </div>
+</div>

@@ -3,3 +3,9 @@ languageCode = "en-gb"
 title = "TEC PA & Lighting"
 PluralizeListTitles=false
 canonifyurls = false
+
+[taxonomies]
+photo = "photos"
+title = "titles"
+caption = "captions"
+placement = "placements"
