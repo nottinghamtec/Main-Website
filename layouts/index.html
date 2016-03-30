@@ -102,4 +102,12 @@
 	</div>
 </section>
 
+	<script>
+		var video = document.getElementById("index-video");
+
+		video.addEventListener('loadeddata', function() {
+			$("#bk-image").fadeOut('slow');
+		}, false);
+	</script>
+
 {{ partial "footer.html" . }}
