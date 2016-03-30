@@ -28,10 +28,10 @@ captions = [
 ]
 
 placements = [
+  "right",
   "left",
   "center",
-  "right",
-  "left"
+  "right"
 ]
 
 +++
