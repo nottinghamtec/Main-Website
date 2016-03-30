@@ -3,3 +3,10 @@ languageCode = "en-gb"
 title = "TEC PA & Lighting"
 PluralizeListTitles=false
 canonifyurls = false
+
+[[menu.main]]
+    name = "Venues"
+    weight = 2
+    parent = "About"
+    identifier = "venues"
+    url = "/venues/"
