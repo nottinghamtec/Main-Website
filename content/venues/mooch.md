@@ -2,26 +2,29 @@
 date = "2016-02-05T19:36:47Z"
 draft = true
 title = "Mooch"
-link = "mooch"
 weight = "2"
 
-short_description = "Students’ Union Bar situated in the ground floor of the Portland Building"
+summary = "Students’ Union Bar situated in the ground floor of the Portland Building"
 
-main_photo = "/imgs/venues/mooch/oxjam-mooch.jpg"
-main_title = "Oxjam"
-main_caption = ""
+photos = [
+  "/imgs/venues/mooch/oxjam-mooch.jpg",
+  "/imgs/venues/mooch/mooch-haloween-2015.jpg",
+]
 
-second_photo = "/imgs/venues/mooch/mooch-haloween-2015.jpg"
-second_title = "Mooch Haloween 2015"
-second_caption = ""
+titles = [
+  "Oxjam",
+  "Mooch Haloween 2015",
+]
 
-third_photo = ""
-third_title = ""
-third_caption = ""
+captions = [
+  "",
+  "",
+]
 
-fourth_photo = ""
-fourth_title = ""
-fourth_caption =""
+placements = [
+  "left",
+  "right",
+]
 
 +++
 

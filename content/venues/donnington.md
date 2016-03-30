@@ -2,28 +2,37 @@
 date = "2016-02-07T10:37:11Z"
 draft = true
 title = "Donnington Hall"
-link = "donnington"
 weight = 9
 
-short_description = "Exclusive events venue set in the Nottinghamshire countryside"
+summary = "Exclusive events venue set in the Nottinghamshire countryside"
 
-main_photo = "/imgs/venues/donnington/gradball-2015-4.jpg"
-main_title = "Graduation Ball 2015"
-main_caption = ""
-placement1 = "left"
+photos = [
+  "/imgs/venues/donnington/gradball-2015-4.jpg",
+  "/imgs/venues/donnington/gradball-2015-5.jpg",
+  "/imgs/venues/donnington/gradball-2015-6.jpg",
+  "/imgs/venues/donnington/gradball-2015-3.jpg",
+]
 
-second_photo = "/imgs/venues/donnington/gradball-2015-5.jpg"
-second_title = "Graduation Ball 2015"
-second_caption = ""
-placement2 = "center"
+titles = [
+  "Graduation Ball 2015",
+  "Graduation Ball 2015",
+  "Graduation Ball 2015",
+  "Graduation Ball 2015",
+]
 
-third_photo = "/imgs/venues/donnington/gradball-2015-6.jpg"
-third_title = "Graduation Ball 2015"
-third_caption = ""
+captions = [
+  "",
+  "",
+  "",
+  "",
+]
 
-fourth_photo = "/imgs/venues/donnington/gradball-2015-3.jpg"
-fourth_title = "Graduation Ball 2015"
-fourth_caption =""
+placements = [
+  "left",
+  "center",
+  "right",
+  "left"
+]
 
 +++
 

@@ -2,26 +2,25 @@
 date = "2016-02-07T10:13:22Z"
 draft = true
 title = "The Den and Live"
-link = "den_and_live"
 weight = 3
 
-short_description = "Purpose built performance space, at the base of the Portland Building"
+summary = "Purpose built performance space, at the base of the Portland Building"
 
-main_photo = "/imgs/venues/live/live-2015.jpg"
-main_title = ""
-main_caption = ""
+photos = [
+  "/imgs/venues/live/live-2015.jpg",
+]
 
-second_photo = ""
-second_title = ""
-second_caption = ""
+titles = [
+  "",
+]
 
-third_photo = ""
-third_title = ""
-third_caption = ""
+captions = [
+  "",
+]
 
-fourth_photo = ""
-fourth_title = ""
-fourth_caption =""
+placements = [
+  "left",
+]
 
 +++
 

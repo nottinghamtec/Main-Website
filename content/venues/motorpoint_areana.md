@@ -2,26 +2,37 @@
 date = "2016-02-07T10:42:51Z"
 draft = true
 title = "Motorpoint Areana"
-link = "motorpoint_areana"
 weight = 10
 
-short_description = "Arena event space located in the heart of Nottingham"
+summary = "Arena event space located in the heart of Nottingham"
 
-main_photo = "/imgs/venues/capital-fm/wof-2014.jpg"
-main_title = "Week One Finale 2014"
-main_caption = ""
+photos = [
+  "/imgs/venues/capital-fm/wof-2014.jpg",
+  "/imgs/venues/capital-fm/wof-2015.jpg",
+  "/imgs/venues/capital-fm/wof-2014-2.jpg",
+  "/imgs/venues/capital-fm/wof-2014-2.jpg",
+]
 
-second_photo = "/imgs/venues/capital-fm/wof-2015.jpg"
-second_title = "Week One Finale 2015"
-second_caption = ""
+titles = [
+  "Week One Finale 2014",
+  "Week One Finale 2015",
+  "Week One Finale 2014",
+  "Week One Finale 2015",
+]
 
-third_photo = "/imgs/venues/capital-fm/wof-2014-2.jpg"
-third_title = "Week One Finale 2014"
-third_caption = ""
+captions = [
+  "",
+  "",
+  "",
+  "",
+]
 
-fourth_photo = "/imgs/venues/capital-fm/wof-2015-2.jpg"
-fourth_title = "Week One Finale 2015"
-fourth_caption =""
+placements = [
+  "left",
+  "right",
+  "center",
+  "left"
+]
 
 +++
 

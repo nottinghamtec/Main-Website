@@ -2,26 +2,37 @@
 date = "2016-02-07T10:34:28Z"
 draft = true
 title = "Colwick Hall"
-link = "colwick"
 weight = 8
 
-short_description = "Historic country house pavilion, marquee and dining space"
+summary = "Historic country house pavilion, marquee and dining space"
 
-main_photo = "/imgs/venues/colwick/gradball-2014.jpg"
-main_title = "Graduation Ball 2014"
-main_caption = "Woof woof"
+photos = [
+  "/imgs/venues/colwick/gradball-2014.jpg",
+  "/imgs/venues/colwick/gradball-2013.jpg",
+  "/imgs/venues/colwick/gradball-2014-2.jpg",
+  "/imgs/venues/colwick/gradball-2013-2.jpg",
+]
 
-second_photo = "/imgs/venues/colwick/gradball-2013.jpg"
-second_title = "Graduation Ball 2013"
-second_caption = ""
+titles = [
+  "Graduation Ball 2014",
+  "Graduation Ball 2013",
+  "Graduation Ball 2014",
+  "Graduation Ball 2013",
+]
 
-third_photo = "/imgs/venues/colwick/gradball-2014-2.jpg"
-third_title = "Graduation Ball 2014"
-third_caption = ""
+captions = [
+  "",
+  "",
+  "",
+  "",
+]
 
-fourth_photo = "/imgs/venues/colwick/gradball-2013-2.jpg"
-fourth_title = "Graduation Ball 2013"
-fourth_caption = ""
+placements = [
+  "left",
+  "right",
+  "center",
+  "left",
+]
 
 +++
 

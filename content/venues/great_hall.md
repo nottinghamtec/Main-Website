@@ -2,26 +2,29 @@
 date = "2016-02-07T10:27:00Z"
 draft = true
 title = "The Great Hall"
-link = "great_hall"
 weight = 5
 
-short_description = "Spacious venue located in the Trent building, University Park Campus"
+summary = "Spacious venue located in the Trent building, University Park Campus"
 
-main_photo = "/imgs/venues/wof2014.jpg"
-main_title = "WOF"
-main_caption = "Woof woof"
+photos = [
+  "/imgs/venues/wof2014.jpg",
+  "/imgs/venues/gradball2014.jpg",
+]
 
-second_photo = "/imgs/venues/gradball2014.jpg"
-second_title = "Grad Ball"
-second_caption = ""
+titles = [
+  "WOF",
+  "Grad Ball",
+]
 
-third_photo = ""
-third_title = ""
-third_caption = ""
+captions = [
+  "",
+  "",
+]
 
-fourth_photo = ""
-fourth_title = ""
-fourth_caption =""
+placements = [
+  "left",
+  "right"
+]
 
 +++
 

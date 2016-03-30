@@ -2,26 +2,29 @@
 date = "2016-02-07T10:30:09Z"
 draft = true
 title = "The Downs"
-link = "the_downs"
 weight = 6
 
-short_description = "Outdoor live music space in the centre of University Park Campus"
+summary = "Outdoor live music space in the centre of University Park Campus"
 
-main_photo = "/imgs/venues/wof2014.jpg"
-main_title = "WOF"
-main_caption = "Woof woof"
+photos = [
+  "/imgs/venues/wof2014.jpg",
+  "/imgs/venues/gradball2014.jpg"
+]
 
-second_photo = "/imgs/venues/gradball2014.jpg"
-second_title = "Grad Ball"
-second_caption = ""
+titles = [
+  "WOF",
+  "Grad Ball"
+]
 
-third_photo = ""
-third_title = ""
-third_caption = ""
+captions = [
+  "",
+  "",
+]
 
-fourth_photo = ""
-fourth_title = ""
-fourth_caption =""
+placements = [
+  "left",
+  "right",
+]
 
 +++
 
