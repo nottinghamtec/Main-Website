@@ -1,0 +1,8 @@
+    <h3>You are here:</h3>
+    <a href="/">{{ .Site.Title}}</a> / <a href="/{{.Section}}">{{.Section}}</a> / {{.Title}} <br />
+
+<!-- Display all venues, for use in a menu at some point. Haven't decided where yet... -->
+{{ range where .Site.Pages "Section" "venues" }}
+   {{ .Title }}
+{{ end }}
+{{ .Section.Title}}
