@@ -26,12 +26,15 @@
       {{ end }}
     </ul>
   </div>
+  <nav id="breadcrumbs">
+    {{ partial "breadcrumbs.html" . }}
+  </nav>
+
 </header>
 <main>
   <article>
     <div class="container">
       {{ .Content }}
-      {{ partial "breadcrumbs.html" . }}
     </div>
   </article>
 </main>

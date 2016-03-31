@@ -82,6 +82,37 @@ $main-nav-height: 6rem;
   }
 }
 
+$breadcrumb-height: 2.5em;
+$breadcrumb-hover-color: color("blue", "base");
+$breadcrumb-seperator-color: color("grey", "darken-1");
+
+#breadcrumbs {
+  height: $breadcrumb-height;
+  background-color: #212121;
+
+  .contain {
+    margin: 0 auto;
+    width: 85vw;
+  }
+
+  div {
+    height: $breadcrumb-height;
+    display: flex;
+    align-items: center;
+  }
+
+  a {
+    font-size: 1rem;
+
+    &:hover {
+      color: $breadcrumb-hover-color;
+    }
+    &:before {
+      color: $breadcrumb-seperator-color;
+    }
+  }
+}
+
 #page-title {
   margin-top: 8rem;
 }

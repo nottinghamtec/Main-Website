@@ -1,9 +1,16 @@
-    <h3>You are here:</h3>
-    <a href="/">{{ .Site.Title}}</a> / <a href="/{{.Section}}">{{title .Section}}</a> / {{.Title}} <br />
+<div class="nav-wrapper contain">
+  <div class="col s12">
+    <a href="/" class="breadcrumb">{{ .Site.Title }}</a>
+    {{ if .Section }}
+    <a href="/{{.Section}}" class="breadcrumb">{{ title .Section }}</a>
+    {{ end }}
+    <a href="{{ .Permalink }}" class="breadcrumb">{{ .Title }}</a>
+  </div>
+</div>
 
 <!-- Display all venues, for use in a menu at some point. Haven't decided where yet... -->
-{{ range where .Site.Pages "Section" "venues" }}
+<!-- {{ range where .Site.Pages "Section" "venues" }}
    {{ .Title }}
 {{ end }}
 <br>
-{{ title .Section }}
+{{ title .Section }} -->
