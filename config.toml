@@ -4,6 +4,13 @@ title = "TEC PA & Lighting"
 PluralizeListTitles=false
 canonifyurls = false
 
+
+[taxonomies]
+photo = "photos"
+title = "titles"
+caption = "captions"
+placement = "placements"
+
 [[menu.main]]
     name = "Venues"
     weight = 2

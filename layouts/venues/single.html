@@ -1,66 +1,28 @@
 {{ partial "head.html" . }}
-{{ partial "minihead.html" .}}
 
 <header>
   <div class="slider">
     <ul class="slides">
+    {{ $title := .Params.titles }}
+    {{ $caption := .Params.captions }}
+    {{ $placement := .Params.placements }}
+
+    {{ range $index, $photo := .Params.photos }}
       <li>
         <a href="/venues">
-          <img src="{{ .Params.main_photo }}"> <!-- First image -->
-        </a>
-        {{ if .Params.main_title }}
-        <div class="caption {{ if .Params.placement1 }}{{.Params.placement1}}-align{{ else }}center-align{{ end }}">
-          <h3 class="outline">{{.Params.main_title}}</h3>
-          {{ if .Params.main_caption }}
-          <h5 class="light grey-text text-lighten-3">{{.Params.main_caption}}</h5>
+          <img src="{{$photo}}">
+        </a> 
+        <div class="caption {{ if (index $placement $index) }}{{index $placement $index}}-align{{ else }}left-align{{ end }}">
+          {{ if (index $title $index) }}
+          <h3 class="outline">{{ index $title $index }}</h3>
+          {{ end }}
+          {{ if (index $caption $index) }}
+          <h5 class="light grey-text text-lighten-3 outline">{{index $caption $index }}</h5>
           {{ end }}
         </div>
-        {{ end }}
       </li>
-      {{ if .Params.second_photo }}
-      <li>
-        <a href="/venues">
-          <img src="{{ .Params.second_photo }}"> <!-- Second image -->
-        </a>
-        {{ if .Params.second_title }}
-        <div class="caption {{if .Params.placement2}}{{.Params.placement2}}-align{{else}}left-align{{end}}">
-          <h3 class="outline">{{.Params.second_title}}</h3>
-          {{ if .Params.second_caption }}
-          <h5 class="light grey-text text-lighten-3">{{.Params.second_caption}}</h5>
-          {{ end }}
-        </div>
-        {{ end }}
-      </li>
-      {{ end }}
-      {{ if .Params.third_photo }}
-      <li>
-        <a href="/venues">
-          <img src="{{ .Params.third_photo }}"> <!-- Third image -->
-        </a>
-        {{ if .Params.third_title }}
-        <div class="caption {{if .Params.placement3}}{{.Params.placement3}}-align{{else}}right-align{{end}}">
-          <h3 class="outline">{{.Params.third_title}}</h3>
-          {{ if .Params.third_caption }}
-          <h5 class="light grey-text text-lighten-3">{{.Params.third_caption}}</h5>
-          {{ end }}
-        </div>
-        {{ end }}
-      </li>
-      {{ end }}
-      {{ if .Params.fourth_photo }}
-      <li>
-        <a href="/venues">
-          <img src="{{ .Params.fourth_photo }}"> <!-- Fourth image -->
-        </a>
-        {{ if .Params.fourth_title }}
-        <div class="caption {{if .Params.placement4}}{{.Params.placement4}}-align{{else}}left-align{{end}}">
-          <h3 class="outline">{{.Params.fourth_title}}</h3>
-          {{ if .Params.fourth_caption }}
-          <h5 class="light grey-text text-lighten-3">{{.Params.fourth_caption}}</h5>
-          {{ end }}
-        </div>
-        {{ end }}
-      </li>
+
+      {{ $index := add $index 1 }}
       {{ end }}
     </ul>
   </div>

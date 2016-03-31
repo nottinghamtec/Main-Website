@@ -2,26 +2,33 @@
 date = "2016-02-07T10:20:21Z"
 draft = true
 title = "Halls of Residance"
-link = "halls"
 weight = 4
 
-short_description = "A variety of spaces in halls across campus, including bars and dining rooms"
+summary = "A variety of spaces in halls across campus, including bars and dining rooms"
 
-main_photo = "/imgs/venues/halls/hu-stu-summer-2010.jpg"
-main_title = "Hu Stewart Hall 2010"
-main_caption = ""
+photos = [
+  "/imgs/venues/halls/hu-stu-summer-2010.jpg",
+  "/imgs/venues/halls/hu-stu-2011-2.jpg",
+  "/imgs/venues/halls/hu-stu-2011.jpg",
+]
 
-second_photo = "/imgs/venues/halls/hu-stu-2011-2.jpg"
-second_title = "Hu Stewart Hall 2011"
-second_caption = ""
+titles = [
+  "Hugh Stewart Hall 2010",
+  "Hugh Stewart Hall 2011",
+  "Hu Stewart Hall 2011",
+]
 
-third_photo = "/imgs/venues/halls/hu-stu-2011.jpg"
-third_title = "Hu Stewart Hall 2011"
-third_caption = ""
+captions = [
+  "",
+  "",
+  "",
+]
 
-fourth_photo = ""
-fourth_title = ""
-fourth_caption =""
+placements = [
+  "left",
+  "right",
+  "center"
+]
 
 +++
 
