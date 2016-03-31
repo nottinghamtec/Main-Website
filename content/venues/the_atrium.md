@@ -19,7 +19,7 @@ captions = [
 ]
 
 placements = [
-  "left",
+  "right",
 ]
 
 +++

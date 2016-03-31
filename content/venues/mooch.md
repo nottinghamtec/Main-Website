@@ -22,7 +22,7 @@ captions = [
 ]
 
 placements = [
-  "left",
+  "center",
   "right",
 ]
 
