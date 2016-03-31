@@ -20,13 +20,6 @@ titles = [
   "Week One Finale 2015",
 ]
 
-captions = [
-  "",
-  "",
-  "",
-  "",
-]
-
 placements = [
   "left",
   "right",

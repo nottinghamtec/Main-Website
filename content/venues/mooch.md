@@ -16,11 +16,6 @@ titles = [
   "Mooch Haloween 2015",
 ]
 
-captions = [
-  "",
-  "",
-]
-
 placements = [
   "center",
   "right",

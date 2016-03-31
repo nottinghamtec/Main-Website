@@ -14,10 +14,6 @@ titles = [
   "Societies Ball 2014",
 ]
 
-captions = [
-  "",
-]
-
 placements = [
   "right",
 ]

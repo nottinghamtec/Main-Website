@@ -16,11 +16,6 @@ titles = [
   "Grad Ball"
 ]
 
-captions = [
-  "",
-  "",
-]
-
 placements = [
   "left",
   "right",

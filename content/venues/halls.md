@@ -18,12 +18,6 @@ titles = [
   "Hu Stewart Hall 2011",
 ]
 
-captions = [
-  "",
-  "",
-  "",
-]
-
 placements = [
   "left",
   "right",

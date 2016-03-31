@@ -18,12 +18,6 @@ titles = [
   "Sir Steve Redgrave Address",
 ]
 
-captions = [
-  "",
-  "",
-  "",
-]
-
 placements = [
   "left",
   "right",

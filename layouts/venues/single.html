@@ -3,8 +3,8 @@
 <header>
   <div class="slider">
     <ul class="slides">
-    {{ $title := .Params.titles }}
-    {{ $caption := .Params.captions }}
+    {{ $title := .Title }}
+    {{ $caption := .Params.titles }}
     {{ $placement := .Params.placements }}
 
     {{ range $index, $photo := .Params.photos }}
@@ -13,9 +13,9 @@
           <img src="{{$photo}}">
         </a> 
         <div class="caption {{ if (index $placement $index) }}{{index $placement $index}}-align{{ else }}left-align{{ end }}">
-          {{ if (index $title $index) }}
-          <h3 class="outline">{{ index $title $index }}</h3>
-          {{ end }}
+
+          <h3 class="outline">{{ $title }}</h3>
+
           {{ if (index $caption $index) }}
           <h5 class="light grey-text text-lighten-3 outline">{{index $caption $index }}</h5>
           {{ end }}

@@ -14,10 +14,6 @@ titles = [
   "",
 ]
 
-captions = [
-  "",
-]
-
 placements = [
   "left",
 ]

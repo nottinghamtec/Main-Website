@@ -20,13 +20,6 @@ titles = [
   "Graduation Ball 2015",
 ]
 
-captions = [
-  "",
-  "",
-  "",
-  "",
-]
-
 placements = [
   "right",
   "left",
