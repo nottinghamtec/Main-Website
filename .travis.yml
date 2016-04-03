@@ -12,7 +12,7 @@ cache:
 script:
  - bin/compass compile -e production --force
  - hugo
- - bundle exec htmlproof public --url-ignore https://members.nottinghamtec.co.uk
+ - bundle exec htmlproof public --url-ignore https://members.nottinghamtec.co.uk --allow-hash-href true
 after_script:
   - _bin/deploy.sh
 branches:
