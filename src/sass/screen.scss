@@ -219,6 +219,12 @@ article {
   position: absolute;
   bottom: 0;
   width: 100%;
-  left: 53%;
   @include transform( translateX(-50%) );
+
+  @media #{$small-and-down} {
+    left: 53%;
+  }
+  @media #{$medium-and-up} {
+    left: 51%;
+  }
 }
