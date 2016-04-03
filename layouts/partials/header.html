@@ -1,6 +1,7 @@
 <header>
 	<div class="parallax-container">
 		<nav id="main-nav" class="container">
+			<a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
 			<a class="brand-logo" href="/">
 				<img src="/imgs/tec_logo_white.png" alt="TEC PA &amp; Lighting">
 			</a>
@@ -14,4 +15,7 @@
 
 		<div class="parallax"><img src="/imgs/wof2014-1.jpg" alt="Week One Finale 2014"></div>
 	</div>
+		{{ partial "mobile-nav.html" . }}
+<!-- 	<nav class="nav-wrapper">
+	</nav> -->
 </header>
