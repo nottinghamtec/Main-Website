@@ -202,9 +202,18 @@ article {
   @include transform( translateX(-50%) );
 
   img {
-    width: 30vw;
+    max-width: 30vw;
+    max-height: 30vh;
+    width: auto;
     height: auto;
   }
+}
+
+#main-logo {
+  max-width: 30vw;
+  max-height: 30vh;
+  width: auto;
+  height: auto;
 }
 
 .no-margin {
@@ -226,5 +235,56 @@ article {
   }
   @media #{$medium-and-up} {
     left: 51%;
+  }
+}
+
+@media only screen and (max-height : 750px) {
+  .hide-on-short {
+    display: none !important;
+  }
+  .show-on-short {
+    display: block !important;
+  }
+}
+
+.small_medium {
+  font-size: 3em !important;
+}
+
+.to-top {
+  position: fixed;
+  bottom: 5vh;
+  right: 5vw;
+
+  visibility: hidden;
+  opacity: 0;
+
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+
+  &.visible, &.fade-out, &.hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+  }
+
+  &.visible {
+    visibility: visible !important;
+    opacity: 1;
+  }
+
+  &.fade-out {
+    opacity: .8;
+  }
+
+  &.hover {
+    opacity: 1 !important;
+  }
+
+  > a {
+    background-color: color('grey', 'darken-4');
+    border-radius: 1000em; // Circular button to be a symbol of TEC's discussions
+    color: color('blue', 'accent-3');
   }
 }

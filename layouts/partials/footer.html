@@ -31,6 +31,7 @@
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
 
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -42,8 +43,7 @@
 	  ga('send', 'pageview');
 
 	</script>
-	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+
 	<script>
 		$(document).ready(function() {
 			// Floating-Fixed table of contents
@@ -66,6 +66,41 @@
 	    $('.button-collapse').sideNav({'edge': 'left'});
 	    $('.datepicker').pickadate({selectYears: 20});
 	    $('select').not('.disabled').material_select();
+	</script>
+
+	<script>
+		$(document).ready(function(){
+			var offset = 300; // How far down does the button show
+			var offset_opacity = 700; // How far down does the opacity reduce
+			var scroll_top_duration = 700; // Duration of animation
+
+			$back_to_top = $('.to-top'); // Button class
+
+			$(window).scroll(function(){
+				if( $(this).scrollTop() > offset ) {
+					$back_to_top.addClass('visible') 
+				} else {
+					$back_to_top.removeClass('visible fade-out hover');
+				}
+				if( $(this).scrollTop() > offset_opacity ) { 
+					$back_to_top.addClass('fade-out');
+				}
+			});
+
+			// Capture screen presses on touch devices
+			$back_to_top.on('click touchstart', function() {
+				$back_to_top.addClass('hover');
+			});
+
+			// Smooth (criminal) scroll to top
+			$back_to_top.on('click', function(event){
+				event.preventDefault();
+				$('body,html').animate({
+					scrollTop: 0 ,
+				 	}, scroll_top_duration
+				);
+			});
+		});
 	</script>
 </body>
 </html>

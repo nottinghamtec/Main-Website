@@ -5,7 +5,7 @@
 		<div class="row">
 			{{ if .TableOfContents }}
 			<div class="col s12 m3 right">
-				<div class="toc-wrapper">
+				<div class="toc-wrapper hide-on-small-and-down">
 					{{.TableOfContents}}
 				</div>
 			</div>
@@ -17,6 +17,10 @@
 				</article>
 			</div>
 		</div>
+		<div class="hide-on-med-and-up">
+			<i class="small_medium material-icons to-top"><a href="#">expand_less</a></i>
+		</div>
 	</div>
 </main>
+
 {{ partial "footer.html" . }}
