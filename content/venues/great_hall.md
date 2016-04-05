@@ -4,7 +4,7 @@ draft = true
 title = "The Great Hall"
 weight = 5
 
-summary = "Spacious venue located in the Trent building, University Park Campus"
+summary = "From the early 20th Century, a spacious venue located in the Trent Building, University Park Campus."
 
 photos = [
   "/imgs/venues/wof2014.jpg",
@@ -23,14 +23,16 @@ placements = [
 
 +++
 
-The Great Hall is one of the grandest venues on campus. It’s been used by a wide
-variety of societies and student groups for a variety of styles of event. Most
-commonly it is used as a theatre style Venues we’ve worked in and wot we did
-there venue, where performers and or presenters are on stage. A selection of
-events we have done in this event are as follows:
+Appropriately named The Great Hall, it's difficult to find a venue as grand as this across campus. Many of our clients think so too, and we're often back trying new and different things in here.
 
-- Magic Shows
-- Freshers Parties and Dinners
-- Charity Shows
-- Weddings
-- Carol Services
+From an awards evening to a performance night, The Great Hall is as versatile as it is large. While the stage is static, the room layout is quite the opposite, with seating available in banquet or end-on layouts. 
+
+With few restrictions in space or power, at TEC we're happy to meet any specification for an event at the Great Hall. That can range from a theatre layout to a club night, or a more corporate series of uplighters along the ornate pillars. 
+
+Previous work:
+
+- Magic Society Gala 2016
+- Nottingham New Theatre Alumni Dinner
+- University alumni weddings
+- University International Office welcome events
+- Vietnamese Society annual show, 'Tet It Up'

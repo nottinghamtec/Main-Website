@@ -1,10 +1,10 @@
 +++
 date = "2016-02-04T20:48:04Z"
-draft = true
+draft = false
 title = "Studio 7"
 weight = "1"
 
-summary = "Former TV studio turned event venue located on Kings’ Meadow Campus"
+summary = "A retired Carlton TV Studio located on University of Nottingham King's Meadow Campus."
 
 photos = [
   "/imgs/venues/s7/nu-dance-2013-3.jpg",
@@ -26,13 +26,20 @@ placements = [
 
 +++
 
-One of the venues we are most comfortable in, we’ve been able to transform
-this space into formats and orientations. Due to the large space available both
-in terms of floor space and ceiling height, this venue can be used to build and
-light a wide variety of events. Some of the events we have done in Studio 7
-previously are:
+This spacious venue on King's Meadow Campus is around a mile from the main University Park campus, but a mere stone's throw from our own storeroom. 
 
-- Formal Dinners
-- Dance Shows
-- Talent Shows
-- Fashion Shows
+TEC have a wealth of experience working in Studio 7, whether that's building a black box theatre for a dance show with the Students' Union's dance troupe - NUDance - or instead supporting the Students' Union sports teams with their Sports Ball. Whether it's an awards dinner, play, or club night you're after, Studio 7 is capable of it all.
+
+
+Hosting over 100 independently controlled TV pantographs to fly lighting fixtures, as well as 8,000sqft (approx 27sqm) of floor space to put up any structures you see fit, there's plenty of room for manouvre to create just about any effect.
+
+
+Studio 7 can hold up to 500 people arranged in many ways: proscenium, round and banquet have all been done to great success, and some even use the rectractable bleacher seating which can accommodate 230 people.
+
+Previous work:
+
+- Architecture Society's end of year dinner 
+- Africultural Society's 2016 talent and fashion show, The Face of Africultural 
+- BAE Systems annual awards dinner 2016 
+- NUDance's 2014 showcase 
+- University of Nottingham Sir Steve Redgrave dinner 
