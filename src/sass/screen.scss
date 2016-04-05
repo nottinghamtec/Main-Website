@@ -202,9 +202,18 @@ article {
   @include transform( translateX(-50%) );
 
   img {
-    width: 30vw;
+    max-width: 30vw;
+    max-height: 30vh;
+    width: auto;
     height: auto;
   }
+}
+
+#main-logo {
+  max-width: 30vw;
+  max-height: 30vh;
+  width: auto;
+  height: auto;
 }
 
 .no-margin {
@@ -226,5 +235,14 @@ article {
   }
   @media #{$medium-and-up} {
     left: 51%;
+  }
+}
+
+@media only screen and (max-height : 750px) {
+  .hide-on-short {
+    display: none !important;
+  }
+  .show-on-short {
+    display: block !important;
   }
 }
