@@ -56,6 +56,13 @@ $main-nav-height: 6rem;
   .container {
     display: block;
   }
+  @media only screen and (max-width : 600px) {
+    margin-top: 5vh;
+
+    .container {
+      margin-top: 0px;
+    }
+  }
 
   .brand-logo {
     height: inherit;
@@ -169,7 +176,8 @@ article {
 
 .shadow {
   color: #fff;
-  text-shadow: #000 0px 0px 5px, #000 0px 0px 2px;
+  @include text-shadow( #000 0px 0px 5px );
+  @include text-shadow( #000 0px 0px 2px );
   -webkit-font-smoothing: antialiased;
 }
 
@@ -185,4 +193,38 @@ article {
 
 #bk-image {
   z-index: 0;
+}
+
+#index-logo {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  @include transform( translateX(-50%) );
+
+  img {
+    width: 30vw;
+    height: auto;
+  }
+}
+
+.no-margin {
+  margin: 0 0;
+}
+
+.pad-top {
+  padding-top: 5px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  @include transform( translateX(-50%) );
+
+  @media #{$small-and-down} {
+    left: 53%;
+  }
+  @media #{$medium-and-up} {
+    left: 51%;
+  }
 }

@@ -2,17 +2,21 @@
 
 	<div class="parallax-container" id="index-banner">
 		<nav id="main-nav" class="container">
+			<a href="#" data-activates="mobile-nav" class="button-collapse right hide-on-med-and-up"><i class="material-icons">menu</i></a>
+			<a class="hide-on-med-and-up" href="/" id="index-logo">
+				<img src="/imgs/tec_logo_white.png" alt="TEC PA &amp; Lighting">
+			</a>
 			{{ partial "nav.html" . }}
 		</nav>
 
 		<div class="valign-wrapper" id="splash-logo">
 			<div class="container">
 				<div class="row">
-					<div class="col s8 offset-s2 m4 offset-m4">
+					<div class="col m4 offset-m4 hide-on-small-and-down">
 						<img src="/imgs/tec_logo_white.png" alt="TEC PA and Lighting" class="responsive-img" />
 					</div>
 				</div>
-				<div class="row">
+				<div class="row no-margin">
 					<div class="col s12 center">
 						<p class="flow-text">
 							<a class="white-text shadow" href="/about/">Providing high quality sound, lighting and audio-visual services to organisations both within and outside the University of Nottingham Students’ Union.</a>
@@ -31,9 +35,19 @@
 						</p>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row hide-on-small-and-down bottom">
 					<div class="col s12 center">
-						<a href="#what-we-do" class="btn grey darken-4">Scroll for more</a>
+						<a href="#what-we-do" class="btn grey-darken-4 z-depth-2">Scroll for more</a>
+					</div>
+				</div>
+				<div class="row no-margin bottom hide-on-med-and-up">
+					<div class="col s12 center">
+						<a href="#what-we-do" class="white-text shadow">Slide for more</a>
+					</div>
+					<div class="col s12 center">
+						<a href="#what-we-do">
+							<i class="material-icons shadow pad-top white-text">expand_more</i>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -49,6 +63,7 @@
 			<img src="/imgs/wof2014-1.jpg" alt="Week One Finale 2014">
 		</div>
 	</div>
+	{{ partial "mobile-nav.html" . }}
 
 <section id="main">
 	<div class="grey darken-4">
