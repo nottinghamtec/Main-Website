@@ -1,10 +1,23 @@
 <div class="nav-wrapper contain">
   <div class="col s12">
-    <a href="/" class="breadcrumb">{{ .Site.Title }}</a>
-    {{ if .Section }}
-    <a href="/{{.Section}}" class="breadcrumb">{{ title .Section }}</a>
-    {{ end }}
-    <a href="{{ .Permalink }}" class="breadcrumb">{{ .Title }}</a>
+    {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "/" }}
+      <a class="breadcrumb" href="/">{{ .Site.Title }}</a>
+      {{ $split := split $url "/" }}
+      {{ $last := sub (len $split) 2 }}
+      {{ $.Scratch.Set "url" "/" }}
+      {{ range $index, $element := $split }}
+        {{ if . }}
+          {{ $.Scratch.Add "url" . }}
+          {{ $.Scratch.Add "url" "/" }}
+          <a class="breadcrumb" href='{{ $.Scratch.Get "url"  }}'>
+            {{ if and $.Title (eq $index $last) }}
+              {{ $.Title}}
+            {{ else }}
+              {{ title . }}
+            {{ end }}
+          </a>
+        {{ end }}
+      {{ end }}
   </div>
 </div>
 
