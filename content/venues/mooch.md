@@ -4,7 +4,7 @@ draft = true
 title = "Mooch"
 weight = "2"
 
-summary = "Students’ Union Bar situated in the ground floor of the Portland Building"
+summary = "A vibrant bar hosting a plethora of student-orientated events in the ground floor of the Portland Building"
 
 photos = [
   "/imgs/venues/mooch/oxjam-mooch.jpg",
@@ -23,10 +23,16 @@ placements = [
 
 +++
 
-A popular student bar, it regularly sees open mic nights and DJ nights. But it does on occasion host
-band gigs and branded events. An example of some of the events we have done in this space are: 
+No Students' Union is complete without its own bar, and the University of Nottingham is no exception. Located on the lower ground floor of the Portland Building, Mooch is a spacious, vibrant venue.
 
-- Open Mic Nights
-- DJ Nights
-- Band Gigs – Bastille
-- Branded events - Strongbow
+Having recently undergone refurbishment, Mooch is frequently host to open mic nights from various clients, but has also featured some bigger names and branded events in the past.
+
+Throughout the years, names like Bastille and Indiana have performed, as well as Strongbow and NASTA putting their own events on.
+
+Previous work:
+
+- DJ nights (various)
+- Oxjam
+- Strongbow's Halloween 'Night of the Zombies'
+- Students' Union open mic night
+- University Radio Nottingham presents Bastille
