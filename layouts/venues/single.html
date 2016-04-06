@@ -35,6 +35,47 @@
   <article>
     <div class="container">
       {{ .Content }}
+      
+      {{ if and .NextInSection .PrevInSection }}
+        <h4>Have a look at some other venues:</h4>
+      {{ else }}
+        <h4>Have a look at another venue:</h4>
+      {{ end }}
+
+      <div class="row">
+      {{ if .PrevInSection }}
+        <div class="col s12 m6">
+          <div class="card small grey lighten-5 z-depth-1" style="height: 200px">
+            <div class="card-image waves-effect waves-block waves-light">
+              <a href="{{.PrevInSection.Permalink}}">{{.PrevInSection.Title}}
+                <img src="{{ index .PrevInSection.Params.photos 0 }}" class="center-image">
+              </a>
+            </div>
+            <div class="card-content valign-wrapper">
+              <span class="card-title grey-text text-darken-4">
+              <a href="{{.PrevInSection.Permalink}}">{{.PrevInSection.Title}}</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+      {{ if .NextInSection }}
+        <div class="col s12 m6">
+          <div class="card small grey lighten-5 z-depth-1" style="height: 200px">
+            <div class="card-image waves-effect waves-block waves-light">
+              <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}}
+                <img src="{{ index .NextInSection.Params.photos 0 }}" class="center-image">
+              </a>
+            </div>
+            <div class="card-content valign-wrapper">
+              <span class="card-title grey-text text-darken-4">
+              <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}}</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
     </div>
   </article>
 </main>
