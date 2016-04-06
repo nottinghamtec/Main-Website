@@ -4,7 +4,7 @@ draft = true
 title = "Halls of Residance"
 weight = 4
 
-summary = "A variety of spaces in halls across campus, including bars and dining rooms"
+summary = "With over a dozen halls across University Park, Jubilee and Sutton Bonington, A variety of spaces in halls across campus, including bars and dining rooms."
 
 photos = [
   "/imgs/venues/halls/hu-stu-summer-2010.jpg",
@@ -26,10 +26,17 @@ placements = [
 
 +++
 
-Small and intimate spaces, halls of residence offer opportunities for different types of event.
-Commonly sound systems and lighting systems are installed for hall dinner parties. But we also do 
-band gigs in the hall bars on request. The range of events completed in this venue are as follows:
+Ranging from the small and intimate libraries and bars of Lincoln or Willoughby Hall, to the vast and open spaces at Jubilee or Sutton Bonington campuses, the halls of residences on campus are great for any event.
 
-- Christmas Parties
-- Summer Parties
-- Formal Dining Events
+Why venture all that way into town when you can have an event to suit your needs just down the stairs, or along the corridor? Our experience working in halls is plentiful, whether it's putting on a film night at Willoughby, an open mic at Cripps, or turning Jubilee or Hugh Stewart into a fully functional, bass-hitting club for the night.
+
+On the tamer side of clubs, we've also helped make awards evenings or hall formals just that bit more special with spotlights and radio mics. Or, bring the first-years out in force with a band or DJ. Just contact us, and we'll work with you to make your hall event exactly what you want.
+
+Previous work (across all halls on all UK campuses):
+
+- Christmas parties
+- Club nights
+- Film nights
+- Formal dining events
+- Open mics
+- Summer parties
