@@ -4,7 +4,7 @@ draft = true
 title = "The Den and Live"
 weight = 3
 
-summary = "University of Nottingham's purpose built performance space, at the heart of the Students' Union building"
+summary = "University of Nottingham's purpose built performance space, at the heart of the Students' Union building."
 
 photos = [
   "/imgs/venues/live/live-2015.jpg",

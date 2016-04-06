@@ -4,7 +4,7 @@ draft = true
 title = "Mooch"
 weight = "2"
 
-summary = "A vibrant bar hosting a plethora of student-orientated events in the ground floor of the Portland Building"
+summary = "A vibrant bar hosting a plethora of student-orientated events in the ground floor of the Portland Building."
 
 photos = [
   "/imgs/venues/mooch/oxjam-mooch.jpg",
