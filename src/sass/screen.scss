@@ -67,7 +67,7 @@ $main-nav-height: 6rem;
 
   .brand-logo {
     height: inherit;
-    
+
     img {
       height: inherit;
       padding: 0.2rem
@@ -91,7 +91,7 @@ $main-nav-height: 6rem;
   height: auto;
 
   > ul {
-    @extend .table-of-contents;  
+    @extend .table-of-contents;
 
     > li > ul {
 
@@ -186,7 +186,7 @@ article {
     width: 100vw; /* Could also use width: 100%; */
     height: 100vh;
     object-fit: cover;
-    position: fixed; /* Change position to absolute if you don't want it to take up the whole page */
+    position: absolute; /* Change position to absolute if you don't want it to take up the whole page */
     left: 0px;
     top: 0px;
     z-index: -1;
