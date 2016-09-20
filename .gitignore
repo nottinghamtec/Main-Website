@@ -43,3 +43,6 @@ bin/
 # Compass
 *.sass-cache
 static/css
+
+# HTML Proofer
+tmp/*
