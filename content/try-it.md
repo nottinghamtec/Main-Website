@@ -1,6 +1,6 @@
 ---
 title: Try It!
-draft: true
+draft: false
 ---
 
 Interested in working on the technical side of events? Come along to one of our try it sessions, where we will introduce you to some of our kit and how to use it. We support a wide variety of events which run throughout the academic year, ranging from a small open mic night to multi venue events such as Graduation Ball.
@@ -19,6 +19,7 @@ Once you've attended our introductory session, you can come along to any event t
 
 There is no experience necessary, and we provide all the training and support both at events and at dedicated training sessions. Plus, coming along doesn't mean you're committing to TEC - come and see if it's for you, we'd love to have you as part of the team.
 
-The session will be in the West Concourse lounge on the C Floor of the Portland Building from 1.30. If you don't know where that is, come to the [TEC Office]({{< relref "contact.md#office" >}}) - also on the C Floor, next to the SU Hub - from 1.00PM and we will take you there.
+The session will be starting from the [TEC Office]({{< relref "contact.md#office" >}}) - on the C Floor, next to the SU Hub, in the Portland Building - from 4.00PM on Wednesday, and 10AM on Saturday.
 
-For more information, please visit the Try-It event on the [Students' Union page](http://www.su.nottingham.ac.uk/events/8546/7985/), or our [Facebook event](https://www.facebook.com/events/1553334718324279/).
+For more information, please visit the Try-It [Wednesday](https://www.su.nottingham.ac.uk/events/8546/8633/) or [Friday
+(https://www.su.nottingham.ac.uk/events/8546/9033/) event on the [Students' Union page](https://www.su.nottingham.ac.uk/student-media-groups/TEC/), or our [Facebook page](https://www.facebook.com/nottinghamtec/).
