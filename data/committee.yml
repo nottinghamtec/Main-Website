@@ -26,8 +26,16 @@ members:
         "Emma is a second-year food science student, based over at Sutton Bonington. She's in charge of TEC's finances, and can also be frequently found working on shows at the New Theatre. In support of Ross and Sam, Emma also makes sure that TEC is running efficiently on a day-to-day basis."
 
     - 
+      Name: Jonny Gate
+      Position: Communications Officer # 4
+      Photo: 
+        - /imgs/committee/jonny.jpg
+      Bio:
+        "Jonny is TEC's Communications Officer. He makes sure the office, website and social media are all kept in working order as well as producing the minutes for TEC’s meetings. In his spare time Jonny enjoys looking at, sitting in, and driving tractors. As you may have guessed, he's studying agriculture on Sutton Bonnington Campus."
+
+    - 
       Name: Ben Woodford
-      Position: Logistics Manager # 4
+      Position: Logistics Manager # 5
       Photo: 
         - /imgs/committee/ben.jpg
       Bio:
@@ -35,7 +43,7 @@ members:
     
     -
       Name: Harry Dance
-      Position: Members' Officer # 5
+      Position: Members' Officer # 6
       Photo: 
         - /imgs/committee/harry.jpg
       Bio:
@@ -45,7 +53,7 @@ members:
 
     -
       Name: Hannah Burne & Nathan Penney
-      Position: Health & Safety Officers # 6
+      Position: Health & Safety Officers # 7
       Photo: 
         - /imgs/committee/hannah.jpg
         - /imgs/committee/nathan.jpg
