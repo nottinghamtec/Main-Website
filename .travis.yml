@@ -6,7 +6,7 @@ before-install:
   - sudo apt-get -qq update
   - sudo apt-get upgrade curl
 install:
-  - go get github.com/spf13/hugo
+  - _bin/hugo.sh
   - gem install bundler
   - bundle install --without development --deployment --jobs=3 --retry=3 --binstubs
 cache:
@@ -14,7 +14,8 @@ cache:
   - vendor/bundle
 script:
  - bin/compass compile -e production --force
- - hugo
+ - ~/hugo018 version
+ - ~/hugo018
  - bundle exec htmlproof public --url-ignore https://members.nottinghamtec.co.uk --allow-hash-href true
 after_script:
   - _bin/deploy.sh
