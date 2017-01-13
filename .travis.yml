@@ -18,7 +18,6 @@ script:
  - bin/compass compile -e production --force
  - ~/hugo018 version
  - ~/hugo018
- - bundle exec htmlproof public --url-ignore https://members.nottinghamtec.co.uk --allow-hash-href true
  - _bin/htmltest --version
  - _bin/htmltest
 after_script:
