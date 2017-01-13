@@ -9,6 +9,8 @@ install:
   - _bin/hugo.sh
   - gem install bundler
   - bundle install --without development --deployment --jobs=3 --retry=3 --binstubs
+  - curl https://f000.backblazeb2.com/file/wjdp-lib/htmltest > _bin/htmltest
+  - chmod +x _bin/htmltest
 cache:
   directories:
   - vendor/bundle
@@ -17,6 +19,8 @@ script:
  - ~/hugo018 version
  - ~/hugo018
  - bundle exec htmlproof public --url-ignore https://members.nottinghamtec.co.uk --allow-hash-href true
+ - _bin/htmltest --version
+ - _bin/htmltest
 after_script:
   - _bin/deploy.sh
 branches:

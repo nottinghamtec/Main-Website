@@ -1,0 +1,6 @@
+DirectoryPath: "public"
+IgnoreURLs:
+  - "https://members.nottinghamtec.co.uk"
+CacheExpires: "3m"
+CheckInternalHash: false
+IgnoreTagAttribute: "htmltest-ignore"
