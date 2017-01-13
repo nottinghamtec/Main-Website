@@ -61,7 +61,6 @@ PLATFORMS
 
 DEPENDENCIES
   compass
-  html-proofer (~> 2.6)
   materialize-sass
 
 BUNDLED WITH
