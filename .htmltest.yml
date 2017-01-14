@@ -1,6 +1,3 @@
 DirectoryPath: "public"
-IgnoreURLs:
-  - "https://members.nottinghamtec.co.uk"
-  - "https://static.nottinghamtec.co.uk/*"
 CacheExpires: "3m"
 CheckInternalHash: false
