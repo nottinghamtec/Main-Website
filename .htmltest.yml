@@ -2,4 +2,4 @@ DirectoryPath: "public"
 CacheExpires: "3m"
 CheckInternalHash: false
 IgnoreURLs:
-- "https://www.su.nottingham.ac.uk/*"
+- "www.su.nottingham.ac.uk"
