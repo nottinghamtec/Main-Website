@@ -15,31 +15,22 @@ members:
       Photo: 
         - /imgs/committee/jonny.jpg
       Bio:
-        "Jonny works to ensure all our clients are happy with their bookings, and all our events are organised in a timely manner. He works around the clock to not only keep TEC's events running smoothly.In his spare time Jonny enjoys looking at, sitting in, and driving tractors. As you may have guessed, he's studying Agriculture on Sutton Bonnington Campus."
+        "Jonny works to ensure all our clients are happy with their bookings, and all our events are organised in a timely manner. He works around the clock to keep TEC's events running smoothly. In his spare time Jonny enjoys looking at, sitting in, and driving tractors. As you may have guessed, he's studying Agriculture on Sutton Bonnington Campus."
     
     -
-      Name: Tom Price
+      Name: Hannah Burne
       Position: Treasurer # 3
       Photo: 
-        - /imgs/committee/tom.jpeg
+        - /imgs/committee/hannah.jpg
       Bio: 
-        "Tom is a fouth year Computer Science student is in charge of TEC's finances In support of Ross and Jonny, Tom also makes sure that TEC is running efficiently on a day-to-day basis. In his spare time he can be found coding or diving."
-
-    - 
-      Name: Harry Bridge and Freddy Whitten
-      Position: Logistics Manager # 4
-      Photo: 
-        - /imgs/committee/harry.jpg
-        - /imgs/committee/freddy.jpg
-      Bio:
-        "Harry is  a third year Engineering student who in is spare time works as a freelancer in theatre. Freddy is a second year Product Design and Manufacture student who has interests in 3D printing and photography. Together they are in charge of looking after all the kit we have in our storeroom and making sure it's all in working order."
+        "Hannah is a second year Natural Sciences student and is in charge of TEC's finances. In support of Ross and Jonny, she also makes sure that TEC is running efficiently on a day-to-day basis."
     - 
       Name: Hannah Burne & Nathan Penney
-      Position: Health & Safety Officers # 5
+      Position: Health & Safety Officers # 4
       Photo: 
         - /imgs/committee/hannah.jpg
         - /imgs/committee/nathan.jpg
       Bio: 
-        "Hannah is a second year Natural Sciences student whilst Nathan is a second year Biochemistry student, together they work together to ensure TEC complies with the relevant Health & Safety legislation and best practices. They also serve as a liaison between TEC, the Students' Union and the University."
+        "Hannah is a second year Natural Sciences student whilst Nathan is a second year Biochemistry student. Together they work to ensure TEC complies with relevant Health & Safety legislation and best practices. They also serve as a liaison between TEC, the Students' Union and the University."
 
     # All other positions go here
