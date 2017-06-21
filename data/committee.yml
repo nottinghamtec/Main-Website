@@ -2,52 +2,35 @@ members:
     # The order of members is important as this will be the order they are displayed in.
     # A hash has been placed after current positions to make this process easier.
     -
-      Name: Sam Osborne
+      Name: Ross Brisk
       Position: Technical Director # 1
       Photo: 
-        - /imgs/committee/sam.jpg
-      Bio: 
-        "Sam's role as Technical Director means that he has oversight for all of TEC, as well as being the primary liaison with the Students' Union. Sam is in his third year at Nottingham, and outside TEC enjoys watching and working on theatre shows around the country."
-
-    -
-      Name: Ross Brisk
-      Position: Productions Manager # 2
-      Photo: 
         - /imgs/committee/ross.jpg
-      Bio:
-        "Ross works to ensure all our clients are happy with their bookings, and all our events are organised in a timely manner. He works around the clock to not only keep TEC's events running smoothly, but also complete his degree in Manufacturing Engineering."
-    
-    -
-      Name: Emma Barber
-      Position: Treasurer # 3
-      Photo: 
-        - /imgs/committee/emma.jpg
       Bio: 
-        "Emma is a second-year food science student, based over at Sutton Bonington. She's in charge of TEC's finances, and can also be frequently found working on shows at the New Theatre. In support of Ross and Sam, Emma also makes sure that TEC is running efficiently on a day-to-day basis."
+        "Ross's role as Technical Director means that he has oversight for all of TEC, as well as being the primary liaison with the Students' Union. Ross is in his second year of his degree in Manufacturing Engineering."
 
-    - 
+    -
       Name: Jonny Gate
-      Position: Communications Officer # 4
+      Position: Productions Manager # 2
       Photo: 
         - /imgs/committee/jonny.jpg
       Bio:
-        "Jonny is TEC's Communications Officer. He makes sure the office, website and social media are all kept in working order as well as producing the minutes for TEC’s meetings. In his spare time Jonny enjoys looking at, sitting in, and driving tractors. As you may have guessed, he's studying agriculture on Sutton Bonnington Campus."
-
-    - 
-      Name: Ben Woodford
-      Position: Logistics Manager # 5
-      Photo: 
-        - /imgs/committee/ben.jpg
-      Bio:
-        "Ben's job is simple: looking after all the kit we have in our storeroom and making sure it's all in working order. This is a busy job, but he still makes time for his history degree, as well as enjoying musicals and dancing."
-
+        "Jonny works to ensure all our clients are happy with their bookings, and all our events are organised in a timely manner. He works around the clock to keep TEC's events running smoothly. In his spare time Jonny enjoys looking at, sitting in, and driving tractors. As you may have guessed, he's studying Agriculture on Sutton Bonnington Campus."
+    
     -
+      Name: Hannah Burne
+      Position: Treasurer # 3
+      Photo: 
+        - /imgs/committee/hannah.jpg
+      Bio: 
+        "Hannah is a second year Natural Sciences student and is in charge of TEC's finances. In support of Ross and Jonny, she also makes sure that TEC is running efficiently on a day-to-day basis."
+    - 
       Name: Hannah Burne & Nathan Penney
-      Position: Health & Safety Officers # 6
+      Position: Health & Safety Officers # 4
       Photo: 
         - /imgs/committee/hannah.jpg
         - /imgs/committee/nathan.jpg
       Bio: 
-        "Hannah is a second year Natural Sciences student whilst Nathan is a second year Biochemistry student, together they work together to ensure TEC complies with the relevant Health & Safety legislation and best practices. They also serve as a liaison between TEC, the Students' Union and the University."
+        "Hannah is a second year Natural Sciences student whilst Nathan is a second year Biochemistry student. Together they work to ensure TEC complies with relevant Health & Safety legislation and best practices. They also serve as a liaison between TEC, the Students' Union and the University."
 
     # All other positions go here
