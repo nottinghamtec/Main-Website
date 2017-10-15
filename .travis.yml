@@ -12,8 +12,8 @@ cache:
   - vendor/bundle
 script:
  - bin/compass compile -e production --force
- - ~/hugo017 version
- - ~/hugo017
+ - ~/hugo029 version
+ - ~/hugo029
  - ~/htmltest --version
  - ~/htmltest
 after_script:
