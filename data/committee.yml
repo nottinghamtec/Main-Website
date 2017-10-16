@@ -7,7 +7,7 @@ members:
       Photo:
         - /imgs/committee/ross.jpg
       Bio:
-        "Ross's role as Technical Director means that he has oversight for all of TEC, as well as being the primary liaison with the Students' Union. Ross is in his second year of his degree in Manufacturing Engineering."
+        "Ross's role as Technical Director means that he has oversight for all of TEC, as well as being the primary liaison with the Students' Union. Ross is in his third year of his degree in Manufacturing Engineering."
 
     -
       Name: Jonny Gate
@@ -23,7 +23,7 @@ members:
       Photo:
         - /imgs/committee/hannah.jpg
       Bio:
-        "Hannah is a second year Natural Sciences student and is in charge of TEC's finances. In support of Ross and Jonny, she also makes sure that TEC is running efficiently on a day-to-day basis."
+        "Hannah is a third year Natural Sciences student and is in charge of TEC's finances. In support of Ross and Jonny, she also makes sure that TEC is running efficiently on a day-to-day basis."
 
     -
       Name: Johnathan Graydon
@@ -39,6 +39,6 @@ members:
         - /imgs/committee/hannah.jpg
         - /imgs/committee/nathan.jpg
       Bio:
-        "Hannah is a second year Natural Sciences student whilst Nathan is a second year Biochemistry student. Together they work to ensure TEC complies with relevant Health & Safety legislation and best practices. They also serve as a liaison between TEC, the Students' Union and the University."
+        "Hannah is a third year Natural Sciences student whilst Nathan is a third year Biochemistry student. Together they work to ensure TEC complies with relevant Health & Safety legislation and best practices. They also serve as a liaison between TEC, the Students' Union and the University."
 
     # All other positions go here
