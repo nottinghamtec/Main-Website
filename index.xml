@@ -2,115 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TEC PA &amp; Lighting</title>
-    <link>http://www.nottinghamtec.co.uk/index.xml</link>
+    <link>http://www.nottinghamtec.co.uk/</link>
     <description>Recent content on TEC PA &amp; Lighting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 13 Jan 2016 14:50:17 +0000</lastBuildDate>
-    <atom:link href="http://www.nottinghamtec.co.uk/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://www.nottinghamtec.co.uk/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Get Involved</title>
-      <link>http://www.nottinghamtec.co.uk/about/get-involved/</link>
+      <link>http://www.nottinghamtec.co.uk/get-involved/</link>
       <pubDate>Wed, 13 Jan 2016 14:50:17 +0000</pubDate>
       
-      <guid>http://www.nottinghamtec.co.uk/about/get-involved/</guid>
-      <description>&lt;p&gt;In TEC, we&amp;rsquo;re all about getting stuck in. We hold two Try-It sessions annually to give new and potential members a chance to get a feel for what we do. Don&amp;rsquo;t worry if you&amp;rsquo;ve never done anything like this before - training will be provided.&lt;/p&gt;
-
-&lt;p&gt;Once you&amp;rsquo;ve been to one of the Try-It sessions, you&amp;rsquo;re welcome to come on any of our events that take your fancy. Whether you&amp;rsquo;re into lighting, sound or event management, you will have plenty of opportunity to have a go with our equipment.&lt;/p&gt;
-
-&lt;p&gt;Running events is what we do, but don&amp;rsquo;t think we&amp;rsquo;re only about hard work – we also enjoy kicking back with a range of social activities, whether it’s bouldering, watching musicals or hanging out in the pub. When we&amp;rsquo;re not running events, you&amp;rsquo;re most likely to find us in our office on the C floor of the Portland building.&lt;/p&gt;
-
-&lt;p&gt;Think this sounds like something you&amp;rsquo;d be interested in? Come find us on the &lt;a href=&#34;http://www.su.nottingham.ac.uk/student-media-groups/TEC/&#34;&gt;Students&amp;rsquo; Union website&lt;/a&gt;; membership is free for any member of the Students&amp;rsquo; Union.&lt;/p&gt;
-
-&lt;p&gt;Missed one of our induction sessions but still want to have a go? Send an email to &lt;a href=&#34;mailto:info@nottinghamtec.co.uk&#34;&gt;info@nottinghamtec.co.uk&lt;/a&gt; or come into &lt;a href=&#34;http://www.nottinghamtec.co.uk/about/contact/#office&#34;&gt;the office&lt;/a&gt; and we&amp;rsquo;ll sort one out for you.&lt;/p&gt;
-</description>
+      <guid>http://www.nottinghamtec.co.uk/get-involved/</guid>
+      <description>In TEC, we&amp;rsquo;re all about getting stuck in. We hold two Try-It sessions annually to give new and potential members a chance to get a feel for what we do. Don&amp;rsquo;t worry if you&amp;rsquo;ve never done anything like this before - training will be provided.
+Once you&amp;rsquo;ve been to one of the Try-It sessions, you&amp;rsquo;re welcome to come on any of our events that take your fancy. Whether you&amp;rsquo;re into lighting, sound or event management, you will have plenty of opportunity to have a go with our equipment.</description>
     </item>
     
     <item>
       <title>Committee</title>
-      <link>http://www.nottinghamtec.co.uk/about/committee/</link>
+      <link>http://www.nottinghamtec.co.uk/committee/</link>
       <pubDate>Wed, 13 Jan 2016 01:23:38 +0000</pubDate>
       
-      <guid>http://www.nottinghamtec.co.uk/about/committee/</guid>
+      <guid>http://www.nottinghamtec.co.uk/committee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact Us</title>
-      <link>http://www.nottinghamtec.co.uk/about/contact/</link>
+      <link>http://www.nottinghamtec.co.uk/contact/</link>
       <pubDate>Thu, 07 Jan 2016 16:34:13 +0000</pubDate>
       
-      <guid>http://www.nottinghamtec.co.uk/about/contact/</guid>
-      <description>
-
-&lt;h1 id=&#34;general-details&#34;&gt;General Details&lt;/h1&gt;
-
-&lt;dl&gt;
-    &lt;dt&gt;Phone&lt;/dt&gt;
-    &lt;dd&gt;&lt;a href=&#34;tel:01158468270&#34;&gt;0115 84 68720&lt;/a&gt;&lt;/dd&gt;
-
-    &lt;dt&gt;Email&lt;/dt&gt;
-    &lt;dd&gt;&lt;a href=&#34;mailto:info@nottinghamtec.co.uk&#34;&gt;info@nottinghamtec.co.uk&lt;/a&gt;&lt;/dd&gt;
-
-    &lt;dt&gt;Emergency Phone&lt;/dt&gt;
-    &lt;dd&gt;
-        &lt;a href=&#34;tel:07825065681&#34;&gt;07825 065681&lt;/a&gt;&lt;br /&gt;
-        &lt;a href=&#34;tel:07825065678&#34;&gt;07825 065678&lt;/a&gt;
-    &lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;h2 id=&#34;office&#34;&gt;Office&lt;/h2&gt;
-
-&lt;p&gt;Our members regularly spend time in the office, please feel free to pop in and say hi.&lt;/p&gt;
-
-&lt;dl&gt;
-    &lt;dt&gt;Phone&lt;/dt&gt;
-    &lt;dd&gt;&lt;a href=&#34;tel:01158468270&#34;&gt;0115 84 68720&lt;/a&gt;&lt;/dd&gt;
-
-    &lt;dt&gt;Address&lt;/dt&gt;
-    &lt;dd&gt;TEC PA &amp;amp; Lighting&lt;/dd&gt;
-    &lt;dd&gt;C45 Portland Building&lt;/dd&gt;
-    &lt;dd&gt;University Park&lt;/dd&gt;
-    &lt;dd&gt;University of Nottingham&lt;/dd&gt;
-    &lt;dd&gt;Nottingham&lt;/dd&gt;
-    &lt;dd&gt;NG7 2RD&lt;/dd&gt;
-&lt;/dl&gt;
-
-
-	&lt;div class=&#34;center-align&#34;&gt;
-		
-&lt;iframe src=&#34;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2404.5679898564576!2d-1.195982684014789!3d52.938202212904066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879c274ccd0ff2f%3A0x3e08c9f41e79386b!2sTEC+PA+and+Lighting!5e0!3m2!1sen!2suk!4v1452535217628&#34; width=&#34;100%&#34; height=&#34;300&#34; frameborder=&#34;0&#34; style=&#34;border:0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-	&lt;/div&gt;
-
-
-
-&lt;h2 id=&#34;storeroom&#34;&gt;Storeroom&lt;/h2&gt;
-
-&lt;p&gt;Our storeroom is located on Kings Meadow Campus, a short journey by the 902 University Hopper Bus. We can meet you there by prior arrangement.&lt;/p&gt;
-
-&lt;dl&gt;
-    &lt;dt&gt;Phone&lt;/dt&gt;
-    &lt;dd&gt;&lt;a href=&#34;tel:01158467785&#34;&gt;0115 84 67785&lt;/a&gt;&lt;/dd&gt;
-
-    &lt;dt&gt;Address&lt;/dt&gt;
-    &lt;dd&gt;Kings Meadow Campus&lt;/dd&gt;
-    &lt;dd&gt;University of Nottingham&lt;/dd&gt;
-    &lt;dd&gt;Lenton Lane&lt;/dd&gt;
-    &lt;dd&gt;Nottingham&lt;/dd&gt;
-    &lt;dd&gt;NG7 2NR&lt;/dd&gt;
-&lt;/dl&gt;
-
-
-	&lt;div class=&#34;center-align&#34;&gt;
-		
-&lt;iframe src=&#34;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2404.526585847623!2d-1.1737293840147174!3d52.93894731284847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x395452ec2e80301a!2sUniversity+of+Nottingham%2C+King&amp;#39;s+Meadow+Campus!5e0!3m2!1sen!2suk!4v1452538544213&#34; width=&#34;100%&#34; height=&#34;300&#34; frameborder=&#34;0&#34; style=&#34;border:0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-	&lt;/div&gt;
-
-
-</description>
+      <guid>http://www.nottinghamtec.co.uk/contact/</guid>
+      <description>General Details  Phone 0115 84 68720 Email info@nottinghamtec.co.uk Emergency Phone  07825 065681
+07825 065678   Office Our members regularly spend time in the office, please feel free to pop in and say hi.
+ Phone 0115 84 68720 Address TEC PA &amp;amp; Lighting C45 Portland Building University Park University of Nottingham Nottingham NG7 2RD    Storeroom Our storeroom is located on Kings Meadow Campus, a short journey by the 902 University Hopper Bus.</description>
     </item>
     
     <item>
@@ -119,28 +47,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.nottinghamtec.co.uk/about/</guid>
-      <description>
-
-&lt;p&gt;TEC PA &amp;amp; Lighting exists “To provide high quality sound, lighting and audio-visual services to organisations both within and ouside the University of Nottingham Students’ Union”. Staffed entirely by student volunteers from the University of Nottingham, we hold a large stock of equipment built up over many years.&lt;/p&gt;
-
-&lt;p&gt;TEC have the capability to provide a variety of event production services within the local area, as well as to the University of Nottingham and its Students’ Union. For further details, please see our services page.&lt;/p&gt;
-
-&lt;h2 id=&#34;history&#34;&gt;History&lt;/h2&gt;
-
-&lt;p&gt;The University of Nottingham technical committee was founded in the early 1940s, providing technical services to University College Nottingham. TEC then branched out into theatre providing theatrical technical services to the University.&lt;/p&gt;
-
-&lt;p&gt;TEC retains a strong alumni network, which each year meets for an annual dinner.&lt;/p&gt;
-
-&lt;h2 id=&#34;our-people-training&#34;&gt;Our people &amp;amp; training&lt;/h2&gt;
-
-&lt;p&gt;All members of TEC are trained and experienced volunteers with complete dedication to providing an excellent service to our customers.&lt;/p&gt;
-
-&lt;p&gt;Many of our members now work professionally in the events industry.&lt;/p&gt;
-
-&lt;h2 id=&#34;join-us&#34;&gt;Join us&lt;/h2&gt;
-
-&lt;p&gt;We recruit new members throughout the academic year, please get in touch if you are interested in joining. Do note that membership is only open to students of the University of Nottingham and that we do not accept CV applications.&lt;/p&gt;
-</description>
+      <description>TEC PA &amp;amp; Lighting exists “To provide high quality sound, lighting and audio-visual services to organisations both within and ouside the University of Nottingham Students’ Union”. Staffed entirely by student volunteers from the University of Nottingham, we hold a large stock of equipment built up over many years.
+TEC have the capability to provide a variety of event production services within the local area, as well as to the University of Nottingham and its Students’ Union.</description>
     </item>
     
     <item>
@@ -149,57 +57,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.nottinghamtec.co.uk/legal/</guid>
-      <description>
-
-&lt;h2 id=&#34;website-terms-and-conditions&#34;&gt;Website Terms and Conditions&lt;/h2&gt;
-
-&lt;p&gt;Welcome to TEC PA &amp;amp; Lighting. If you continue to browse and use this website, you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern TEC’s relationship with you in relation to this website. If you disagree with any part of these terms and conditions, please do not use our website.&lt;/p&gt;
-
-&lt;p&gt;The term ‘TEC PA &amp;amp; Lighting’ or ‘TEC’ or ‘us’ or ‘we’ refers to the owner of the website, TEC PA &amp;amp; Lighting. The term ‘you’ refers to the user or viewer of our website.&lt;/p&gt;
-
-&lt;p&gt;The use of this website is subject to the following terms of use:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The content of the pages of this website is for your general information and use only. It is subject to change without notice.&lt;/li&gt;
-&lt;li&gt;This website uses cookies to monitor browsing preferences. If you do allow cookies to be used, the following personal information may be stored by us for use by third parties:&lt;/li&gt;
-&lt;li&gt;Google Analytic’s in line with Google’s Privacy Policy [&lt;a href=&#34;http://www.google.com/policies/privacy/partners/&#34;&gt;http://www.google.com/policies/privacy/partners/&lt;/a&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness or suitability of the information and materials found or offered on this website for any particular purpose. You acknowledge that such information and materials may contain inaccuracies or errors and we expressly exclude liability for any such inaccuracies or errors to the fullest extent permitted by law.
-Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.
-This website contains material which is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance and graphics. Reproduction is prohibited other than in accordance with the copyright notice, which forms part of these terms and conditions.
-All trade marks reproduced in this website which are not the property of, or licensed to, the operator are acknowledged on the website.
-Unauthorised use of this website may give rise to a claim for damages and/or be a criminal offence.
-From time to time this website may also include links to other websites. These links are provided for your convenience to provide further information. They do not signify that we endorse the website(s). We have no responsibility for the content of the linked website(s).
-Your use of this website and any dispute arising out of such use of the website is subject to the laws of England, Northern Ireland, Scotland and Wales.&lt;/p&gt;
-
-&lt;h3 id=&#34;cookie-policy&#34;&gt;Cookie Policy&lt;/h3&gt;
-
-&lt;p&gt;A cookie is a small file which asks permission to be placed on your computer’s hard drive. Once you agree, the file is added and the cookie helps analyse web traffic or lets you know when you visit a particular site. Cookies allow web applications to respond to you as an individual. The web application can tailor its operations to your needs, likes and dislikes by gathering and remembering information about your preferences.&lt;/p&gt;
-
-&lt;p&gt;We use traffic log cookies to identify which pages are being used. This helps us analyse data about webpage traffic and improve our website in order to tailor it to customer needs. We only use this information for statistical analysis purposes and then the data is removed from the system.&lt;/p&gt;
-
-&lt;p&gt;Overall, cookies help us provide you with a better website by enabling us to monitor which pages you find useful and which you do not. A cookie in no way gives us access to your computer or any information about you, other than the data you choose to share with us.&lt;/p&gt;
-
-&lt;p&gt;You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. This may prevent you from taking full advantage of the website.&lt;/p&gt;
-
-&lt;p&gt;Full details of TEC’s cookie usage can be found in our Website Terms and Conditions.&lt;/p&gt;
-
-&lt;h2 id=&#34;copyright&#34;&gt;Copyright&lt;/h2&gt;
-
-&lt;p&gt;All website content &amp;copy; TEC PA &amp;amp; Lighting. All rights reserved.&lt;/p&gt;
-
-&lt;h2 id=&#34;terms-and-conditions-of-service&#34;&gt;Terms and Conditions of Service&lt;/h2&gt;
-
-&lt;p&gt;TEC PA &amp;amp; Lighting operates with the following &lt;a href=&#34;http://www.nottinghamtec.co.uk/terms.pdf&#34;&gt;Terms of Hire&lt;/a&gt; across all services.&lt;/p&gt;
-
-&lt;h2 id=&#34;important-information&#34;&gt;Important Information&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.nottinghamtec.co.uk/mission-statement.pdf&#34;&gt;Mission Statement&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.nottinghamtec.co.uk/PLI.pdf&#34;&gt;Public / Product Liability Insurance&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Website Terms and Conditions Welcome to TEC PA &amp;amp; Lighting. If you continue to browse and use this website, you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern TEC’s relationship with you in relation to this website. If you disagree with any part of these terms and conditions, please do not use our website.</description>
     </item>
     
   </channel>
