@@ -2,7 +2,7 @@
 date = "2016-02-05T19:36:47Z"
 draft = true
 title = "Mooch"
-weight = "2"
+weight = 2
 
 summary = "A vibrant bar hosting a plethora of student-orientated events in the ground floor of the Portland Building."
 

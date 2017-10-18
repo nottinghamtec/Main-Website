@@ -33,7 +33,7 @@ Donington Hall is an events venue like no other, for it is a castle built in the
 
 The Hall's spacious rooms featuring ornate furnishings made for the perfect setting of a few acoustic sets, as well as a relaxation suite down the corridor.
 
-For an event of this size, we also used an extravagent marquee to the rear of the hall. The 500-strong dinner guests took their seats in here at the start of the night, and by the end, the tables were gone and it had turned seamlessly into a dance floor. 
+For an event of this size, we also used an extravagant marquee to the rear of the hall. The 500-strong dinner guests took their seats in here at the start of the night, and by the end, the tables were gone and it had turned seamlessly into a dance floor.
 
 Donington is a gorgeous venue, and capable of so many events of different styles.
 

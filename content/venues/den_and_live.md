@@ -8,14 +8,17 @@ summary = "University of Nottingham's purpose built performance space, at the he
 
 photos = [
   "/imgs/venues/live/live-2015.jpg",
+  "/imgs/venues/live/studio_live2.jpg"
 ]
 
 titles = [
-  "",
+  "Student Volunteering Awards",
+  "Student Volunteering Awards"
 ]
 
 placements = [
   "left",
+  "right"
 ]
 
 +++

@@ -4,7 +4,7 @@ draft = true
 title = "Halls of Residance"
 weight = 4
 
-summary = "With over a dozen halls across University Park, Jubilee and Sutton Bonington, A variety of spaces in halls across campus, including bars and dining rooms."
+summary = "With over a dozen halls across University Park, Jubilee and Sutton Bonington, you're sure to find something that fits."
 
 photos = [
   "/imgs/venues/halls/hu-stu-summer-2010.jpg",

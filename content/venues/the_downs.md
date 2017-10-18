@@ -7,23 +7,20 @@ weight = 6
 summary = "A hugely flexible outdoor space hosting festivals and live music in the centre of University Park Campus."
 
 photos = [
-  "/imgs/venues/wof2014.jpg",
-  "/imgs/venues/gradball2014.jpg"
+  "/imgs/venues/downs/downs01.jpg"
 ]
 
 titles = [
-  "WOF",
-  "Grad Ball"
+  "Holi on the Downs"
 ]
 
 placements = [
-  "left",
-  "right",
+  "right"
 ]
 
 +++
 
-The Downs is an area of grassland measuring over 8 acres in the centre of University Park Campus. Located in the middle of all of the halls of residence, this venue is perfect for attracting anyone living there - as well as anyone working on the campus as it's only a short walk away from the Hallward Library. 
+The Downs is an area of grassland measuring over 8 acres in the centre of University Park Campus. Located in the middle of all of the halls of residence, this venue is perfect for attracting anyone living there - as well as anyone working on the campus as it's only a short walk away from the Hallward Library.
 
 From The Downs, there are routes to many areas of campus, whether that be the Sports Centre, Portland Building, or East Midlands Conference Centre. Throughout the years, we've had many clients use The Downs to the best of its ability for their events.
 
