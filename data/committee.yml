@@ -2,27 +2,18 @@ members:
     # The order of members is important as this will be the order they are displayed in.
     # A hash has been placed after current positions to make this process easier.
     -
-      Name: Ross Brisk
+      Name: Charlie Bourn
       Position: Technical Director # 1
       Photo:
-        - /imgs/committee/ross.jpg
+        - /imgs/committee/charlie.jpg
       Bio:
-        "Ross's role as Technical Director means that he has oversight for all of TEC, as well as being the primary liaison with the Students' Union. Ross is in his third year of his degree in Manufacturing Engineering."
-
+        "Charlies's role as Technical Director means that he has oversight for all of TEC, as well as being the primary liaison with the Students' Union. Charlie is in his fisrt year of his degree in Economics with Econometrics."
     -
-      Name: Jonny Gate
-      Position: Productions Manager # 2
+      Name: James Barlow
+      Position: Treasurer # 2
       Photo:
-        - /imgs/committee/jonny.jpg
+        - /imgs/committee/james.jpg
       Bio:
-        "Jonny works to ensure all our clients are happy with their bookings, and all our events are organised in a timely manner. He works around the clock to keep TEC's events running smoothly. In his spare time Jonny enjoys looking at, sitting in, and driving tractors. As you may have guessed, he's studying Agriculture on Sutton Bonnington Campus."
+        "James is a first-year Product Design student who's in charge of making sure all of TEC's finances are in order, in his spare time he enjoys coming up with new design ideas which he posts on Instagram ([@jamesbarlowart](https://www.instagram.com/jamesbarlowart/))."
 
-    -
-      Name: Johnathan Graydon
-      Position: Treasurer # 3
-      Photo:
-        - /imgs/committee/jono.jpg
-      Bio:
-        "Johnathan is a third-year Computer Science student who's in charge of making sure all of TEC's finances are in order, when he's not doing that he enjoys working at the universities student radio station."
- 
     # All other positions go here
