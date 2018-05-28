@@ -39,6 +39,20 @@ body {
   .assoc-logo {
     max-height: 2rem;
   }
+
+  .brand-logo {
+    img {
+      max-width: 100%;
+      max-height: 5rem;
+    }
+  }
+
+  @media #{$medium-and-up} {
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
 }
 
 $main-nav-top: 3rem;
@@ -150,11 +164,11 @@ $main-nav-height: 6rem;
 }
 
 article {
-  ul {
+  ul, ul:not(.browser-default)  {
     list-style-type: square;
     padding-left: 1.5rem;
 
-    li {
+    & > li {
       list-style-type: square;
     }
   }
