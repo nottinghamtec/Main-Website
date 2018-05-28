@@ -1,8 +1,6 @@
 @import "compass";
 
 // Mixins
-@import "materialize/components/prefixer";
-@import "materialize/components/mixins";
 @import "materialize/components/color";
 
 $primary-color: color("grey", "darken-4");
