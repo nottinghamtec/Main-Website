@@ -15,5 +15,12 @@ members:
         - /imgs/committee/james.jpg
       Bio:
         "James is a second-year Product Design student who's in charge of making sure all of TEC's finances are in order, in his spare time he enjoys coming up with new design ideas which he posts on Instagram ([@jamesbarlowart](https://www.instagram.com/jamesbarlowart/))."
+    -
+      Name: Arona Jones
+      Position: Communications Officer # 3
+      Photo:
+        - /imgs/committee/arona.jpg
+      Bio:
+        "Arona is in his first-year of Philosophy, he's in charge of making sure all our social media accounts are doing what they should, he also deals with internal communication between members as well as minuting our meetings. In his spare time he can be found with his motorbike or talking about selling fries."
 
     # All other positions go here
