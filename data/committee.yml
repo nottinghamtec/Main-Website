@@ -22,5 +22,26 @@ members:
         - /imgs/committee/arona.jpg
       Bio:
         "Arona is in his first-year of Philosophy, he's in charge of making sure all our social media accounts are doing what they should, he also deals with internal communication between members as well as minuting our meetings. In his spare time he can be found with his motorbike or talking about selling fries."
+    -
+      Name: Sam Windle
+      Position: Logistics Manager # 4
+      Photo:
+        - /imgs/committee/sam.jpg
+      Bio:
+        "Sam's in charge of all our equipment, keeping it in top shape as well as making sure everything's in test that needs to be. Alongside that, he's got to make sure that our van's in a roadworthy condition. Outside of TEC Sam is a third year Biology student and is involved with the technical aspects at a few different churches in the city"
+    -
+      Name: Jess Rough
+      Position: Members Officer # 5
+      Photo:
+        - /imgs/committee/jess.jpg
+      Bio:
+        "Jess is there to make sure that all our members are getting what they want from TEC, she's in charge of planning our training, keeping records of said training and running socials, alongside this she has the important role of organising crew for each of our events. In her own time, she studies Philosophy as a first-year student."
+    -
+      Name: Adam Clark
+      Position: Assistant Treasurer # 6
+      Photo:
+        - /imgs/committee/adam.jpg
+      Bio:
+        "Adam is in his second year of his Agriculture degree, in TEC he helps out James Barlow (our treasurer) with all things money related. When he's not doing TEC you'll find him busy on Sutton Bonington campus playing the violin, among other instruments."
 
     # All other positions go here
