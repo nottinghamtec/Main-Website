@@ -1,6 +1,6 @@
 language: go
 go:
-  - 1.5
+  - 1.10
 sudo: false
 install:
   - _bin/hugo.sh
@@ -12,8 +12,8 @@ cache:
   - vendor/bundle
 script:
  - bin/compass compile -e production --force
- - ~/hugo029 version
- - ~/hugo029
+ - ~/hugo version
+ - ~/hugo
  - ~/htmltest --version
  - ~/htmltest
 after_script:
