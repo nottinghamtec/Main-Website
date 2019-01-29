@@ -31,7 +31,7 @@ Our members regularly spend time in the office, please feel free to pop in and s
 
     <dt>Address</dt>
     <dd>TEC PA &amp; Lighting</dd>
-    <dd>C45 Portland Building</dd>
+    <dd>C87 Portland Building</dd>
     <dd>University Park</dd>
     <dd>University of Nottingham</dd>
     <dd>Nottingham</dd>
