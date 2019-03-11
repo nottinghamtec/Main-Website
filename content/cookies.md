@@ -10,7 +10,7 @@ You can think of cookies like stickers. Every time you visit a site, that site p
 That lets the site show you things which are relevant to you, based on information you’ve entered and stuff you’ve looked at. 
 The length of time stored depends on the cookie, but this is generally between a few minutes and up to two years.
 
-Cookies never store any of personal information.
+Cookies never store any personal information.
 
 We use a couple of different kinds of cookies:
 
