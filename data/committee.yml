@@ -30,3 +30,10 @@ members:
       Bio:
         "Arona is in his first-year of Philosophy, he's in charge of making sure all our social media accounts are doing what they should, he also deals with internal communication between members as well as minuting our meetings. In his spare time he can be found with his motorbike or talking about selling fries."
     # All other positions go here
+    -
+      Name: Jonny Gate
+      Position: Health and Safety Manager
+      Photo:
+        - /imgs/committee/jonny.jpg
+      Bio: 
+        "Jonny is an Agriculture student that's just returned from a Year In Industry bothering carrots. He is responsible for ensuring all the awesome stuff TEC does is also awesomely safe."
