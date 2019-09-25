@@ -22,4 +22,5 @@ All members of TEC are trained and experienced volunteers with complete dedicati
 Many of our members now work professionally in the events industry.
 
 ## Join us
-We recruit new members throughout the academic year, please get in touch if you are interested in joining. Do note that membership is only open to students of the University of Nottingham and that we do not accept CV applications.
+We recruit new members throughout the academic year, please get in touch if you are interested in joining. Do note that membership is only open to University of Nottingham Students' Union members and that we do not accept CV applications.
+Check out our new webpage specifically for prospective members [here](https://join.nottinghamtec.co.uk).
