@@ -37,3 +37,10 @@ members:
         - /imgs/committee/jonny.jpg
       Bio: 
         "Jonny is an Agriculture student that's just returned from a Year In Industry bothering carrots. He is responsible for ensuring all the awesome stuff TEC does is also awesomely safe."
+    - 
+      Name: Matt Smith
+      Position: Logistics Manager
+      Photo:
+        - /imgs/committee/matt.jpg
+      Bio:
+        "Matt coordinates with the Productions Manager on matters of equipment purchase/maintenance and haulage. He's a second year Computer Science student and then does embedded development as a hobby."
