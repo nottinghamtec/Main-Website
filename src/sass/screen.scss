@@ -178,7 +178,6 @@ article {
 .shadow {
   color: #fff;
   @include text-shadow( #000 0px 0px 5px );
-  @include text-shadow( #000 0px 0px 2px );
   -webkit-font-smoothing: antialiased;
 }
 
