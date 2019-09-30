@@ -7,28 +7,28 @@ members:
       Photo:
         - /imgs/committee/sam.jpg
       Bio:
-        "Sam has oversight of all of TEC, our equivalent of a President. He liases with the Students Union and many other people to make sure everything is going smoothly. He is in his third year of Biology and outside of TEC does more stage work for Christian Union, and maintains his thirty year old Defender."
+        "Sam has oversight of all of TEC, our equivalent of a President. He liases with the Students Union and many other people to make sure everything is going smoothly. He is in his fourth year of Biology and outside of TEC does more stage work for Christian Union, and maintains his thirty year old Defender."
     -
       Name: Chris Eason
       Position: Productions Manager # 2
       Photo:
         - /imgs/committee/chris.jpg
       Bio:
-        "Chris is in his first year of Mechanical Engineering. In TEC he is in charge of the day to day running of all our events. Otherwise, he can be found diving, or caving - but not both at once!"
+        "Chris is in his second year of Mechanical Engineering. In TEC he is in charge of the day to day running of all our events. Otherwise, he can be found diving, or caving - but not both at once!"
     -
       Name: Adam Clark
       Position: Treasurer # 3
       Photo:
         - /imgs/committee/adam.jpg
       Bio:
-        "Adam is in his second year of his Agriculture degree, in TEC he helps out with all things money related. When he's not doing TEC you'll find him busy on Sutton Bonington campus playing the violin, among other instruments."
+        "Adam is in his year year of his Agriculture degree. In TEC he oversees all things money related. When he's not doing TEC you'll find him busy on Sutton Bonington campus playing the violin, among other instruments."
     -
       Name: Arona Jones
       Position: Communications Officer # 4
       Photo:
         - /imgs/committee/arona.jpg
       Bio:
-        "Arona is in his first year of Philosophy, he's in charge of social media, internal communications and minuting our meetings. In his spare time he can be found with his motorcycle."
+        "Arona is in his second year of Philosophy, he's in charge of social media, internal communications and minuting our meetings. In his spare time he can be found with his motorcycle."
     # All other positions go here
     -
       Name: Jonny Gate
@@ -43,4 +43,4 @@ members:
       Photo:
         - /imgs/committee/matt.jpg
       Bio:
-        "Matt coordinates with the Productions Manager on matters of equipment purchase/maintenance and haulage. He's a second year Computer Science student and then does embedded development as a hobby."
+        "Matt coordinates with the Productions Manager on matters of equipment purchase/maintenance and haulage. He's a second year Computer Science student and does embedded development as a hobby."
