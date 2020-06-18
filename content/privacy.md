@@ -1,6 +1,5 @@
 ---
 title: "TEC Privacy Policy"
-draft: true
 ---
 
 ## Who are we?
@@ -8,7 +7,7 @@ We are TEC PA & Lighting (“we”, “our”, “us”), a Student Run Service 
 
 We provide high quality sound, lighting and audio-visual services both within the University of Nottingham Students’ Union and outside to public customers.
 
-We're committed to protecting and respecting your privacy. 
+We're committed to protecting and respecting your privacy.
 If you have any questions about your personal information please email us at [info@nottinghamtec.co.uk](mailto:info@nottinghamtec.co.uk).
 
 We operate as a trading name of the University of Nottingham Students' Union, registered with the Information Commissioners Office under number Z2326680.
@@ -26,7 +25,7 @@ You may also provide us with contact details for your venue, we will save these 
 We will need the start and end times for any event we provide.
 <br>
 There may also be times we need information about any acts performing at your event, including contact details for them.
-* **Membership details** 
+* **Membership details**
 <br>
 If you are a TEC member, we will collect your student number from you and verify your membership status with the Students' Union.
 * **Information from social networks or online accounts**
@@ -78,8 +77,8 @@ You have a right to:
 To do so, please email us at [info@nottinghamtec.co.uk](mailto:info@nottinghamtec.co.uk).
 
 ## Where we store your data
-We might transfer and store the data we collect from you somewhere outside the European Economic Area (‘EEA’). 
-People who work for us or our suppliers outside the EEA might also process your data. 
+We might transfer and store the data we collect from you somewhere outside the European Economic Area (‘EEA’).
+People who work for us or our suppliers outside the EEA might also process your data.
 We may share data with organisations and countries that:
 
 * The European Commission say have adequate data protection.
