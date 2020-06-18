@@ -3,7 +3,11 @@
 			<div class="row no-margin valign-wrapper">
 				<div class="col m4 l4 hide-on-small-and-down left-align">
 					<a href="/legal/">Legal</a>
-					&nbsp; &boxv; &nbsp;
+                    &nbsp; &boxv; &nbsp;
+                    <a href="/privacy/">Privacy Policy</a>
+                    &nbsp; &boxv; &nbsp;
+                    <a href="/cookies/">Cookie Policy</a>
+					<br>
 					<a href="https://members.nottinghamtec.co.uk">Members' Login</a>
 				</div>
 
@@ -81,11 +85,11 @@
 
 			$(window).scroll(function(){
 				if( $(this).scrollTop() > offset ) {
-					$back_to_top.addClass('visible') 
+					$back_to_top.addClass('visible')
 				} else {
 					$back_to_top.removeClass('visible fade-out hover');
 				}
-				if( $(this).scrollTop() > offset_opacity ) { 
+				if( $(this).scrollTop() > offset_opacity ) {
 					$back_to_top.addClass('fade-out');
 				}
 			});
