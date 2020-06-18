@@ -172,6 +172,10 @@ article {
       list-style-type: square;
     }
   }
+
+  figure img {
+    @extend .responsive-img;
+  }
 }
 
 .profile-photo {
