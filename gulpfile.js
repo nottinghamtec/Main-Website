@@ -8,7 +8,6 @@ var sass = require('gulp-sass');
 var postcss = require('gulp-postcss')
 var flatten = require('gulp-flatten');
 var spawn = require('child_process').spawn;
-var browsersync = require('browser-sync').create();
 
 sass.compiler = require('node-sass');
 
@@ -28,26 +27,9 @@ function scripts() {
     .pipe(browsersync.stream());
 }
 
-function browserSync(done) {
-  spawn('hugo', ['serve', '-w', '-D'], {stdio: 'inherit'});
-  browsersync.init({
-    port: 1314,
-    proxy: 'localhost:1313'
-  });
-  done();
-}
-
-function browserSyncReload(done) {
-  browsersync.reload();
-  done();
-}
-
 function watchFiles() {
   gulp.watch("src/sass/*.scss", styles);
-  //gulp.watch("src/js/*.js", scripts);
-  //handled by HUGO
-    //gulp.watch(['*.html'], browserSyncReload);
 }
 
 exports.build = gulp.parallel(styles, scripts);
-exports.watch = gulp.parallel(watchFiles, browserSync);
+exports.watch = gulp.parallel(watchFiles, spawn('hugo', ['serve', '-w', '-D'], {stdio: 'inherit'}));
