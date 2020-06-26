@@ -43,22 +43,25 @@ Professional setup and control is included with the cost of the equipment. It's 
 
 TEC can provide almost any lighting configuration for your event, from a couple of spotlights to a DJ club night. We’ve done it all, and are happy to work to your specifications.
 
-#### Generic Lighting
+<img src="/imgs/services/generic.jpg" width="50%" style="float: left; margin: 1em; border-radius: 0.2em;">
 
-<img src="/imgs/services/generic.jpg" width="60%" style="float: left; padding: 1em; border-radius: 2.5em;">
+#### Generic Lighting
 
 Known as ‘generic’ lighting, these are the standard dimmable on/off kind of lights that are great for spots and stage washes. They are straightforward to set up and can have colour and patterned gobo filters added for effective mood lighting.
 
-<p style="padding-bottom: 7em">The colour and position can’t change during the event, but they are perfect at what they do and few lighting events work without them.</p>
+The colour and position can’t change during the event, but they are perfect at what they do and few lighting events work without them.
 
 #### Intelligent Lighting
+
+<img src="/imgs/services/intel.jpg" width="50%" style="float: left; margin: 1em; border-radius: 0.2em;">
+
 For when you want to take things up a notch. From changing colours, spinning around and strobing, our intelligent lighting stock can give you that look to make your event stand out from the crowd.
 
-Our MAC 250 Washes give you the freedom to move your stage wash wherever you want, and change the color, during the event. Our workhorse spotlight fixtures, the MAC250 Kryptons, also have a variety of colours available, and a wide selection of gobos. If these aren't enough we have Robe DL4Ss for bright and precise control with a fulll spectrum of RGB color. If it’s just effective mood colouring that you’re after, our StudioCob LED fixtures are the ideal choice, while a Technobeam or four can make a club or dance night come to life.
+Our MAC 250 Washes give you the freedom to move your stage wash wherever you want, and change the color, during the event. Our workhorse spotlight fixtures, the MAC250 Kryptons, also have a variety of colours available, and a wide selection of gobos. If these aren't enough we have Robe DL4Ss for bright and precise control with a full spectrum of RGB color. If it’s just effective mood colouring that you’re after, our StudioCob LED fixtures are the ideal choice, while a Technobeam or four can make a club or dance night come to life.
 
 #### Special Effects
 
-<img src="/imgs/services/haze.jpg" width="60%" style="float: right; padding: 1em; border-radius: 2.5em;">
+<img src="/imgs/services/haze.jpg" width="60%" style="float: right; margin: 1em; border-radius: 0.2em;">
 
 Under lighting, we also feature our two items that help to give that extra ‘wow’ factor: smoke and strobing. We have a stock of crowd blinders and Atomic strobes, for when things need to get bright as well as loud.
 
@@ -71,9 +74,9 @@ We will set up, program and operate all of our lighting equipment and control de
 
 #### Projection
 
-<img src="/imgs/services/trent.jpg" width="60%" style="padding: 1em; border-radius: 2.5em;">
+<img src="/imgs/services/trent.jpg" width="60%" style="margin: 1em; border-radius: 0.2em;">
 
-We have projectors to suit any event, large and small. From a halls film night to a projection on the side of the Trent Building (pictured), we can do it.
+We have projectors to suit any event, large and small. From a halls film night to a projection on the side of the Trent Building (pictured), we can do it. Alongside our PA systems, we can make a film or a conference alike really come to life.
 
 #### Playback
 We have two Playback Racks which are Mac Mini based and are equipped with a 8-channel audio interface and Q-Lab 4. Alongside a Pulse video switcher and HDBase-T system, we have the capability to provide suitable AV services to a variety of events.
