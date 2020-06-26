@@ -5,26 +5,26 @@ title: "Services"
 menu: main
 ---
 
-# Sound Services
+### Sound Services
 
 <img src="/imgs/services/holi.jpg" width="40%" style="float: left; margin: 2em; border-radius: 0.2em;">
 
-From the smallest pair of speakers on stands, to a 25 kilowatt arena sound system, to a new d&b Line Array, TEC have the capability to serve a wide variety of venues and audiences, suited to what your event requires.
+From the smallest pair of speakers on stands, to a 25 kilowatt arena sound system and a new d&b Line Array, TEC have the capability to serve a wide variety of venues and audiences, suited to what your event requires.
 
-### PA & Amplifiers
+#### PA & Amplifiers
 Our smaller systems are great for conferences, talks, presentations and recitals in a smaller venue. These speakers can also be turned on their side and used as monitors (foldback) for bands and concerts.
 
 Meanwhile, our larger PA systems can be used in a number of different configurations to provide the sound you want for the venue you’ve got, as loud as you want it (within reason!). We use both the Nexo Alpha and Alpha E lines of PA to find the best configuration for your event.
 
 {{<figure src="/imgs/services/nexo-stack.png" title="Nexo Alpha Stack" class="center">}}
 
-Ranging from 30kg to over 100, our amplifier stock is perfectly suited to our PA stock, many featuring in-house tweaks coupled with custom cabling to allow for every circumstance. TEC can meet any requirements in terms of noise, speaker arrangement and power availability.
+To complement our Nexo PA, we have invested in a d&b T-10 Line Array system, which can also be used in a point source configuration. This allows us greater flexibility than ever before in getting the perfect configuration for every event, in every venue.
 
-To complement our Nexo PA, we have invested in a d&b T-10 Line Array system, which can also be used in a point source configuration. This allows us greater flexibility than ever before in getting the perfect configuration.
+Ranging from 30kg to over 100, our amplifier stock is perfectly suited to our PA stock, many featuring in-house tweaks coupled with custom cabling to allow for every circumstance. TEC can meet any requirements in terms of noise, speaker arrangement and power availability.
 
 When receiving a sound package from TEC, the charge for the amplifiers are included with the speakers themselves as a combined cost.
 
-### Multicores
+#### Multicores
 
 <img src="/imgs/services/monitors.jpg" width="40%" style="float: right; margin: 1em; border-radius: 0.2em;">
 
@@ -34,32 +34,46 @@ At the stage end, we provide a stage box for both multicores as well as satellit
 
 We also have a DL32 Digital Stagebox to complement our M32 Digital Sound Desk. More flexible than ever before.
 
-# Lighting Services
+#### Sound Control
+Professional setup and control is included with the cost of the equipment. It's what we do.
+
+### Lighting Services
 
 <img src="/imgs/services/diwali.jpg" width="100%" style="margin: 1em; border-radius: 0.2em;">
 
 TEC can provide almost any lighting configuration for your event, from a couple of spotlights to a DJ club night. We’ve done it all, and are happy to work to your specifications.
 
-### Generic Lighting
+#### Generic Lighting
 
-<img src="/imgs/services/generic.jpg" width="60%" style="float: left; padding: 2em; border-radius: 2.5em;">
+<img src="/imgs/services/generic.jpg" width="60%" style="float: left; padding: 1em; border-radius: 2.5em;">
 
-Known as ‘generic’ lighting, these are the standard on/off kind of lights that are great for spots and stage washes. They are straight forward to set up and can have colour and patterned gobo filters added for effective mood lighting.
+Known as ‘generic’ lighting, these are the standard dimmable on/off kind of lights that are great for spots and stage washes. They are straightforward to set up and can have colour and patterned gobo filters added for effective mood lighting.
 
-<p style="padding-bottom: 6em">The colour and position can’t change during the event, but they are perfect in what they do and few lighting events work without them.<p>
+<p style="padding-bottom: 7em">The colour and position can’t change during the event, but they are perfect at what they do and few lighting events work without them.</p>
 
-### Intelligent Lighting
-This is where everything becomes that much cooler, fancier and generally more impressive. From changing colours, spinning around and strobing, our intelligent lighting stock can give you that look to make your event stand out from the crowd.
+#### Intelligent Lighting
+For when you want to take things up a notch. From changing colours, spinning around and strobing, our intelligent lighting stock can give you that look to make your event stand out from the crowd.
 
-Our Mac 250s give you the freedom to move your stage wash and spot lights wherever you want during the event and also change the colour. Our spot fixtures – the Kryptons – also feature changing colour wheels. If these aren't enough we have Robe DL4S for bright and precise control. If it’s just effective mood colouring that you’re after, our StudioCob LED fixtures are the ideal choice, while a Technobeam or four can make a club or dance night come to life.
+Our MAC 250 Washes give you the freedom to move your stage wash wherever you want, and change the color, during the event. Our workhorse spotlight fixtures, the MAC250 Kryptons, also have a variety of colours available, and a wide selection of gobos. If these aren't enough we have Robe DL4Ss for bright and precise control with a fulll spectrum of RGB color. If it’s just effective mood colouring that you’re after, our StudioCob LED fixtures are the ideal choice, while a Technobeam or four can make a club or dance night come to life.
 
-### Special Effects
+#### Special Effects
 
-<img src="/imgs/services/haze.jpg" width="60%" style="float: right; padding: 2em; border-radius: 2.5em;">
+<img src="/imgs/services/haze.jpg" width="60%" style="float: right; padding: 1em; border-radius: 2.5em;">
 
-Under lighting, we also feature our two items that help to give that extra ‘wow’ factor: smoke and strobing. We have a stock of crowd blinders and Atomic strobes.
+Under lighting, we also feature our two items that help to give that extra ‘wow’ factor: smoke and strobing. We have a stock of crowd blinders and Atomic strobes, for when things need to get bright as well as loud.
 
-<p style="padding-bottom: 3em">We also have a Martin Magnum smoke machine, using water-based, non-hazardous smoke fluid and can fill a room, stage or tent with smoke. Depending on the atmosphere you’re looking for, we also have a DeMaitre haze machine – again using water-based effects to create a hazy, rather than smokey area.</p>
+We also have a Martin Magnum smoke machine, using water-based, non-hazardous smoke fluid and can fill a room, stage or tent with smoke. Depending on the atmosphere you’re looking for, we also have a DeMaitre haze machine – again using water-based effects to create a hazy, rather than smokey area.
 
-### Lighting Control
+#### Lighting Control
 We will set up, program and operate all of our lighting equipment and control desks as standard. That’s not to say you’re ignored: we’re here to be spoken to, so ask and you will receive.
+
+### AV Services
+
+#### Projection
+
+<img src="/imgs/services/trent.jpg" width="60%" style="padding: 1em; border-radius: 2.5em;">
+
+We have projectors to suit any event, large and small. From a halls film night to a projection on the side of the Trent Building (pictured), we can do it.
+
+#### Playback
+We have two Playback Racks which are Mac Mini based and are equipped with a 8-channel audio interface and Q-Lab 4. Alongside a Pulse video switcher and HDBase-T system, we have the capability to provide suitable AV services to a variety of events.
