@@ -1,18 +1,16 @@
-@import "compass";
-
 // Mixins
-@import "materialize/components/prefixer";
-@import "materialize/components/mixins";
-@import "materialize/components/color";
+//@import "node_modules/materialize-css/sass/components/prefixer";
+//@import "node_modules/materialize-css/sass/components/mixins";
+@import "node_modules/materialize-css/sass/components/color-variables";
 
 $primary-color: color("grey", "darken-4");
 $secondary-color: color("grey", "darken-3");
 
-@import "materialize/components/variables";
+@import "node_modules/materialize-css/sass/components/variables";
 
 $footer-bg-color: $primary-color-dark;
 
-@import "materialize";
+@import "node_modules/materialize-css/sass/materialize";
 
 // sticky footer
 body {
@@ -181,7 +179,7 @@ article {
 
 .shadow {
   color: #fff;
-  @include text-shadow( #000 0px 0px 5px );
+  text-shadow: #000 0px 0px 5px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -203,7 +201,7 @@ article {
   position: absolute;
   display: inline-block;
   left: 50%;
-  @include transform( translateX(-50%) );
+  transform: translateX(-50%);
 
   img {
     max-width: 30vw;
@@ -232,7 +230,7 @@ article {
   position: absolute;
   bottom: 0;
   width: 100%;
-  @include transform( translateX(-50%) );
+  transform: translateX(-50%);
 
   @media #{$small-and-down} {
     left: 53%;
