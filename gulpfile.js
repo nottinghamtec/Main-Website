@@ -16,20 +16,29 @@ function styles(done) {
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss([ autoprefixer() ]))
     .pipe(gulp.dest('static/css/'))
-    .pipe(browsersync.stream());
+    .on('end', done);
 }
 
-function scripts() {
-    return gulp.src(['node_modules/@fortawesome/fontawesome-free/js/all.js'])
+function scripts(done) {
+    return gulp.src(['node_modules/@fortawesome/fontawesome-free/js/all.js',
+                     'node_modules/materialize-css/dist/js/materialize.min.js',
+                     //I still can't believe we're using friggin JQuery on a static site...
+                     'node_modules/jquery/dist/jquery.min.js'])
     .pipe(flatten())
     .pipe(terser())
     .pipe(gulp.dest('static/js/'))
-    .pipe(browsersync.stream());
+    .on('end', done);
 }
 
-function watchFiles() {
+function up(done) {
+    spawn('hugo', ['serve', '-w', '-D'], {stdio: 'inherit'});
+    done();
+}
+
+function watchFiles(done) {
   gulp.watch("src/sass/*.scss", styles);
+  done();
 }
 
 exports.build = gulp.parallel(styles, scripts);
-exports.watch = gulp.parallel(watchFiles, spawn('hugo', ['serve', '-w', '-D'], {stdio: 'inherit'}));
+exports.watch = gulp.parallel(watchFiles, up);

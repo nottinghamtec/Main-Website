@@ -179,7 +179,7 @@ article {
 
 .shadow {
   color: #fff;
-  text-shadow: 4px 4px 2px black;
+  filter:drop-shadow(3px 4px 2px black);
   -webkit-font-smoothing: antialiased;
 }
 
