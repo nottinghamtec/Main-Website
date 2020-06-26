@@ -2,7 +2,7 @@
 	{{ $currentNode := . }}
 	{{ range .Site.Menus.main }}
 		{{ if .HasChildren }}
-			<li><a class="dropdown-button" data-activates="dropdown-{{.Identifier}}" href="{{.URL}}">{{.Name}} <i class="material-icons right">arrow_drop_down</i></a></li>
+			<li><a class="dropdown-button" data-activates="dropdown-{{.Identifier}}" href="{{.URL}}">{{.Name}} &nbsp; <span class="fas fa-chevron-down right"></span></a></li>
 			<ul id="dropdown-{{.Identifier}}" class="dropdown-content">
 				<li><a href="{{.URL}}">{{.Name}}</a></li>
 				{{ range .Children }}
