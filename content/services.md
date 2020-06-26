@@ -20,7 +20,7 @@ Meanwhile, our larger PA systems can be used in a number of different configurat
 
 To complement our Nexo PA, we have invested in a d&b T-10 Line Array system, which can also be used in a point source configuration. This allows us greater flexibility than ever before in getting the perfect configuration for every event, in every venue.
 
-Ranging from 30kg to over 100, our amplifier stock is perfectly suited to our PA stock, many featuring in-house tweaks coupled with custom cabling to allow for every circumstance. TEC can meet any requirements in terms of noise, speaker arrangement and power availability.
+Our amplifier stock is perfectly suited to our PA stock, many featuring in-house tweaks coupled with custom cabling to allow for every circumstance. TEC can meet any requirements in terms of noise, speaker arrangement and power availability.
 
 When receiving a sound package from TEC, the charge for the amplifiers are included with the speakers themselves as a combined cost.
 
