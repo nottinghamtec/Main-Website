@@ -41,9 +41,11 @@ vendor/
 bin/
 .bundle/
 
-# Compass
-*.sass-cache
-static/css
+# NPM
+node_modules/
+.sass-cache/
+static/css/*
+static/js/*
 
 # HTML Proofer
 tmp/*

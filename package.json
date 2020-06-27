@@ -1,0 +1,36 @@
+{
+  "name": "main-website",
+  "version": "1.0.0",
+  "description": "TEC's public facing website",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.1",
+    "autoprefixer": "^9.8.4",
+    "gulp": "^4.0.2",
+    "gulp-flatten": "^0.4.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-terser": "^1.2.0",
+    "jquery": "^3.5.1",
+    "materialize-css": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nottinghamtec/Main-Website.git"
+  },
+  "keywords": [
+    "website",
+    "hugo",
+    "events"
+  ],
+  "author": "FreneticScribbler, ItsGhost, DavidTaylorHQ, and others",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/nottinghamtec/Main-Website/issues"
+  },
+  "homepage": "https://github.com/nottinghamtec/Main-Website#readme"
+}
