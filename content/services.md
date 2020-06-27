@@ -6,7 +6,7 @@ menu: main
 
 ### Sound Services
 
-{{< intext_image src="/imgs/services/holi.jpg" width="40%" float="left" >}}
+{{< intext_image src="/imgs/services/holi.jpg" width="40%" float="left" alt="Black and White picture of a stack of speakers">}}
 
 From the smallest pair of speakers on stands, to a 25 kilowatt arena sound system and a new d&b Line Array, TEC have the capability to serve a wide variety of venues and audiences, suited to what your event requires.
 
@@ -22,12 +22,12 @@ When receiving a sound package from TEC, the charge for the amplifiers are inclu
 
 ### Lighting Services
 
-{{< intext_image src="/imgs/services/diwali.jpg" width="100%">}}
+{{< intext_image src="/imgs/services/diwali.jpg" width="100%" alt="Haze and lights in a large space">}}
 
 TEC can provide almost any lighting configuration for your event, from a couple of spotlights to a DJ club night. We’ve done it all, and are happy to work to your specifications. We will set up, program and operate all of our lighting equipment and control desks as standard. That’s not to say you’re ignored: we’re here to be spoken to, so ask and you will receive.
 
 
-{{< intext_image src="/imgs/services/generic.jpg" width="55%" float="right">}}
+{{< intext_image src="/imgs/services/generic.jpg" width="55%" float="right" alt="Silhouetted person focusing a light">}}
 
 #### Generic Lighting
 
@@ -35,7 +35,7 @@ These are the standard dimmable on/off kind of lights that are great for spots a
 
 The colour and position can’t change during the event, but they are perfect at what they do and few lighting events work without them.
 
-{{< intext_image src="/imgs/services/intel.jpg" width="55%" float="right">}}
+{{< intext_image src="/imgs/services/intel.jpg" width="55%" float="right" alt="Lights with beams in haze behind a DJ deck">}}
 
 #### Intelligent Lighting
 
@@ -43,7 +43,7 @@ For when you want to take things up a notch. From changing colours, spinning aro
 
 Our MAC 250 Washes give you the freedom to move your stage wash wherever you want, and change the color, during the event. Our workhorse spotlight fixtures, the MAC 250 Kryptons, also have a variety of colours available, and a wide selection of gobos and good beam control. If these aren't enough we have Robe DL4Ss for bright and precise control with a full spectrum of RGB color. If it’s just effective mood colouring that you’re after, our StudioCob LED fixtures are the ideal choice, while a Technobeam or four can make a club or dance night come to life.
 
-{{< intext_image src="/imgs/services/haze.jpg" width="65%" float="left">}}
+{{< intext_image src="/imgs/services/haze.jpg" width="65%" float="left" alt="More lights with beams in haze">}}
 
 <!---mmm hax--->
 {{<rawhtml>}}
@@ -67,7 +67,7 @@ We also have a Martin Magnum smoke machine, using water-based, non-hazardous smo
 
 #### Projection
 
-{{< intext_image src="/imgs/services/trent.jpg" width="60%" float="left">}}
+{{< intext_image src="/imgs/services/trent.jpg" width="60%" float="left" alt="Pink lit building with spotlight on top">}}
 
 We have projectors to suit any event, large and small. From a halls film night to a projection on the side of the Trent Building, we can do it. Alongside our PA systems, we can make a film or a conference alike really come to life.
 
