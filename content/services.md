@@ -27,7 +27,7 @@ When receiving a sound package from TEC, the charge for the amplifiers are inclu
 TEC can provide almost any lighting configuration for your event, from a couple of spotlights to a DJ club night. We’ve done it all, and are happy to work to your specifications. We will set up, program and operate all of our lighting equipment and control desks as standard. That’s not to say you’re ignored: we’re here to be spoken to, so ask and you will receive.
 
 
-{{< intext_image src="/imgs/services/generic.jpg" width="50%" float="left">}}
+{{< intext_image src="/imgs/services/generic.jpg" width="55%" float="right">}}
 
 #### Generic Lighting
 
@@ -35,21 +35,33 @@ These are the standard dimmable on/off kind of lights that are great for spots a
 
 The colour and position can’t change during the event, but they are perfect at what they do and few lighting events work without them.
 
-{{< intext_image src="/imgs/services/intel.jpg" width="50%" float="left">}}
+{{< intext_image src="/imgs/services/intel.jpg" width="55%" float="right">}}
 
 #### Intelligent Lighting
 
 For when you want to take things up a notch. From changing colours, spinning around and strobing, our intelligent lighting stock can give you that look to make your event stand out from the crowd.
 
-Our MAC 250 Washes give you the freedom to move your stage wash wherever you want, and change the color, during the event. Our workhorse spotlight fixtures, the MAC250 Kryptons, also have a variety of colours available, and a wide selection of gobos. If these aren't enough we have Robe DL4Ss for bright and precise control with a full spectrum of RGB color. If it’s just effective mood colouring that you’re after, our StudioCob LED fixtures are the ideal choice, while a Technobeam or four can make a club or dance night come to life.
+Our MAC 250 Washes give you the freedom to move your stage wash wherever you want, and change the color, during the event. Our workhorse spotlight fixtures, the MAC 250 Kryptons, also have a variety of colours available, and a wide selection of gobos and good beam control. If these aren't enough we have Robe DL4Ss for bright and precise control with a full spectrum of RGB color. If it’s just effective mood colouring that you’re after, our StudioCob LED fixtures are the ideal choice, while a Technobeam or four can make a club or dance night come to life.
+
+{{< intext_image src="/imgs/services/haze.jpg" width="65%" float="left">}}
+
+<!---mmm hax--->
+{{<rawhtml>}}
+<div style="clear: right;">
+</div>
+{{</rawhtml>}}
 
 #### Special Effects
-
-{{< intext_image src="/imgs/services/haze.jpg" width="60%" float="right">}}
 
 Under lighting, we also feature our two items that help to give that extra ‘wow’ factor: smoke and strobing. We have a stock of crowd blinders and Atomic strobes, for when things need to get bright as well as loud.
 
 We also have a Martin Magnum smoke machine, using water-based, non-hazardous smoke fluid and can fill a room, stage or tent with smoke. Depending on the atmosphere you’re looking for, we also have a DeMaitre haze machine – again using water-based effects to create a hazy, rather than smokey area.
+
+<!---mmm hax--->
+{{<rawhtml>}}
+<div style="clear: left;">
+</div>
+{{</rawhtml>}}
 
 ### AV Services
 
@@ -57,7 +69,7 @@ We also have a Martin Magnum smoke machine, using water-based, non-hazardous smo
 
 {{< intext_image src="/imgs/services/trent.jpg" width="60%" float="left">}}
 
-We have projectors to suit any event, large and small. From a halls film night to a projection on the side of the Trent Building (pictured), we can do it. Alongside our PA systems, we can make a film or a conference alike really come to life.
+We have projectors to suit any event, large and small. From a halls film night to a projection on the side of the Trent Building, we can do it. Alongside our PA systems, we can make a film or a conference alike really come to life.
 
 #### Playback
-We have two Playback Racks which are Mac Mini based and are equipped with a 8-channel audio interface and Q-Lab 4. Alongside a Pulse video switcher and HDBase-T system, we have the capability to provide suitable AV services to a variety of events.
+TEC own two Playback Racks which are Mac Mini based and are equipped with a 8-channel audio interface and Q-Lab 4. Alongside a Pulse video switcher and HDBase-T system, we have the capability to provide suitable AV services to a variety of events.
