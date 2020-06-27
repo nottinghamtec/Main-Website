@@ -1,13 +1,12 @@
 ---
 date: "2016-01-27T20:25:14Z"
-draft: true
 title: "Services"
 menu: main
 ---
 
 ### Sound Services
 
-<img src="/imgs/services/holi.jpg" width="40%" style="float: left; margin: 2em; border-radius: 0.2em;">
+{{< intext_image src="/imgs/services/holi.jpg" width="40%" float="left" >}}
 
 From the smallest pair of speakers on stands, to a 25 kilowatt arena sound system and a new d&b Line Array, TEC have the capability to serve a wide variety of venues and audiences, suited to what your event requires.
 
@@ -23,12 +22,12 @@ When receiving a sound package from TEC, the charge for the amplifiers are inclu
 
 ### Lighting Services
 
-<img src="/imgs/services/diwali.jpg" width="100%" style="margin: 1em; border-radius: 0.2em;">
+{{< intext_image src="/imgs/services/diwali.jpg" width="100%">}}
 
 TEC can provide almost any lighting configuration for your event, from a couple of spotlights to a DJ club night. We’ve done it all, and are happy to work to your specifications. We will set up, program and operate all of our lighting equipment and control desks as standard. That’s not to say you’re ignored: we’re here to be spoken to, so ask and you will receive.
 
 
-<img src="/imgs/services/generic.jpg" width="50%" style="float: left; margin: 1em; border-radius: 0.2em;">
+{{< intext_image src="/imgs/services/generic.jpg" width="50%" float="left">}}
 
 #### Generic Lighting
 
@@ -36,9 +35,9 @@ These are the standard dimmable on/off kind of lights that are great for spots a
 
 The colour and position can’t change during the event, but they are perfect at what they do and few lighting events work without them.
 
-#### Intelligent Lighting
+{{< intext_image src="/imgs/services/intel.jpg" width="50%" float="left">}}
 
-<img src="/imgs/services/intel.jpg" width="50%" style="float: left; margin: 1em; border-radius: 0.2em;">
+#### Intelligent Lighting
 
 For when you want to take things up a notch. From changing colours, spinning around and strobing, our intelligent lighting stock can give you that look to make your event stand out from the crowd.
 
@@ -46,7 +45,7 @@ Our MAC 250 Washes give you the freedom to move your stage wash wherever you wan
 
 #### Special Effects
 
-<img src="/imgs/services/haze.jpg" width="60%" style="float: right; margin: 1em; border-radius: 0.2em;">
+{{< intext_image src="/imgs/services/haze.jpg" width="60%" float="right">}}
 
 Under lighting, we also feature our two items that help to give that extra ‘wow’ factor: smoke and strobing. We have a stock of crowd blinders and Atomic strobes, for when things need to get bright as well as loud.
 
@@ -56,7 +55,7 @@ We also have a Martin Magnum smoke machine, using water-based, non-hazardous smo
 
 #### Projection
 
-<img src="/imgs/services/trent.jpg" width="60%" style="margin: 1em; border-radius: 0.2em;">
+{{< intext_image src="/imgs/services/trent.jpg" width="60%" float="left">}}
 
 We have projectors to suit any event, large and small. From a halls film night to a projection on the side of the Trent Building (pictured), we can do it. Alongside our PA systems, we can make a film or a conference alike really come to life.
 
