@@ -6,6 +6,7 @@ install:
   - _bin/hugo.sh
   - _bin/htmltest.sh
   - npm install
+  - npm install --global gulp-cli
 cache:
   directories:
   - vendor/bundle
