@@ -1,6 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://www.nottinghamtec.co.uk/forum/</loc>
+    <lastmod>2016-10-28T22:37:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.nottinghamtec.co.uk/services/</loc>
+    <lastmod>2016-01-27T20:25:14+00:00</lastmod>
+  </url>
   
   <url>
     <loc>http://www.nottinghamtec.co.uk/committee/</loc>
@@ -18,7 +28,6 @@
   
   <url>
     <loc>http://www.nottinghamtec.co.uk/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -26,14 +35,11 @@
   </url>
   
   <url>
-    <loc>http://www.nottinghamtec.co.uk/</loc>
-    <lastmod>2016-01-13T01:23:38+00:00</lastmod>
-    <priority>0</priority>
+    <loc>http://www.nottinghamtec.co.uk/tags/</loc>
   </url>
   
   <url>
-    <loc>http://www.nottinghamtec.co.uk/tags/</loc>
-    <priority>0</priority>
+    <loc>http://www.nottinghamtec.co.uk/</loc>
   </url>
   
 </urlset>

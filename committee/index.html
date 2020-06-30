@@ -5,11 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 	<title>Committee | TEC PA &amp; Lighting</title>
-	
+
 	<link rel="stylesheet" type="text/css" href="/css/screen.css" />
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	
+	<script defer src="/js/all.js"></script>
+
 	<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
@@ -32,10 +31,11 @@
 	<meta name="theme-color" content="#333333">
 </head>
 <body>
+
 <header>
 	<div class="parallax-container">
 		<nav id="main-nav" class="container">
-			<a href="#" data-activates="mobile-nav" class="button-collapse right hide-on-med-and-up"><i class="material-icons">menu</i></a>
+			<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse right hide-on-med-and-up"><span class="fas fa-2x fa-bars"></span></a>
 			<a class="brand-logo" href="/">
 				<img src="/imgs/tec_logo_white.png" alt="TEC PA &amp; Lighting">
 			</a>
@@ -44,7 +44,7 @@
 	
 	
 		
-			<li><a class="dropdown-button" data-activates="dropdown-" href="/about/">About <i class="material-icons right">arrow_drop_down</i></a></li>
+			<li><a class="dropdown-trigger shadow btn" data-target="dropdown-" href="/about/">About &nbsp; <span class="fas fa-chevron-down"></span></a></li>
 			<ul id="dropdown-" class="dropdown-content">
 				<li><a href="/about/">About</a></li>
 				
@@ -54,6 +54,10 @@
 				
                 <li><a href="https://join.nottinghamtec.co.uk">Get Involved</a></li>
 			</ul>
+		
+	
+		
+			<li><a href="/services/" class="shadow btn">Services</a></li>
 		
 	
 </ul>
@@ -69,7 +73,7 @@
 	
 
 
-<ul class="side-nav" id="mobile-nav">
+<ul class="sidenav" id="mobile-nav">
   <li><a href="/">Home</a></li>
 
   
@@ -81,6 +85,10 @@
       
         <li><a href="/contact/">Contact Us</a></li>
       
+    
+  
+  
+      <li><a href="/services/">Services</a></li>
     
   
 
@@ -109,100 +117,6 @@
 					
 
 					<div class="col s12">
-						<img src="/imgs/committee/sam.jpg" class="responsive-img circle profile-photo" alt="Sam Windle" />
-					</div>
-
-					
-					
-
-					<h3>Sam Windle</h3>
-					<h4>Technical Director</h4>
-					
-						Sam has oversight of all of TEC, our equivalent of a President. He liases with the Students Union and many other people to make sure everything is going smoothly. He is in his fourth year of Biology and outside of TEC does more stage work for Christian Union, and maintains his thirty year old Defender.
-					
-				</div>
-
-			</div>
-			
-			
-
-			
-
-		
-
-			
-
-			<div class="col s12 m6">
-
-				<div class="center">
-					
-					
-
-					<div class="col s12">
-						<img src="/imgs/committee/chris.jpg" class="responsive-img circle profile-photo" alt="Chris Eason" />
-					</div>
-
-					
-					
-
-					<h3>Chris Eason</h3>
-					<h4>Productions Manager</h4>
-					
-						Chris is in his second year of Mechanical Engineering. In TEC he is in charge of the day to day running of all our events. Otherwise, he can be found diving, or caving - but not both at once!
-					
-				</div>
-
-			</div>
-			
-			
-			</div>
-			
-
-			
-
-		
-
-			
-			<div class="row">
-			
-
-			<div class="col s12 m6">
-
-				<div class="center">
-					
-					
-
-					<div class="col s12">
-						<img src="/imgs/committee/adam.jpg" class="responsive-img circle profile-photo" alt="Adam Clark" />
-					</div>
-
-					
-					
-
-					<h3>Adam Clark</h3>
-					<h4>Treasurer</h4>
-					
-						Adam is in his year year of his Agriculture degree. In TEC he oversees all things money related. When he&rsquo;s not doing TEC you&rsquo;ll find him busy on Sutton Bonington campus playing the violin, among other instruments.
-					
-				</div>
-
-			</div>
-			
-			
-
-			
-
-		
-
-			
-
-			<div class="col s12 m6">
-
-				<div class="center">
-					
-					
-
-					<div class="col s12">
 						<img src="/imgs/committee/arona.jpg" class="responsive-img circle profile-photo" alt="Arona Jones" />
 					</div>
 
@@ -210,48 +124,14 @@
 					
 
 					<h3>Arona Jones</h3>
-					<h4>Communications Officer</h4>
+					<h4>Technical Director</h4>
 					
-						Arona is in his second year of Philosophy, he&rsquo;s in charge of social media, internal communications and minuting our meetings. In his spare time he can be found with his motorcycle.
-					
-				</div>
-
-			</div>
-			
-			
-			</div>
-			
-
-			
-
-		
-
-			
-			<div class="row">
-			
-
-			<div class="col s12 m6">
-
-				<div class="center">
-					
-					
-
-					<div class="col s12">
-						<img src="/imgs/committee/jonny.jpg" class="responsive-img circle profile-photo" alt="Jonny Gate" />
-					</div>
-
-					
-					
-
-					<h3>Jonny Gate</h3>
-					<h4>Health and Safety Manager</h4>
-					
-						Jonny is an Agriculture student that&rsquo;s just returned from a Year In Industry bothering carrots. He is responsible for ensuring all the awesome stuff TEC does is also awesomely safe.
+						Arona has oversight of all of TEC, our equivalent of a President. He liases with the Students Union and many other people to make sure everything is going smoothly. In his spare time he can be found with his motorcycle.
 					
 				</div>
 
 			</div>
-			
+
 			
 
 			
@@ -274,14 +154,78 @@
 					
 
 					<h3>Matt Smith</h3>
-					<h4>Logistics Manager</h4>
+					<h4>Productions Manager</h4>
 					
-						Matt coordinates with the Productions Manager on matters of equipment purchase/maintenance and haulage. He&rsquo;s a second year Computer Science student and does embedded development as a hobby.
+						Matt is in charge of the day to day running of all our events. He&rsquo;s a third year Computer Science student and does embedded development as a hobby.
 					
 				</div>
 
 			</div>
+
 			
+			</div>
+			
+
+			
+
+		
+
+			
+			<div class="row">
+			
+
+			<div class="col s12 m6">
+
+				<div class="center">
+					
+					
+
+					<div class="col s12">
+						<img src="/imgs/committee/jess.jpg" class="responsive-img circle profile-photo" alt="Jess Rough" />
+					</div>
+
+					
+					
+
+					<h3>Jess Rough</h3>
+					<h4>Treasurer</h4>
+					
+						Jess oversees all things money related. She&rsquo;s a third year Philosophy and English student with a passion for linguistics.
+					
+				</div>
+
+			</div>
+
+			
+
+			
+
+		
+
+			
+
+			<div class="col s12 m6">
+
+				<div class="center">
+					
+					
+
+					<div class="col s12">
+						<img src="/imgs/committee/joe.jpg" class="responsive-img circle profile-photo" alt="Joseph Boyden" />
+					</div>
+
+					
+					
+
+					<h3>Joseph Boyden</h3>
+					<h4>Logistics Manager</h4>
+					
+						Joe coordinates with the Productions Manager on matters of equipment purchase/maintenance and haulage. Besides TEC, he enjoys sports and gaming.
+					
+				</div>
+
+			</div>
+
 			
 			</div>
 			
@@ -291,7 +235,7 @@
 		
 	</div>
 	<div class="hide-on-med-and-up">
-		<i class="small_medium material-icons to-top"><a href="#">expand_less</a></i>
+		<a href="#"><span class="small_medium fas fa-chevron-up to-top"></span></a>
 	</div>
 </article>
 
@@ -309,11 +253,11 @@
 					<span class="hide-on-med-and-down">
 						&emsp;&emsp;
 						
-						<a href="https://www.facebook.com/nottinghamtec" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="https://www.facebook.com/nottinghamtec" target="_blank"><span class="fab fa-facebook"></span></a>
 						&nbsp;
-						<a href="https://twitter.com/nottinghamtec" target="_blank"><i class="fa fa-twitter"></i></a>
+						<a href="https://twitter.com/nottinghamtec" target="_blank"><span class="fab fa-twitter"></span></a>
 						&nbsp;
-						<a href="https://www.instagram.com/nottinghamtec/" target="_blank"><i class="fa fa-instagram"></i></a>
+						<a href="https://www.instagram.com/nottinghamtec/" target="_blank"><span class="fab fa-instagram"></span></a>
 					</span>
 				</div>
 				<div class="col m3 hide-on-small-and-down">
@@ -330,19 +274,8 @@
 		</div>
 	</footer>
 
-	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
-
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-43285686-10', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/materialize.min.js"></script>
 
 	<script>
 		$(document).ready(function() {
@@ -356,16 +289,8 @@
 		    else {
 		      $('.toc-wrapper').pushpin({ top: 0 });
 		    }
-		})
-
-		
-	    $('.slider').slider({full_width: true});
-	    $('.parallax').parallax();
-	    $('.modal-trigger').leanModal();
-	    $('.scrollspy').scrollSpy();
-	    $('.button-collapse').sideNav({'edge': 'left'});
-	    $('.datepicker').pickadate({selectYears: 20});
-	    $('select').not('.disabled').material_select();
+		});
+		M.AutoInit();
 	</script>
 
 	<script>
@@ -378,11 +303,11 @@
 
 			$(window).scroll(function(){
 				if( $(this).scrollTop() > offset ) {
-					$back_to_top.addClass('visible') 
+					$back_to_top.addClass('visible')
 				} else {
 					$back_to_top.removeClass('visible fade-out hover');
 				}
-				if( $(this).scrollTop() > offset_opacity ) { 
+				if( $(this).scrollTop() > offset_opacity ) {
 					$back_to_top.addClass('fade-out');
 				}
 			});
