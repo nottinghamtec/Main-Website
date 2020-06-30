@@ -5,15 +5,15 @@ sudo: false
 install:
   - _bin/hugo.sh
   - _bin/htmltest.sh
-  - gem install bundler
-  - bundle install --without development --deployment --jobs=3 --retry=3 --binstubs
+  - npm install
+  - npm install --global gulp-cli
 cache:
   directories:
   - vendor/bundle
 script:
- - bin/compass compile -e production --force
- - ~/hugo029 version
- - ~/hugo029
+ - gulp build
+ - ~/hugo073 version
+ - ~/hugo073
  - ~/htmltest --version
  - ~/htmltest
 after_script:

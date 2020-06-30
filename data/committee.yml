@@ -2,45 +2,30 @@ members:
     # The order of members is important as this will be the order they are displayed in.
     # A hash has been placed after current positions to make this process easier.
     -
-      Name: Sam Windle
-      Position: Technical Director # 1
-      Photo:
-        - /imgs/committee/sam.jpg
-      Bio:
-        "Sam has oversight of all of TEC, our equivalent of a President. He liases with the Students Union and many other people to make sure everything is going smoothly. He is in his fourth year of Biology and outside of TEC does more stage work for Christian Union, and maintains his thirty year old Defender."
-    -
-      Name: Chris Eason
-      Position: Productions Manager # 2
-      Photo:
-        - /imgs/committee/chris.jpg
-      Bio:
-        "Chris is in his second year of Mechanical Engineering. In TEC he is in charge of the day to day running of all our events. Otherwise, he can be found diving, or caving - but not both at once!"
-    -
-      Name: Adam Clark
-      Position: Treasurer # 3
-      Photo:
-        - /imgs/committee/adam.jpg
-      Bio:
-        "Adam is in his year year of his Agriculture degree. In TEC he oversees all things money related. When he's not doing TEC you'll find him busy on Sutton Bonington campus playing the violin, among other instruments."
-    -
       Name: Arona Jones
-      Position: Communications Officer # 4
+      Position: Technical Director # 1
       Photo:
         - /imgs/committee/arona.jpg
       Bio:
-        "Arona is in his second year of Philosophy, he's in charge of social media, internal communications and minuting our meetings. In his spare time he can be found with his motorcycle."
-    # All other positions go here
+        "Arona has oversight of all of TEC, our equivalent of a President. He liases with the Students Union and many other people to make sure everything is going smoothly. In his spare time he can be found with his motorcycle."
     -
-      Name: Jonny Gate
-      Position: Health and Safety Manager
-      Photo:
-        - /imgs/committee/jonny.jpg
-      Bio: 
-        "Jonny is an Agriculture student that's just returned from a Year In Industry bothering carrots. He is responsible for ensuring all the awesome stuff TEC does is also awesomely safe."
-    - 
       Name: Matt Smith
-      Position: Logistics Manager
+      Position: Productions Manager # 2
       Photo:
         - /imgs/committee/matt.jpg
       Bio:
-        "Matt coordinates with the Productions Manager on matters of equipment purchase/maintenance and haulage. He's a second year Computer Science student and does embedded development as a hobby."
+        "Matt is in charge of the day to day running of all our events. He's a third year Computer Science student and does embedded development as a hobby."
+    -
+      Name: Jess Rough
+      Position: Treasurer # 3
+      Photo:
+        - /imgs/committee/jess.jpg
+      Bio:
+        "Jess oversees all things money related. She's a third year Philosophy and English student with a passion for linguistics."
+    -
+      Name: Joseph Boyden
+      Position: Logistics Manager # 4
+      Photo:
+        - /imgs/committee/joe.jpg
+      Bio:
+        "Joe coordinates with the Productions Manager on matters of equipment purchase/maintenance and haulage. Besides TEC, he enjoys sports and gaming."

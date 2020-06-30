@@ -1,18 +1,16 @@
-@import "compass";
-
 // Mixins
-@import "materialize/components/prefixer";
-@import "materialize/components/mixins";
-@import "materialize/components/color";
+//@import "node_modules/materialize-css/sass/components/prefixer";
+//@import "node_modules/materialize-css/sass/components/mixins";
+@import "node_modules/materialize-css/sass/components/color-variables";
 
 $primary-color: color("grey", "darken-4");
 $secondary-color: color("grey", "darken-3");
 
-@import "materialize/components/variables";
+@import "node_modules/materialize-css/sass/components/variables";
 
 $footer-bg-color: $primary-color-dark;
 
-@import "materialize";
+@import "node_modules/materialize-css/sass/materialize";
 
 // sticky footer
 body {
@@ -160,6 +158,10 @@ article {
       list-style-type: square;
     }
   }
+
+  figure img {
+    @extend .responsive-img;
+  }
 }
 
 .profile-photo {
@@ -177,7 +179,7 @@ article {
 
 .shadow {
   color: #fff;
-  @include text-shadow( #000 0px 0px 5px );
+  filter:drop-shadow(3px 4px 2px black);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -199,7 +201,7 @@ article {
   position: absolute;
   display: inline-block;
   left: 50%;
-  @include transform( translateX(-50%) );
+  transform: translateX(-50%);
 
   img {
     max-width: 30vw;
@@ -228,7 +230,7 @@ article {
   position: absolute;
   bottom: 0;
   width: 100%;
-  @include transform( translateX(-50%) );
+  transform: translateX(-50%);
 
   @media #{$small-and-down} {
     left: 53%;
@@ -287,4 +289,35 @@ article {
     border-radius: 1000em; // Circular button to be a symbol of TEC's discussions
     color: color('blue', 'accent-3');
   }
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    max-width: 670px;
+}
+dl > * {
+    padding-top: 0.5em;
+}
+dt {
+    width:30%;
+    font-weight: bold;
+    text-align: left;
+}
+dd {
+    width:60%;
+    padding-left:1em;
+    margin-left: 0px;
+}
+dd + dd {
+    width: 100%;
+    padding-left: calc(30% + 1em);
+}
+dt + dt {
+    padding-right: 60%;
+}
+dt + dt + dd {
+    margin-top: -1.625em; /* own height including padding */
+    padding-left: calc(30% + 1em);
 }

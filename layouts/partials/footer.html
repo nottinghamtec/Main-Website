@@ -12,11 +12,11 @@
 					<span class="hide-on-med-and-down">
 						&emsp;&emsp;
 						<!-- Social Media Icons-->
-						<a href="https://www.facebook.com/nottinghamtec" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="https://www.facebook.com/nottinghamtec" target="_blank"><span class="fab fa-facebook"></span></a>
 						&nbsp;
-						<a href="https://twitter.com/nottinghamtec" target="_blank"><i class="fa fa-twitter"></i></a>
+						<a href="https://twitter.com/nottinghamtec" target="_blank"><span class="fab fa-twitter"></span></a>
 						&nbsp;
-						<a href="https://www.instagram.com/nottinghamtec/" target="_blank"><i class="fa fa-instagram"></i></a>
+						<a href="https://www.instagram.com/nottinghamtec/" target="_blank"><span class="fab fa-instagram"></span></a>
 					</span>
 				</div>
 				<div class="col m3 hide-on-small-and-down">
@@ -33,19 +33,8 @@
 		</div>
 	</footer>
 
-	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
-
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-43285686-10', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/materialize.min.js"></script>
 
 	<script>
 		$(document).ready(function() {
@@ -59,16 +48,8 @@
 		    else {
 		      $('.toc-wrapper').pushpin({ top: 0 });
 		    }
-		})
-
-		// Plugin initialization
-	    $('.slider').slider({full_width: true});
-	    $('.parallax').parallax();
-	    $('.modal-trigger').leanModal();
-	    $('.scrollspy').scrollSpy();
-	    $('.button-collapse').sideNav({'edge': 'left'});
-	    $('.datepicker').pickadate({selectYears: 20});
-	    $('select').not('.disabled').material_select();
+		});
+		M.AutoInit();
 	</script>
 
 	<script>
@@ -81,11 +62,11 @@
 
 			$(window).scroll(function(){
 				if( $(this).scrollTop() > offset ) {
-					$back_to_top.addClass('visible') 
+					$back_to_top.addClass('visible')
 				} else {
 					$back_to_top.removeClass('visible fade-out hover');
 				}
-				if( $(this).scrollTop() > offset_opacity ) { 
+				if( $(this).scrollTop() > offset_opacity ) {
 					$back_to_top.addClass('fade-out');
 				}
 			});
