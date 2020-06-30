@@ -41,7 +41,9 @@ The colour and position can’t change during the event, but they are perfect at
 
 For when you want to take things up a notch. From changing colours, spinning around and strobing, our intelligent lighting stock can give you that look to make your event stand out from the crowd.
 
-Our MAC 250 Washes give you the freedom to move your stage wash wherever you want, and change the color, during the event. Our workhorse spotlight fixtures, the MAC 250 Kryptons, also have a variety of colours available, and a wide selection of gobos and good beam control. If these aren't enough we have Robe DL4Ss for bright and precise control with a full spectrum of RGB color. If it’s just effective mood colouring that you’re after, our StudioCob LED fixtures are the ideal choice, while a Technobeam or four can make a club or dance night come to life.
+We have an outstanding selection of intelligent lighting, foremost among which are our Robe DL4Ss. These LED fixtures offer super bright RGB colour for ultimate flexibility in a low power and quiet package. They are in their element when used as spotlight or feature fixture given the excellent beam control, but can also be effectively used for a wash. To complement these, we have a large number of Martin MAC 250s, with both a spotlight/profile and wash type available.
+
+If it’s just effective mood colouring that you’re after, our StudioCob LED fixtures are the ideal choice, offering a colour changing wash in a fixed position. Brilliant for adding a splash of thematic colour, while a Technobeam or four can make a club or dance night really come to life, especially when paired with smoke.
 
 {{< intext_image src="/imgs/services/haze.jpg" width="65%" float="left" alt="More lights with beams in haze">}}
 
