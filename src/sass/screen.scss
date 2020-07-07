@@ -321,3 +321,55 @@ dt + dt + dd {
     margin-top: -1.625em; /* own height including padding */
     padding-left: calc(30% + 1em);
 }
+
+.crossfade > img {
+  animation: imageAnimation 30s linear infinite 0s;
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center center;
+  color: transparent;
+  opacity: 0;
+  z-index: 0;
+}
+
+.crossfade > img:nth-child(1) { background-image: url('/imgs/wof2014-1.jpg'); }
+
+.crossfade > img:nth-child(2) {
+  animation-delay: 6s;
+  background-image: url('/imgs/gradball2019.jpg');
+}
+
+.crossfade > img:nth-child(3) {
+  animation-delay: 12s;
+  background-image: url('/imgs/massive32.jpg');
+}
+
+.crossfade > img:nth-child(4) {
+  animation-delay: 18s;
+  background-image: url('/imgs/gradball2014-1.jpg');
+}
+
+.crossfade > img:nth-child(5) {
+  animation-delay: 24s;
+  background-image: url('/imgs/diwaliball2018.jpg');
+}
+
+@keyframes
+imageAnimation {  0% {
+ animation-timing-function: ease-in;
+ opacity: 0;
+}
+ 8% {
+ animation-timing-function: ease-out;
+ opacity: 1;
+}
+ 17% {
+ opacity: 1
+}
+ 25% {
+ opacity: 0
+}
+ 100% {
+ opacity: 0
+}
+}
