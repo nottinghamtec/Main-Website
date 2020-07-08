@@ -2,16 +2,16 @@
 	{{ $currentNode := . }}
 	{{ range .Site.Menus.main }}
 		{{ if .HasChildren }}
-			<li><a class="dropdown-trigger shadow btn" data-target="dropdown-{{.Identifier}}" href="{{.URL}}">{{.Name}} &nbsp; <span class="fas fa-chevron-down"></span></a></li>
+			<li><a class="dropdown-trigger shadow" data-target="dropdown-{{.Identifier}}" href="{{.URL}}">{{.Name}} &nbsp; <span class="fas fa-chevron-down"></span></a></li>
 			<ul id="dropdown-{{.Identifier}}" class="dropdown-content">
 				<li><a href="{{.URL}}">{{.Name}}</a></li>
 				{{ range .Children }}
 					<li><a href="{{.URL}}">{{.Name}}</a></li>
 				{{ end }}
-                <li><a href="https://join.nottinghamtec.co.uk">Get Involved</a></li>
 			</ul>
 		{{ else }}
-			<li><a href="{{.URL}}" class="shadow btn">{{.Name}}</a></li>
+			<li><a href="{{.URL}}" class="shadow">{{.Name}}</a></li>
 		{{ end }}
 	{{ end }}
+    <li><a href="https://join.nottinghamtec.co.uk" class="shadow">Get Involved</a></li>
 </ul>
