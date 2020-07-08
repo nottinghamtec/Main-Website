@@ -6818,8 +6818,8 @@ dt + dt + dd {
   padding-left: calc(30% + 1em); }
 
 .crossfade > img {
-  -webkit-animation: imageAnimation 30s linear infinite 0s;
-          animation: imageAnimation 30s linear infinite 0s;
+  -webkit-animation: imageAnimation 60s linear infinite 0s;
+          animation: imageAnimation 60s linear infinite 0s;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   background-size: cover;
@@ -6832,23 +6832,23 @@ dt + dt + dd {
   background-image: url("/imgs/wof2014-1.jpg"); }
 
 .crossfade > img:nth-child(2) {
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
   background-image: url("/imgs/gradball2019.jpg"); }
 
 .crossfade > img:nth-child(3) {
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  -webkit-animation-delay: 24s;
+          animation-delay: 24s;
   background-image: url("/imgs/massive32.jpg"); }
 
 .crossfade > img:nth-child(4) {
-  -webkit-animation-delay: 18s;
-          animation-delay: 18s;
-  background-image: url("/imgs/gradball2014-1.jpg"); }
+  -webkit-animation-delay: 36s;
+          animation-delay: 36s;
+  background-image: url("/imgs/radiomic.jpg"); }
 
 .crossfade > img:nth-child(5) {
-  -webkit-animation-delay: 24s;
-          animation-delay: 24s;
+  -webkit-animation-delay: 48s;
+          animation-delay: 48s;
   background-image: url("/imgs/diwaliball2018.jpg"); }
 
 @-webkit-keyframes imageAnimation {
