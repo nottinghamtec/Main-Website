@@ -13,7 +13,7 @@ sass.compiler = require('node-sass');
 
 function styles(done) {
     return gulp.src(['src/sass/screen.scss',
-                    'src/sass/screen-async.css'])
+                    'src/sass/screen-async.scss'])
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss([ autoprefixer() ]))
     .pipe(gulp.dest('static/css/'))
