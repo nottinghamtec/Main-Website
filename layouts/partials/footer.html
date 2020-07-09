@@ -42,27 +42,28 @@
 			var offset_opacity = 1000; // How far down does the opacity increase
 
 			var back_to_top = document.getElementById('to-top'); // Button class
-
-			window.onscroll = function(e) {
-				if(window.pageYOffset > offset) {
-					back_to_top.classList.add('visible');
-				} else {
-					back_to_top.classList.remove('visible');
-				}
-				if(window.pageYOffset > offset_opacity) {
-					back_to_top.classList.remove('fade-out');
-				} else {
-					back_to_top.classList.add('fade-out');
-				}
-			};
-			// Smooth (criminal) scroll to top
-			back_to_top.addEventListener('click', function(event){
-				event.preventDefault();
-				window.scroll({
-                  top: 0,
-                  behavior: 'smooth'
-                });
-			});
+            if(typeof(back_to_top) != 'undefined' && back_to_top != null) {
+			    window.onscroll = function(e) {
+				    if(window.pageYOffset > offset) {
+					    back_to_top.classList.add('visible');
+				    } else {
+					    back_to_top.classList.remove('visible');
+				    }
+				    if(window.pageYOffset > offset_opacity) {
+					    back_to_top.classList.remove('fade-out');
+				    } else {
+					    back_to_top.classList.add('fade-out');
+				    }
+			    };
+			    // Smooth (criminal) scroll to top
+			    back_to_top.addEventListener('click', function(event){
+				    event.preventDefault();
+				    window.scroll({
+                      top: 0,
+                      behavior: 'smooth'
+                    });
+			    });
+            }
 		});
 	</script>
 </body>
