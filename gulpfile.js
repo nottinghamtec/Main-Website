@@ -12,8 +12,7 @@ var spawn = require('child_process').spawn;
 sass.compiler = require('node-sass');
 
 function styles(done) {
-    return gulp.src(['src/sass/screen.scss',
-                    'src/sass/screen-async.scss'])
+    return gulp.src(['src/sass/screen.scss'])
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss([ autoprefixer() ]))
     .pipe(gulp.dest('static/css/'))
