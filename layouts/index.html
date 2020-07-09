@@ -117,27 +117,3 @@
 </section>
 
 {{ partial "footer.html" . }}
-
-<script>
-$(document).ready(function(){
-var header = $('bk-image');
-
-var backgrounds = new Array(
-    'url(http://placekitten.com/100)'
-  , 'url(http://placekitten.com/200)'
-  , 'url(http://placekitten.com/300)'
-  , 'url(http://placekitten.com/400)'
-);
-
-var current = 0;
-
-function nextBackground() {
-    current++;
-    current = current % backgrounds.length;
-    header.attr('src', backgrounds[current]);
-}
-setInterval(nextBackground, 100);
-
-header.attr('src', backgrounds[0]);
-});
-</script>

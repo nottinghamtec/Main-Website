@@ -253,7 +253,7 @@ article {
   font-size: 3em !important;
 }
 
-.to-top {
+#to-top {
   position: fixed;
   bottom: 5vh;
   right: 5vw;
@@ -265,7 +265,7 @@ article {
   -moz-transition: opacity .3s 0s, visibility 0s .3s;
   transition: opacity .3s 0s, visibility 0s .3s;
 
-  &.visible, &.fade-out, &.hover {
+  &.visible, &.fade-out {
     -webkit-transition: opacity .3s 0s, visibility 0s 0s;
     -moz-transition: opacity .3s 0s, visibility 0s 0s;
     transition: opacity .3s 0s, visibility 0s 0s;
@@ -277,17 +277,7 @@ article {
   }
 
   &.fade-out {
-    opacity: .8;
-  }
-
-  &.hover {
-    opacity: 1 !important;
-  }
-
-  > a {
-    background-color: color('grey', 'darken-4');
-    border-radius: 1000em; // Circular button to be a symbol of TEC's discussions
-    color: color('blue', 'accent-3');
+    opacity: .6;
   }
 }
 

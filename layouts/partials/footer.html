@@ -33,56 +33,35 @@
 		</div>
 	</footer>
 
-	<script src="/js/jquery.min.js"></script>
 	<script src="/js/materialize.min.js"></script>
 
 	<script>
-		$(document).ready(function() {
-			// Floating-Fixed table of contents
-		    if ($('header').length) {
-		      $('.toc-wrapper').pushpin({ top: $('header').height() });
-		    }
-		    else if ($('#index-banner').length) {
-		      $('.toc-wrapper').pushpin({ top: $('#index-banner').height() });
-		    }
-		    else {
-		      $('.toc-wrapper').pushpin({ top: 0 });
-		    }
-		});
-		M.AutoInit();
-	</script>
-
-	<script>
-		$(document).ready(function(){
+        M.AutoInit();
+		document.addEventListener('DOMContentLoaded', function() {
 			var offset = 300; // How far down does the button show
-			var offset_opacity = 700; // How far down does the opacity reduce
-			var scroll_top_duration = 700; // Duration of animation
+			var offset_opacity = 1000; // How far down does the opacity increase
 
-			$back_to_top = $('.to-top'); // Button class
+			var back_to_top = document.getElementById('to-top'); // Button class
 
-			$(window).scroll(function(){
-				if( $(this).scrollTop() > offset ) {
-					$back_to_top.addClass('visible')
+			window.onscroll = function(e) {
+				if(window.pageYOffset > offset) {
+					back_to_top.classList.add('visible');
 				} else {
-					$back_to_top.removeClass('visible fade-out hover');
+					back_to_top.classList.remove('visible');
 				}
-				if( $(this).scrollTop() > offset_opacity ) {
-					$back_to_top.addClass('fade-out');
+				if(window.pageYOffset > offset_opacity) {
+					back_to_top.classList.remove('fade-out');
+				} else {
+					back_to_top.classList.add('fade-out');
 				}
-			});
-
-			// Capture screen presses on touch devices
-			$back_to_top.on('click touchstart', function() {
-				$back_to_top.addClass('hover');
-			});
-
+			};
 			// Smooth (criminal) scroll to top
-			$back_to_top.on('click', function(event){
+			back_to_top.addEventListener('click', function(event){
 				event.preventDefault();
-				$('body,html').animate({
-					scrollTop: 0 ,
-				 	}, scroll_top_duration
-				);
+				window.scroll({
+                  top: 0,
+                  behavior: 'smooth'
+                });
 			});
 		});
 	</script>

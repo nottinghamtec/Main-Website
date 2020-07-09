@@ -21,9 +21,7 @@ function styles(done) {
 
 function scripts(done) {
     return gulp.src(['node_modules/@fortawesome/fontawesome-free/js/all.js',
-                     'node_modules/materialize-css/dist/js/materialize.min.js',
-                     //I still can't believe we're using friggin JQuery on a static site...
-                     'node_modules/jquery/dist/jquery.min.js'])
+                     'node_modules/materialize-css/dist/js/materialize.min.js'])
     .pipe(flatten())
     .pipe(terser())
     .pipe(gulp.dest('static/js/'))
