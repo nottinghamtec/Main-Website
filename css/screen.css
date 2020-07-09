@@ -6608,7 +6608,7 @@ input[type=range]::-ms-thumb {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local("Open Sans"), url("/fonts/OpenSans-Regular.woff2") format("woff2"), url("/fonts/OpenSans-Regular.woff") format("woff");
+  src: local("Open Sans"), url("/fonts/OpenSans-Regular.woff2") format("woff2"), url("/fonts/OpenSans-Regular.woff") format("woff"), url("fonts/OpenSans-Regular.ttf") format("truetype");
   font-display: swap; }
 
 body {
@@ -6620,15 +6620,6 @@ body {
     padding-top: 1rem; }
   body > main {
     flex: 1 0 auto; }
-
-.page-footer {
-  color: #9e9e9e;
-  margin-top: 0 !important;
-  padding: 1em 0 !important; }
-  .page-footer a {
-    color: inherit; }
-  .page-footer .assoc-logo {
-    max-height: 2rem; }
 
 #main-nav {
   background: transparent;
@@ -6651,15 +6642,17 @@ body {
   #main-nav .dropdown-content {
     min-width: 140px; }
 
+.page-footer {
+  color: #9e9e9e;
+  margin-top: 0 !important;
+  padding: 1em 0 !important; }
+  .page-footer a {
+    color: inherit; }
+  .page-footer .assoc-logo {
+    max-height: 2rem; }
+
 #page-title {
   margin-top: 8rem; }
-
-#TableOfContents {
-  height: auto; }
-  #TableOfContents > ul > li > ul li {
-    width: 100%; }
-  #TableOfContents > ul li:hover {
-    background-color: inherit; }
 
 .parallax-container {
   min-height: 380px;
@@ -6714,18 +6707,6 @@ article ul {
           filter: drop-shadow(3px 4px 2px black);
   -webkit-font-smoothing: antialiased; }
 
-#index-video, #alternative {
-  width: 100vw;
-  /* Could also use width: 100%; */
-  height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
-  position: absolute;
-  /* Change position to absolute if you don't want it to take up the whole page */
-  left: 0px;
-  top: 0px;
-  z-index: -1; }
-
 #bk-image {
   z-index: 0; }
 
@@ -6743,6 +6724,13 @@ article ul {
 
 .pad-top {
   padding-top: 5px; }
+
+#TableOfContents {
+  height: auto; }
+  #TableOfContents > ul > li > ul li {
+    width: 100%; }
+  #TableOfContents > ul li:hover {
+    background-color: inherit; }
 
 .bottom {
   position: absolute;
@@ -6810,118 +6798,3 @@ dt + dt + dd {
   margin-top: -1.625em;
   /* own height including padding */
   padding-left: calc(30% + 1em); }
-
-.crossfade > img {
-  -webkit-animation: imageAnimation 60s linear infinite 0s;
-          animation: imageAnimation 60s linear infinite 0s;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  background-size: cover;
-  background-position: center center;
-  color: transparent;
-  opacity: 0;
-  z-index: 0; }
-
-.crossfade > img:nth-child(1) {
-  background-image: url("/imgs/wof2014-1.jpg"); }
-
-.crossfade > img:nth-child(2) {
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
-  background-image: url("/imgs/gradball2019.jpg"); }
-
-.crossfade > img:nth-child(3) {
-  -webkit-animation-delay: 24s;
-          animation-delay: 24s;
-  background-image: url("/imgs/massive32.jpg"); }
-
-.crossfade > img:nth-child(4) {
-  -webkit-animation-delay: 36s;
-          animation-delay: 36s;
-  background-image: url("/imgs/radiomic.jpg"); }
-
-.crossfade > img:nth-child(5) {
-  -webkit-animation-delay: 48s;
-          animation-delay: 48s;
-  background-image: url("/imgs/diwaliball2018.jpg"); }
-
-@-webkit-keyframes imageAnimation {
-  0% {
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    opacity: 0; }
-  8% {
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    opacity: 1; }
-  17% {
-    opacity: 1; }
-  25% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-
-@keyframes imageAnimation {
-  0% {
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    opacity: 0; }
-  8% {
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    opacity: 1; }
-  17% {
-    opacity: 1; }
-  25% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-
-.youtube-player {
-  position: relative;
-  padding-bottom: 56.23%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-  background: #000;
-  margin: 5px; }
-
-.youtube-player iframe,
-.youtube-player object,
-.youtube-player embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 100;
-  background: transparent; }
-
-.youtube-player img {
-  bottom: 0;
-  display: block;
-  left: 0;
-  margin: auto;
-  max-width: 100%;
-  width: 100%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  border: none;
-  height: auto;
-  cursor: pointer;
-  transition: .4s all; }
-
-.youtube-player img:hover {
-  -webkit-filter: brightness(75%); }
-
-.youtube-player .play {
-  height: 72px;
-  width: 72px;
-  left: 50%;
-  top: 50%;
-  margin-left: -36px;
-  margin-top: -36px;
-  position: absolute;
-  background: url("//i.imgur.com/TxzC70f.png") no-repeat;
-  cursor: pointer; }
