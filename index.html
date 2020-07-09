@@ -37,9 +37,6 @@
 <div class="parallax-container" style="height: 100vh;">
 	<nav id="main-nav" class="container" style="background: transparent; color: transparent;">
 		<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse right hide-on-med-and-up"><span class="fas fa-2x fa-bars"></span></a>
-		<a class="hide-on-med-and-up show-on-short" href="/" id="index-logo">
-			<img src="/imgs/tec_logo_white.png" alt="TEC PA &amp; Lighting">
-		</a>
 		<ul class="right hide-on-small-and-down">
 	
 	
@@ -66,11 +63,9 @@
 	<div class="valign-wrapper" id="splash-logo">
 		<div class="container">
 			<div class="row">
-				<div class="col m4 offset-m4 hide-on-small-and-down hide-on-short center-align">
-					<img src="/imgs/tec_logo_white.png" alt="TEC PA and Lighting" class="responsive-img" id="main-logo" />
-				</div>
+				<img src="/imgs/tec_logo_white.png" alt="TEC PA and Lighting" class="responsive-img shadow" id="main-logo" />
 			</div>
-			<div class="row no-margin">
+			<div class="row">
 				<div class="col s12 center" style="background-color: rgba(0,0,0,0.5); border-radius: 0.2em; margin-bottom: 6em;">
 					<p class="flow-text">
 						<a class="white-text shadow" href="/about/">Providing high quality sound, lighting and audio-visual services to organisations both within and outside the University of Nottingham Students’ Union.</a>
@@ -230,83 +225,39 @@
 		</div>
 	</footer>
 
-	<script src="/js/jquery.min.js"></script>
 	<script src="/js/materialize.min.js"></script>
 
 	<script>
-		$(document).ready(function() {
-			
-		    if ($('header').length) {
-		      $('.toc-wrapper').pushpin({ top: $('header').height() });
-		    }
-		    else if ($('#index-banner').length) {
-		      $('.toc-wrapper').pushpin({ top: $('#index-banner').height() });
-		    }
-		    else {
-		      $('.toc-wrapper').pushpin({ top: 0 });
-		    }
-		});
-		M.AutoInit();
-	</script>
-
-	<script>
-		$(document).ready(function(){
+        M.AutoInit();
+		document.addEventListener('DOMContentLoaded', function() {
 			var offset = 300; 
-			var offset_opacity = 700; 
-			var scroll_top_duration = 700; 
+			var offset_opacity = 1000; 
 
-			$back_to_top = $('.to-top'); 
-
-			$(window).scroll(function(){
-				if( $(this).scrollTop() > offset ) {
-					$back_to_top.addClass('visible')
-				} else {
-					$back_to_top.removeClass('visible fade-out hover');
-				}
-				if( $(this).scrollTop() > offset_opacity ) {
-					$back_to_top.addClass('fade-out');
-				}
-			});
-
-			
-			$back_to_top.on('click touchstart', function() {
-				$back_to_top.addClass('hover');
-			});
-
-			
-			$back_to_top.on('click', function(event){
-				event.preventDefault();
-				$('body,html').animate({
-					scrollTop: 0 ,
-				 	}, scroll_top_duration
-				);
-			});
+			var back_to_top = document.getElementById('to-top'); 
+            if(typeof(back_to_top) != 'undefined' && back_to_top != null) {
+			    window.onscroll = function(e) {
+				    if(window.pageYOffset > offset) {
+					    back_to_top.classList.add('visible');
+				    } else {
+					    back_to_top.classList.remove('visible');
+				    }
+				    if(window.pageYOffset > offset_opacity) {
+					    back_to_top.classList.remove('fade-out');
+				    } else {
+					    back_to_top.classList.add('fade-out');
+				    }
+			    };
+			    
+			    back_to_top.addEventListener('click', function(event){
+				    event.preventDefault();
+				    window.scroll({
+                      top: 0,
+                      behavior: 'smooth'
+                    });
+			    });
+            }
 		});
 	</script>
 </body>
 </html>
 
-
-<script>
-$(document).ready(function(){
-var header = $('bk-image');
-
-var backgrounds = new Array(
-    'url(http://placekitten.com/100)'
-  , 'url(http://placekitten.com/200)'
-  , 'url(http://placekitten.com/300)'
-  , 'url(http://placekitten.com/400)'
-);
-
-var current = 0;
-
-function nextBackground() {
-    current++;
-    current = current % backgrounds.length;
-    header.attr('src', backgrounds[current]);
-}
-setInterval(nextBackground, 100);
-
-header.attr('src', backgrounds[0]);
-});
-</script>

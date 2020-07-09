@@ -235,7 +235,7 @@
 		
 	</div>
 	<div class="hide-on-med-and-up">
-		<a href="#"><span class="small_medium fas fa-chevron-up to-top"></span></a>
+		<a href="#" id="to-top" class="btn-floating btn-large waves-effect waves-light black blue-text"><span class="fas fa-chevron-up"></span></a>
 	</div>
 </article>
 
@@ -274,57 +274,37 @@
 		</div>
 	</footer>
 
-	<script src="/js/jquery.min.js"></script>
 	<script src="/js/materialize.min.js"></script>
 
 	<script>
-		$(document).ready(function() {
-			
-		    if ($('header').length) {
-		      $('.toc-wrapper').pushpin({ top: $('header').height() });
-		    }
-		    else if ($('#index-banner').length) {
-		      $('.toc-wrapper').pushpin({ top: $('#index-banner').height() });
-		    }
-		    else {
-		      $('.toc-wrapper').pushpin({ top: 0 });
-		    }
-		});
-		M.AutoInit();
-	</script>
-
-	<script>
-		$(document).ready(function(){
+        M.AutoInit();
+		document.addEventListener('DOMContentLoaded', function() {
 			var offset = 300; 
-			var offset_opacity = 700; 
-			var scroll_top_duration = 700; 
+			var offset_opacity = 1000; 
 
-			$back_to_top = $('.to-top'); 
-
-			$(window).scroll(function(){
-				if( $(this).scrollTop() > offset ) {
-					$back_to_top.addClass('visible')
-				} else {
-					$back_to_top.removeClass('visible fade-out hover');
-				}
-				if( $(this).scrollTop() > offset_opacity ) {
-					$back_to_top.addClass('fade-out');
-				}
-			});
-
-			
-			$back_to_top.on('click touchstart', function() {
-				$back_to_top.addClass('hover');
-			});
-
-			
-			$back_to_top.on('click', function(event){
-				event.preventDefault();
-				$('body,html').animate({
-					scrollTop: 0 ,
-				 	}, scroll_top_duration
-				);
-			});
+			var back_to_top = document.getElementById('to-top'); 
+            if(typeof(back_to_top) != 'undefined' && back_to_top != null) {
+			    window.onscroll = function(e) {
+				    if(window.pageYOffset > offset) {
+					    back_to_top.classList.add('visible');
+				    } else {
+					    back_to_top.classList.remove('visible');
+				    }
+				    if(window.pageYOffset > offset_opacity) {
+					    back_to_top.classList.remove('fade-out');
+				    } else {
+					    back_to_top.classList.add('fade-out');
+				    }
+			    };
+			    
+			    back_to_top.addEventListener('click', function(event){
+				    event.preventDefault();
+				    window.scroll({
+                      top: 0,
+                      behavior: 'smooth'
+                    });
+			    });
+            }
 		});
 	</script>
 </body>
