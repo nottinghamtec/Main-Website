@@ -6642,15 +6642,6 @@ body {
   #main-nav .dropdown-content {
     min-width: 140px; }
 
-.page-footer {
-  color: #9e9e9e;
-  margin-top: 0 !important;
-  padding: 1em 0 !important; }
-  .page-footer a {
-    color: inherit; }
-  .page-footer .assoc-logo {
-    max-height: 2rem; }
-
 #page-title {
   margin-top: 8rem; }
 
@@ -6753,21 +6744,6 @@ article ul {
 .small_medium {
   font-size: 3em !important; }
 
-#to-top {
-  position: fixed;
-  bottom: 5vh;
-  right: 5vw;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity .3s 0s, visibility 0s .3s; }
-  #to-top.visible, #to-top.fade-out {
-    transition: opacity .3s 0s, visibility 0s 0s; }
-  #to-top.visible {
-    visibility: visible !important;
-    opacity: 1; }
-  #to-top.fade-out {
-    opacity: .6; }
-
 dl {
   display: flex;
   flex-wrap: wrap;
@@ -6798,3 +6774,135 @@ dt + dt + dd {
   margin-top: -1.625em;
   /* own height including padding */
   padding-left: calc(30% + 1em); }
+
+.page-footer {
+  color: #9e9e9e;
+  margin-top: 0 !important;
+  padding: 1em 0 !important; }
+  .page-footer a {
+    color: inherit; }
+  .page-footer .assoc-logo {
+    max-height: 2rem; }
+
+#to-top {
+  position: fixed;
+  bottom: 5vh;
+  right: 5vw;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .3s 0s, visibility 0s .3s; }
+  #to-top.visible, #to-top.fade-out {
+    transition: opacity .3s 0s, visibility 0s 0s; }
+  #to-top.visible {
+    visibility: visible !important;
+    opacity: 1; }
+  #to-top.fade-out {
+    opacity: .6; }
+
+.crossfade > img {
+  -webkit-animation: imageAnimation 60s linear infinite 0s;
+          animation: imageAnimation 60s linear infinite 0s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-size: cover;
+  background-position: center center;
+  color: transparent;
+  opacity: 0;
+  z-index: 0; }
+
+.crossfade > img:nth-child(2) {
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s; }
+
+.crossfade > img:nth-child(3) {
+  -webkit-animation-delay: 24s;
+          animation-delay: 24s; }
+
+.crossfade > img:nth-child(4) {
+  -webkit-animation-delay: 36s;
+          animation-delay: 36s; }
+
+.crossfade > img:nth-child(5) {
+  -webkit-animation-delay: 48s;
+          animation-delay: 48s; }
+
+@-webkit-keyframes imageAnimation {
+  0% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 0; }
+  8% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 1; }
+  17% {
+    opacity: 1; }
+  25% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@keyframes imageAnimation {
+  0% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 0; }
+  8% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 1; }
+  17% {
+    opacity: 1; }
+  25% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+.youtube-player {
+  position: relative;
+  padding-bottom: 56.23%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+  margin: 5px; }
+
+.youtube-player iframe,
+.youtube-player object,
+.youtube-player embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: transparent; }
+
+.youtube-player img {
+  bottom: 0;
+  display: block;
+  left: 0;
+  margin: auto;
+  max-width: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  height: auto;
+  cursor: pointer;
+  transition: .4s all; }
+
+.youtube-player img:hover {
+  -webkit-filter: brightness(75%); }
+
+.youtube-player .play {
+  height: 72px;
+  width: 72px;
+  left: 50%;
+  top: 50%;
+  margin-left: -36px;
+  margin-top: -36px;
+  position: absolute;
+  background: url("//i.imgur.com/TxzC70f.png") no-repeat;
+  cursor: pointer; }
