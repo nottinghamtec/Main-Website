@@ -9,6 +9,8 @@
 
 	<link rel="stylesheet" type="text/css" href="/css/screen.css" />
 	<script defer src="/js/all.js"></script>
+    <link href="/fonts/OpenSans-Regular.woff" as="font" type="font/woff">
+    <link rel="preload" href="/fonts/OpenSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
 	<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
@@ -142,7 +144,7 @@
 		<div class="section scrollspy" id="what-we-do">
 			<div class="container">
 				<div class="video-container">
-					<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ld4GCH_NVh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="youtube-player" data-id="Ld4GCH_NVh8"></div>
 				</div>
 			</div>
 		</div>
@@ -190,6 +192,36 @@
 	</div>
 </section>
 
+<script defer>
+     
+     
+    document.addEventListener("DOMContentLoaded",
+        function() {
+            var div, n,
+                v = document.getElementsByClassName("youtube-player");
+            for (n = 0; n < v.length; n++) {
+                div = document.createElement("div");
+                div.setAttribute("data-id", v[n].dataset.id);
+                div.innerHTML = labnolThumb(v[n].dataset.id);
+                div.onclick = labnolIframe;
+                v[n].appendChild(div);
+            }
+        });
+
+    function labnolThumb(id) {
+        var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+            play = '<div class="play"></div>';
+        return thumb.replace("ID", id) + play;
+    }
+
+    function labnolIframe() {
+        var iframe = document.createElement("iframe");
+        iframe.setAttribute("src", "https://www.youtube-nocookie.com/embed/" + this.dataset.id + "?autoplay=1");
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
+        this.parentNode.replaceChild(iframe, this);
+    }
+</script>
 	<footer class="page-footer">
 		<div class="container">
 			<div class="row no-margin valign-wrapper">
