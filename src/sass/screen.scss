@@ -197,25 +197,14 @@ article {
   z-index: 0;
 }
 
-#index-logo {
-  position: absolute;
-  display: inline-block;
-  left: 50%;
-  transform: translateX(-50%);
-
-  img {
-    max-width: 30vw;
-    max-height: 30vh;
-    width: auto;
-    height: auto;
-  }
-}
-
 #main-logo {
   max-width: 30vw;
   max-height: 30vh;
   width: auto;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .no-margin {
