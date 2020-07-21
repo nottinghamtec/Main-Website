@@ -3,3 +3,4 @@ CacheExpires: "3m"
 CheckInternalHash: false
 IgnoreURLs:
 - "su.nottingham.ac.uk"
+- "members.nottinghamtec.co.uk"
