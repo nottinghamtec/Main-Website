@@ -1,0 +1,30 @@
+name: Website CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  build:
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.85.0'
+      - name: Build
+        run: hugo --minify
+      - name: HTMLTest
+        run: |
+            curl -Lk https://github.com/wjdp/htmltest/releases/download/v0.4.1/htmltest-linux -o ~/htmltest && chmod +x "$_"
+            ~/htmltest
+      - name: Deploy
+        if: ${{ github.ref == 'refs/heads/master' }}
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+            
