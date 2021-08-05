@@ -17,11 +17,12 @@ jobs:
         with:
           hugo-version: '0.85.0'
       - uses: bahmutov/npm-install@v1
+      - uses: c-hive/gha-npm-cache@v1
       - name: Install NPM packages
         run: | 
                npm install
-               npm install --global gulp-cli
-               gulp build
+               npm install gulp-cli
+               node node_modules/gulp/bin/gulp build
       - name: Build
         run: hugo --minify
       - name: HTMLTest
