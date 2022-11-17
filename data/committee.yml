@@ -2,37 +2,37 @@ members:
     # The order of members is important as this will be the order they are displayed in.
     # A hash has been placed after current positions to make this process easier.
     -
-      Name: Arona Jones
+      Name: Hope Leverett
       Position: Technical Director # 1
       Photo:
-        - /imgs/committee/arona.jpg
+        - /imgs/committee/hope.jpg
       Bio:
-        "Arona has oversight of all of TEC, our equivalent of a President. He liases with the Students Union and many other people to make sure everything is going smoothly. In his spare time he can be found with his motorcycle."
+        "Hope has oversight of all of TEC, our equivalent of a President. She liaises with the Students Union and many other people to make sure everything is going smoothly. Away from TEC, she can be found studying animal viruses as part of her PhD."
     -
-      Name: Matt Smith
+      Name: Nick Wolstenholme
       Position: Productions Manager # 2
       Photo:
-        - /imgs/committee/matt.jpg
+        - /imgs/committee/nick.jpg
       Bio:
-        "Matt is in charge of the day to day running of all our events. He's a third year Computer Science student and does embedded development as a hobby."
+        "Nick is in charge of the day to day running of all our events. He's a third year Electronic Engineering student and enjoys climbing and photography."
     -
-      Name: Jess Rough
+      Name: Jhoti Mahapatra
       Position: Treasurer # 3
       Photo:
-        - /imgs/committee/jess.jpg
+        - /imgs/committee/jhoti.jpg
       Bio:
-        "Jess oversees all things money related. She's a third year Philosophy and English student with a passion for linguistics."
+        "Jhoti oversees all things money related. He's a third year Mechanical Engineering student that can often be found building racing cars."
     -
-      Name: Joseph Boyden
+      Name: David Walastyan
       Position: Logistics Manager # 4
       Photo:
-        - /imgs/committee/joe.jpg
+        - /imgs/committee/david.jpg
       Bio:
-        "Joe coordinates with the Productions Manager on matters of equipment purchase/maintenance and haulage. Besides TEC, he enjoys sports and gaming."
+        "David coordinates with the Productions Manager on matters of equipment purchase/maintenance and haulage. Can also be found playing D and D or cycling (but not at the same time)."
     -
-     Name: Liv Harrison
+     Name: Joseph Boyden
      Position: Members' Officer
      Photo:
-        - /imgs/committee/liv.jpeg
+        - /imgs/committee/joe.jpeg
      Bio:
-       "Liv is responsible for everything people in TEC, which includes organising training and looking after everyone's welfare. She's a second year Chemistry student who has a mild obsession with comics."
+       "Joe is responsible for everything people in TEC, which includes organising training and looking after everyone's welfare. Besides TEC, he enjoys sports and gaming."
