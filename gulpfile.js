@@ -4,12 +4,10 @@ var gulp = require('gulp');
 
 var autoprefixer = require('autoprefixer')
 var terser = require('gulp-terser');
-var sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 var postcss = require('gulp-postcss')
 var flatten = require('gulp-flatten');
 var spawn = require('child_process').spawn;
-
-sass.compiler = require('node-sass');
 
 function styles(done) {
     return gulp.src(['src/sass/screen.scss'])
