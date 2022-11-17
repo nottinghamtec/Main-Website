@@ -8051,16 +8051,6 @@ article ul li {
   z-index: 0;
 }
 
-#main-logo {
-  max-width: 30vw;
-  max-height: 30vh;
-  width: auto;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .no-margin {
   margin: 0 0;
 }
