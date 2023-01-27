@@ -1,38 +1,28 @@
 members:
-    # The order of members is important as this will be the order they are displayed in.
-    # A hash has been placed after current positions to make this process easier.
-    -
-      Name: Hope Leverett
-      Position: Technical Director # 1
-      Photo:
-        - /imgs/committee/hope.jpg
-      Bio:
-        "Hope has oversight of all of TEC, our equivalent of a President. She liaises with the Students Union and many other people to make sure everything is going smoothly. Away from TEC, she can be found studying animal viruses as part of her PhD."
-    -
-      Name: Nick Wolstenholme
-      Position: Productions Manager # 2
-      Photo:
-        - /imgs/committee/nick.jpg
-      Bio:
-        "Nick is in charge of the day to day running of all our events. He's a third year Electronic Engineering student and enjoys climbing and photography."
-    -
-      Name: Jhoti Mahapatra
-      Position: Treasurer # 3
-      Photo:
-        - /imgs/committee/jhoti.jpg
-      Bio:
-        "Jhoti oversees all things money related. He's a third year Mechanical Engineering student that can often be found building racing cars."
-    -
-      Name: David Walastyan
-      Position: Logistics Manager # 4
-      Photo:
-        - /imgs/committee/david.jpg
-      Bio:
-        "David coordinates with the Productions Manager on matters of equipment purchase/maintenance and haulage. Can also be found playing D and D or cycling (but not at the same time)."
-    -
-     Name: Joseph Boyden
-     Position: Members' Officer
-     Photo:
-        - /imgs/committee/joe.jpg
-     Bio:
-       "Joe is responsible for everything people in TEC, which includes organising training and looking after everyone's welfare. Besides TEC, he enjoys sports and gaming."
+  # The order of members is important as this will be the order they are displayed in.
+  # A hash has been placed after current positions to make this process easier.
+  - Name: Hope Leverett
+    Position: Technical Director # 1
+    Photo:
+      - /imgs/committee/hope.jpg
+    Bio: "Hope has oversight of all of TEC, our equivalent of a President. She liaises with the Students Union and many other people to make sure everything is going smoothly. Away from TEC, she can be found studying animal viruses as part of her PhD."
+  - Name: Nick Wolstenholme
+    Position: Productions Manager # 2
+    Photo:
+      - /imgs/committee/nick.jpg
+    Bio: "Nick is in charge of the day to day running of all our events. He's a third year Electronic Engineering student and enjoys climbing and photography."
+  - Name: Jhoti Mahapatra
+    Position: Treasurer # 3
+    Photo:
+      - /imgs/committee/jhoti.jpg
+    Bio: "Jhoti oversees all things money related. He's a third year Mechanical Engineering student that can often be found building racing cars."
+  - Name: Leo Riley
+    Position: Logistics Manager # 4
+    Photo:
+      - /imgs/committee/TEC Logo small.PNG
+    Bio: "Leo coordinates with the Productions Manager on matters of equipment purchase/maintenance and haulage. Can also be found on the climbing wall or fiddling with electronics."
+  - Name: Joseph Boyden
+    Position: Members' Officer
+    Photo:
+      - /imgs/committee/joe.jpg
+    Bio: "Joe is responsible for everything people in TEC, which includes organising training and looking after everyone's welfare. Besides TEC, he enjoys sports and gaming."
