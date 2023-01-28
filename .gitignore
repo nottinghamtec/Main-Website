@@ -49,3 +49,7 @@ static/js/*
 
 # HTML Proofer
 tmp/*
+
+
+# vscode stuff
+.vscode/
