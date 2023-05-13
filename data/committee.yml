@@ -16,19 +16,19 @@ members:
   - Name: Alfie Coe
     Position: Treasurer # 3
     Photo:
-      - /imgs/committee/alfie.jpg
+      - /imgs/committee/alfie.jpeg
     Bio: "Alfie oversees all things money related. He's a second year accounting student who enjoys photography outside of TEC."
   
   - Name: Sam Windle
     Position: Members' Officer # 4
     Photo:
-      - /imgs/committee/sam.jpg
+      - /imgs/committee/sam.jpeg
     Bio: "Sam is responsible for everything people in TEC, which includes organising training and looking after everyone's welfare. Besides TEC, he enjoys climing and spending time with his dog Bonsai."
 
   - Name: Ethan Mees
     Position: Logistics Manager # 5
     Photo:
-      - /imgs/committee/ethan.jpg
+      - /imgs/committee/ethan.jpeg
     Bio: "Ethan coordinates with the Productions Manager on matters of equipment purchase/maintenance and haulage. He's a second year Physics Student who can often be found helping out with his family business."
   
   - Name: Jhoti Mahapatra
@@ -46,5 +46,5 @@ members:
   - Name: Toby Wong
     Position: Lighting Manager # 8
     Photo:
-      - /imgs/committee/toby.jpg
+      - /imgs/committee/toby.jpeg
     Bio: "Toby coordinates with the :Logistics Manager and is resopnsible for looking after and manintaing all of our lighting equipment. He's a second year Law student."
