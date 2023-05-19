@@ -11,14 +11,14 @@ menu:
 {{<rawhtml>}}
 <dl>
     <dt>Phone</dt>
-    <dd><a href="tel:01158468270">0115 84 68720</a></dd>
+    <dd><a href="tel:01158468720">0115 84 68720</a></dd>
 
     <dt>Email</dt>
     <dd><a href="mailto:info@nottinghamtec.co.uk">info@nottinghamtec.co.uk</a></dd>
 
     <dt>24 Hour Emergency Contact</dt>
     <dd>
-        <a href="tel:01158468270">0115 84 68720</a>
+        <a href="tel:01158468720">0115 84 68720</a>
     </dd>
 </dl>
 {{</rawhtml>}}
@@ -28,7 +28,7 @@ Our members regularly spend time in the office, please feel free to pop in and s
 {{<rawhtml>}}
 <dl>
     <dt>Phone</dt>
-    <dd><a href="tel:01158468270">0115 84 68720</a></dd>
+    <dd><a href="tel:01158468720">0115 84 68720</a></dd>
 
     <dt>Address</dt>
     <dd>TEC PA &amp; Lighting</dd>
