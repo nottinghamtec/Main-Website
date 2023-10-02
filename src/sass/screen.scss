@@ -383,13 +383,13 @@ dt + dt + dd {
 }
 
 .youtube-player .play {
-    height: 74px;
-    width: 74px;
+    height: 100px;
+    width: 100px;
     left: 50%;
     top: 50%;
-    margin-left: -36px;
-    margin-top: -36px;
+    margin-left: -50px;
+    margin-top: -50px;
     position: absolute;
-    background: url(/imgs/playButtonSmall.png) no-repeat;
+    background: url(/imgs/playButtonNew.png) no-repeat;
     cursor: pointer;
 }
