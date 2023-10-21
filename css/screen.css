@@ -6265,8 +6265,7 @@ textarea.materialize-textarea {
   border-right: 2px solid #424242;
   border-bottom: 2px solid #424242;
   transform: rotate(40deg);
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   transform-origin: 100% 100%;
 }
 [type=checkbox]:checked:disabled + span:before {
@@ -6285,8 +6284,7 @@ textarea.materialize-textarea {
   border-right: 2px solid #424242;
   border-bottom: none;
   transform: rotate(90deg);
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   transform-origin: 100% 100%;
 }
 [type=checkbox]:indeterminate:disabled + span:not(.lever):before {
@@ -6823,8 +6821,7 @@ input[type=range]::-ms-thumb {
   z-index: 999;
   overflow-y: auto;
   will-change: transform;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   transform: translateX(-105%);
 }
 .sidenav.right-aligned {
@@ -8168,8 +8165,7 @@ dt + dt + dd {
 
 .crossfade > img {
   animation: imageAnimation 60s linear infinite 0s;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   background-size: cover;
   background-position: center center;
   color: transparent;
