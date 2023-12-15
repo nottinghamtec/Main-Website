@@ -18,27 +18,27 @@ members:
     Photo:
       - /imgs/committee/alfie.jpeg
     Bio: "Alfie oversees all things money related. He's a second year accounting student who enjoys photography outside of TEC."
+
+  - Name: Toby Wong
+    Position: Logistics Manager # 4
+    Photo:
+      - /imgs/committee/toby.jpeg
+    Bio: "Toby is resopnsible for looking after and manintaing all of our equipment. He's a second year Law student."
   
   - Name: Sam Windle
-    Position: Members' Officer # 4
+    Position: Members' Officer # 5
     Photo:
       - /imgs/committee/sam.jpeg
     Bio: "Sam is responsible for everything people in TEC, which includes organising training and looking after everyone's welfare. Besides TEC, he enjoys climing and spending time with his dog Bonsai."
   
-  - Name: Jhoti Mahapatra
-    Position: Communications Officer # 6
-    Photo:
-      - /imgs/committee/jhoti.jpg
-    Bio: "Jhoti is in resposnible for all things publicity and social media as well as communicating with our members. He's Mechanical Engineering student taking a year out to work in industry."
+#  - Name: Jhoti Mahapatra
+#    Position: Communications Officer # 6
+#    Photo:
+#      - /imgs/committee/jhoti.jpg
+#    Bio: "Jhoti is in resposnible for all things publicity and social media as well as communicating with our members. He's Mechanical Engineering student taking a year out to work in industry."
 
   - Name: Nick Wolstenholme
-    Position: IT Manager # 7
+    Position: IT Manager # 6
     Photo:
       - /imgs/committee/nick.jpg
-    Bio: "Nick is responsible for the upkeep of our website and other IT related matters. He's a fourth year Electrical Engineering student who can also be found fiddling with electronics, climbing or doing photography."
-
-  - Name: Toby Wong
-    Position: Lighting Manager # 8
-    Photo:
-      - /imgs/committee/toby.jpeg
-    Bio: "Toby coordinates with the Logistics Manager and is resopnsible for looking after and manintaing all of our lighting equipment. He's a second year Law student."
+    Bio: "Nick is responsible for the our websites and other IT related matters. He's a fourth year Electrical Engineering student who can also be found fiddling with electronics, climbing or doing photography."
