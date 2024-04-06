@@ -1,35 +1,35 @@
 members:
   # The order of members is important as this will be the order they are displayed in.
   # A hash has been placed after current positions to make this process easier.
-  - Name: Hope Leverett
+  - Name: Sam Windle
     Position: Technical Director # 1
     Photo:
-      - /imgs/committee/hope.jpg
-    Bio: "Hope has oversight of all of TEC, our equivalent of a President. She liaises with the Students Union and many other people to make sure everything is going smoothly. Away from TEC, she can be found studying animal viruses as part of her PhD."
-  
-  - Name: Leo Riley
-    Position: Productions Manager # 2
-    Photo:
-      - /imgs/committee/leo.jpg
-    Bio: "Leo is in charge of the day to day running of all our events. He's a second year Electronic Engineering student who can also be found on the climbing wall or fiddling with electronics."
+      - /imgs/committee/sam.jpeg
+    Bio: "Sam has oversight of all of TEC, our equivalent of a President. He liaises with the Students Union and many other people to make sure everything is going smoothly. Besides TEC, he enjoys climing and spending time with his dog Bonsai."
+
+  # - Name: Leo Riley
+  #   Position: Productions Manager # 2
+  #   Photo:
+  #     - /imgs/committee/leo.jpg
+  #   Bio: "Leo is in charge of the day to day running of all our events. He's a second year Electronic Engineering student who can also be found on the climbing wall or fiddling with electronics."
   
   - Name: Alfie Coe
-    Position: Treasurer # 3
+    Position: Treasurer # 2
     Photo:
       - /imgs/committee/alfie.jpeg
     Bio: "Alfie oversees all things money related. He's a second year accounting student who enjoys photography outside of TEC."
 
   - Name: Toby Wong
-    Position: Logistics Manager # 4
+    Position: Logistics Manager # 3
     Photo:
       - /imgs/committee/toby.jpeg
     Bio: "Toby is resopnsible for looking after and manintaing all of our equipment. He's a second year Law student."
   
-  - Name: Sam Windle
-    Position: Members' Officer # 5
-    Photo:
-      - /imgs/committee/sam.jpeg
-    Bio: "Sam is responsible for everything people in TEC, which includes organising training and looking after everyone's welfare. Besides TEC, he enjoys climing and spending time with his dog Bonsai."
+  # - Name: Sam Windle
+  #   Position: Members' Officer # 5
+  #   Photo:
+  #     - /imgs/committee/sam.jpeg
+  #   Bio: "Sam is responsible for everything people in TEC, which includes organising training and looking after everyone's welfare. Besides TEC, he enjoys climing and spending time with his dog Bonsai."
   
 #  - Name: Jhoti Mahapatra
 #    Position: Communications Officer # 6
@@ -37,8 +37,8 @@ members:
 #      - /imgs/committee/jhoti.jpg
 #    Bio: "Jhoti is in resposnible for all things publicity and social media as well as communicating with our members. He's Mechanical Engineering student taking a year out to work in industry."
 
-  - Name: Nick Wolstenholme
-    Position: IT Manager # 6
-    Photo:
-      - /imgs/committee/nick.jpg
-    Bio: "Nick is responsible for the our websites and other IT related matters. He's a fourth year Electrical Engineering student who can also be found fiddling with electronics, climbing or doing photography."
+  # - Name: Nick Wolstenholme
+  #   Position: IT Manager # 6
+  #   Photo:
+  #     - /imgs/committee/nick.jpg
+  #   Bio: "Nick is responsible for the our websites and other IT related matters. He's a fourth year Electrical Engineering student who can also be found fiddling with electronics, climbing or doing photography."
