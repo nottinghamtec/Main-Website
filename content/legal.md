@@ -39,4 +39,4 @@ TEC PA & Lighting operates with the following [Terms of Hire](/terms.pdf) across
 
 ## Important Information
 * [Mission Statement](/mission-statement.pdf)
-* [Public / Product Liability Insurance](/PLI_2023_24.pdf)
+* [Public / Product Liability Insurance](/PLI_2024_25.pdf)
