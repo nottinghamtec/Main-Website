@@ -7,38 +7,38 @@ members:
       - /imgs/committee/sam.jpeg
     Bio: "Sam has oversight of all of TEC, our equivalent of a President. He liaises with the Students Union and many other people to make sure everything is going smoothly. Besides TEC, he enjoys climing and spending time with his dog Bonsai."
 
-  # - Name: Leo Riley
-  #   Position: Productions Manager # 2
-  #   Photo:
-  #     - /imgs/committee/leo.jpg
-  #   Bio: "Leo is in charge of the day to day running of all our events. He's a second year Electronic Engineering student who can also be found on the climbing wall or fiddling with electronics."
-  
+  - Name: Toby Wong
+    Position: Productions Manager # 2
+    Photo:
+      - /imgs/committee/toby.jpeg
+    Bio: "Toby oversees the day-to-day operation of TEC productions. He ensures that all events, both large and small, run smoothly. He's a third year Law student."
+
   - Name: Alfie Coe
     Position: Treasurer # 2
     Photo:
       - /imgs/committee/alfie.jpeg
     Bio: "Alfie oversees all things money related. He's a second year accounting student who enjoys photography outside of TEC."
 
-  - Name: Toby Wong
-    Position: Logistics Manager # 3
+  - Name: Isaac Daborn Mann
+    Position: Acting Logistics Manager # 3
     Photo:
-      - /imgs/committee/toby.jpeg
-    Bio: "Toby is resopnsible for looking after and manintaing all of our equipment. He's a second year Law student."
-  
-  # - Name: Sam Windle
-  #   Position: Members' Officer # 5
-  #   Photo:
-  #     - /imgs/committee/sam.jpeg
-  #   Bio: "Sam is responsible for everything people in TEC, which includes organising training and looking after everyone's welfare. Besides TEC, he enjoys climing and spending time with his dog Bonsai."
-  
-#  - Name: Jhoti Mahapatra
-#    Position: Communications Officer # 6
-#    Photo:
-#      - /imgs/committee/jhoti.jpg
-#    Bio: "Jhoti is in resposnible for all things publicity and social media as well as communicating with our members. He's Mechanical Engineering student taking a year out to work in industry."
+      - /imgs/committee/isaac.jpg
+    Bio: "As Logistics Manager, Isaac is responsible for the maintenance and upkeep of all of TEC's equipment, ensuring we keep accurate records of equipment and stay up to date with equipment testing policies. He's a second year Electrical Engineering student."
 
-  # - Name: Nick Wolstenholme
-  #   Position: IT Manager # 6
-  #   Photo:
-  #     - /imgs/committee/nick.jpg
-  #   Bio: "Nick is responsible for the our websites and other IT related matters. He's a fourth year Electrical Engineering student who can also be found fiddling with electronics, climbing or doing photography."
+  - Name: Charlotte Reese
+    Position: Members' Officer # 5
+    Photo:
+      - /imgs/committee/charlotte.jpeg
+    Bio: "Charlotte is responsible for all things members. She oversees member welfare, organises member training and puts together TEC socials."
+
+  #  - Name: Jhoti Mahapatra
+  #    Position: Communications Officer # 6
+  #    Photo:
+  #      - /imgs/committee/jhoti.jpg
+  #    Bio: "Jhoti is in resposnible for all things publicity and social media as well as communicating with our members. He's Mechanical Engineering student taking a year out to work in industry."
+
+  - Name: Joe Banks
+    Position: IT Manager # 6
+    Photo:
+      - /imgs/committee/joe.jpeg
+    Bio: "Joe is responsible for the TEC website and other internal IT tooling. He's a final year Computer Science student who can also be found doing photography & filmography in his spare time."
