@@ -53,3 +53,6 @@ tmp/*
 
 # vscode stuff
 .vscode/
+
+# Hugo
+.hugo_build.lock
