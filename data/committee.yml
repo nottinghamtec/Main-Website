@@ -1,35 +1,35 @@
 members:
   # The order of members is important as this will be the order they are displayed in.
   # A hash has been placed after current positions to make this process easier.
-  - Name: Sam Windle
+  - Name: Charlotte Reese
     Position: Technical Director # 1
     Photo:
-      - /imgs/committee/sam.jpeg
-    Bio: "Sam has oversight of all of TEC, our equivalent of a President. He liaises with the Students Union and many other people to make sure everything is going smoothly. Besides TEC, he enjoys climing and spending time with his dog Bonsai."
+      - /imgs/committee/charlotte.jpeg
+    Bio: "Charlotte has oversight of all of TEC, our equivalent of a President. She liaises with the Students Union and many other people to make sure everything is going smoothly."
 
-  - Name: Toby Wong
-    Position: Productions Manager # 2
-    Photo:
-      - /imgs/committee/toby.jpeg
-    Bio: "Toby oversees the day-to-day operation of TEC productions. He ensures that all events, both large and small, run smoothly. He's a third year Law student."
+  # - Name: Toby Wong
+  #   Position: Productions Manager # 2
+  #   Photo:
+  #     - /imgs/committee/toby.jpeg
+  #   Bio: "Toby oversees the day-to-day operation of TEC productions. He ensures that all events, both large and small, run smoothly. He's a third year Law student."
 
   - Name: Alfie Coe
     Position: Treasurer # 2
     Photo:
       - /imgs/committee/alfie.jpeg
-    Bio: "Alfie oversees all things money related. He's a second year accounting student who enjoys photography outside of TEC. (normal size pen pictured)"
+    Bio: "Alfie oversees all things money related. He manages the TEC budget, ensuring we are financially stable and able to run events.  He's a second year accounting student who enjoys photography outside of TEC. (normal size pen pictured)"
 
-  - Name: Isaac Daborn Mann
-    Position: Acting Logistics Manager # 3
+  - Name: James Cook
+    Position: Logistics Manager # 3
     Photo:
-      - /imgs/committee/isaac.jpg
-    Bio: "As Logistics Manager, Isaac is responsible for the maintenance and upkeep of all of TEC's equipment, ensuring we keep accurate records of equipment and stay up to date with equipment testing policies. He's a second year Electrical Engineering student."
+      - /imgs/committee/james.jpg
+    Bio: "As Logistics Manager, James is responsible for the maintenance and upkeep of all of TEC's equipment, ensuring we keep accurate records of equipment and stay up to date with equipment testing policies. He's a Computer Science student who enjoys photography and going on walks in the countryside."
 
-  - Name: Charlotte Reese
+  - Name: Rosalia Biasi
     Position: Members' Officer # 5
     Photo:
-      - /imgs/committee/charlotte.jpeg
-    Bio: "Charlotte is responsible for all things members. She oversees member welfare, organises member training and puts together TEC socials."
+      - /imgs/committee/rosi.jpg
+    Bio: "Rosi is responsible for all things members. She oversees member welfare, organises member training and puts together TEC socials. She studies Liberal Arts and has a passion for reading, playing guitar and complaining."
 
   #  - Name: Jhoti Mahapatra
   #    Position: Communications Officer # 6
@@ -37,8 +37,8 @@ members:
   #      - /imgs/committee/jhoti.jpg
   #    Bio: "Jhoti is in resposnible for all things publicity and social media as well as communicating with our members. He's Mechanical Engineering student taking a year out to work in industry."
 
-  - Name: Joe Banks
-    Position: IT Manager # 6
-    Photo:
-      - /imgs/committee/joe.jpeg
-    Bio: "Joe is responsible for the TEC website and other internal IT tooling. He's a final year Computer Science student who can also be found doing photography & filmography in his spare time."
+  # - Name: Joe Banks
+  #   Position: IT Manager # 6
+  #   Photo:
+  #     - /imgs/committee/joe.jpeg
+  #   Bio: "Joe is responsible for the TEC website and other internal IT tooling. He's a final year Computer Science student who can also be found doing photography & filmography in his spare time."
