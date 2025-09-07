@@ -3,6 +3,7 @@ title="Legal"
 +++
 
 ## Website Terms and Conditions
+
 Welcome to TEC PA & Lighting. If you continue to browse and use this website, you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern TEC’s relationship with you in relation to this website. If you disagree with any part of these terms and conditions, please do not use our website.
 
 The term ‘TEC PA & Lighting’ or ‘TEC’ or ‘us’ or ‘we’ refers to the owner of the website, TEC PA & Lighting. The term ‘you’ refers to the user or viewer of our website.
@@ -21,6 +22,7 @@ From time to time this website may also include links to other websites. These l
 Your use of this website and any dispute arising out of such use of the website is subject to the laws of England, Northern Ireland, Scotland and Wales.
 
 ### Cookie Policy
+
 A cookie is a small file which asks permission to be placed on your computer’s hard drive. Once you agree, the file is added and the cookie helps analyse web traffic or lets you know when you visit a particular site. Cookies allow web applications to respond to you as an individual. The web application can tailor its operations to your needs, likes and dislikes by gathering and remembering information about your preferences.
 
 We use traffic log cookies to identify which pages are being used. This helps us analyse data about webpage traffic and improve our website in order to tailor it to customer needs. We only use this information for statistical analysis purposes and then the data is removed from the system.
@@ -32,11 +34,14 @@ You can choose to accept or decline cookies. Most web browsers automatically acc
 Full details of TEC’s cookie usage can be found in our Website Terms and Conditions.
 
 ## Copyright
+
 All website content &copy; TEC PA & Lighting. All rights reserved.
 
 ## Terms and Conditions of Service
+
 TEC PA & Lighting operates with the following [Terms of Hire](/terms.pdf) across all services.
 
 ## Important Information
+
 * [Mission Statement](/mission-statement.pdf)
-* [Public / Product Liability Insurance](/PLI_2024_25.pdf)
+* [Public / Product Liability Insurance](/PLI_2025_26.pdf)
