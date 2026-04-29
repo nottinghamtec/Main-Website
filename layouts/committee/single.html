@@ -5,12 +5,12 @@
 	<div class="container">
 		{{ .Content }}
 
-		{{ $last := sub (len $.Site.Data.committee.members) 1 }}
+		{{ $last := sub (len hugo.Data.committee.members) 1 }}
 
-		{{ range $index, $item := $.Site.Data.committee.members }}
+		{{ range $index, $item := hugo.Data.committee.members }}
 
-			{{ if eq (mod $index 2) 0 }}
-			<div class="row">
+		{{ if eq (mod $index 2) 0 }}
+		<div class="row">
 			{{ end }}
 
 			<div class="col s12 m6{{ if and (eq $index $last) (eq (mod $index 2) 0) }} offset-m3{{ end }}">
@@ -29,22 +29,23 @@
 					<h3>{{$item.Name}}</h3>
 					<h4>{{$item.Position}}</h4>
 					{{ if $item.Bio }}
-						{{$item.Bio | markdownify}}
+					{{$item.Bio | markdownify}}
 					{{ end }}
 				</div>
 
 			</div>
 
 			{{ if or (eq $index $last) (eq (mod $index 2) 1) }}
-			</div>
-			{{ end }}
+		</div>
+		{{ end }}
 
-			{{ $index := add $index 1 }}
+		{{ $index := add $index 1 }}
 
 		{{ end }}
 	</div>
 	<div class="hide-on-med-and-up">
-		<a href="#" id="to-top" class="btn-floating btn-large waves-effect waves-light black blue-text"><span class="fas fa-chevron-up"></span></a>
+		<a href="#" id="to-top" class="btn-floating btn-large waves-effect waves-light black blue-text"><span
+				class="fas fa-chevron-up"></span></a>
 	</div>
 </article>
 
