@@ -1,11 +1,11 @@
 members:
   # The order of members is important as this will be the order they are displayed in.
   # A hash has been placed after current positions to make this process easier.
-  - Name: Charlotte Reese
+  - Name: Rosalia Biasi 
     Position: Technical Director # 1
     Photo:
-      - /imgs/committee/charlotte.jpeg
-    Bio: "Charlotte has oversight of all of TEC, our equivalent of a President. She liaises with the Students Union and many other people to make sure everything is going smoothly."
+      - /imgs/committee/rosi.jpg
+    Bio: "Rosi has overall responsibility for TEC. She liases with the Students' Union to ensure everything goes smoothly. She studies Liberal Arts, and when she has free time she enjoys reading and playing guitar."
 
   # - Name: Toby Wong
   #   Position: Productions Manager # 2
@@ -13,32 +13,26 @@ members:
   #     - /imgs/committee/toby.jpeg
   #   Bio: "Toby oversees the day-to-day operation of TEC productions. He ensures that all events, both large and small, run smoothly. He's a third year Law student."
 
-  - Name: Alfie Coe
+  - Name: James Cook
     Position: Treasurer # 2
     Photo:
-      - /imgs/committee/alfie.jpeg
-    Bio: "Alfie oversees all things money related. He manages the TEC budget, ensuring we are financially stable and able to run events.  He's a second year accounting student who enjoys photography outside of TEC. (normal size pen pictured)"
+      - /imgs/committee/james.jpg
+    Bio: "James oversees all things money related. He manages the TEC budget, ensuring we are financially stable and able to run events.  He's a computer science student who enjoys photography outside of TEC."
 
-  - Name: James Cook
+  - Name: Isaac Korda
     Position: Logistics Manager # 3
     Photo:
-      - /imgs/committee/james.jpg
-    Bio: "As Logistics Manager, James is responsible for the maintenance and upkeep of all of TEC's equipment, ensuring we keep accurate records of equipment and stay up to date with equipment testing policies. He's a Computer Science student who enjoys photography and going on walks in the countryside."
+      - /imgs/committee/isaac.jpg
+    Bio: "Isaac is responsible for patting the G2 rack, maintanence and upkeep of TEC's equipment, ensuring test schedules are followed and keeping records when things are. Outside of TEC Isaac is a ex academy rugby player with a dodgy knee. He also directed the 2025/26 Notts Varsity series for NSTV."
 
-  - Name: Rosalia Biasi
-    Position: Members' Officer # 5
+  - Name: Hang Xu
+    Position: IT Manager # 6
     Photo:
-      - /imgs/committee/rosi.jpg
-    Bio: "Rosi is responsible for all things members. She oversees member welfare, organises member training and puts together TEC socials. She studies Liberal Arts and has a passion for reading, playing guitar and complaining."
+      - /imgs/committee/hang.jpg
+    Bio: "Hang is chiefly responsible for maintaining TEC's IT infrastructure, allowing everyone to enjoy modern technology rather than recreating the Stone Age by chiseling rigboards onto bits of rock. Hang can usually be found struggling with a collection of motors, trying to persuade something with many motors to move as he intended (that's robotics!)."
 
-  #  - Name: Jhoti Mahapatra
-  #    Position: Communications Officer # 6
-  #    Photo:
-  #      - /imgs/committee/jhoti.jpg
-  #    Bio: "Jhoti is in resposnible for all things publicity and social media as well as communicating with our members. He's Mechanical Engineering student taking a year out to work in industry."
-
-  # - Name: Joe Banks
-  #   Position: IT Manager # 6
-  #   Photo:
-  #     - /imgs/committee/joe.jpeg
-  #   Bio: "Joe is responsible for the TEC website and other internal IT tooling. He's a final year Computer Science student who can also be found doing photography & filmography in his spare time."
+  - Name: Dan Beaton
+    Position: Lighting Manager # 6
+    Photo:
+      - /imgs/committee/dan.jpg
+    Bio: "As lightning manager, Dan oversees the maintenance and upkeep of all TEC's lights and related equipment. He studies Chemical Engineering and has a passion for complaining about the lack of lights at a rig. Don't park near where he is involved with load in."
