@@ -1,7 +1,7 @@
 members:
   # The order of members is important as this will be the order they are displayed in.
   # A hash has been placed after current positions to make this process easier.
-  - Name: Rosalia Biasi 
+  - Name: Rosalia Biasi
     Position: Technical Director # 1
     Photo:
       - /imgs/committee/rosi.jpg
@@ -36,3 +36,9 @@ members:
     Photo:
       - /imgs/committee/dan.jpg
     Bio: "As Lighting Manager, Dan oversees the maintenance and upkeep of all TEC's lights and related equipment. He studies Chemical Engineering and has a passion for complaining about the lack of lights at a rig. Don't park near where he is involved with load in."
+
+  - Name: Katie Hill
+    Position: Communications Officer
+    Photo:
+      - /imgs/committee/katie.jpg
+    Bio: "As Communications Officer, Katie is responsible for the running and maintenance of the social media pages, as well as the image of TEC. She also communicates with current and potential clients. Katie is a Modern Languages student currently in France and Spain for her year abroad!"
